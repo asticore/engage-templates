@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "slug": "stats-dark-band",
+    "kind": "section",
+    "category": "stats",
+    "version": "1.0.0",
+    "title": "Dark band with heading and three stats",
+    "description": "Dark band with an eyebrow and headline on the left and three animated metrics on the right; stacks on phones.",
+    "tags": [
+      "stats",
+      "dark",
+      "band",
+      "counters",
+      "split",
+      "animated"
+    ],
+    "industry": [
+      "saas",
+      "devtools",
+      "fintech"
+    ],
+    "style": "luxe",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "{{color.bg}}",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 88,
+        "paddingBottom": 88,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 64,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center"
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 6,
+          "widthDesktop": {
+            "value": 5,
+            "unit": "fraction"
+          },
+          "layout": {
+            "gap": 16,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "By the numbers",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "{{color.primary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Reliability you can measure",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.15,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": "Performance we publish openly, updated every month."
+              },
+              "design": {
+                "textColor": "{{color.muted}}",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Stats",
+          "width": 6,
+          "widthDesktop": {
+            "value": 7,
+            "unit": "fraction"
+          },
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "column"
+                  },
+                  "gap": {
+                    "desktop": 32,
+                    "mobile": 24
+                  },
+                  "alignItems": "start"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Events tracked daily",
+                  "width": 4,
+                  "widthDesktop": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 12,
+                    "unit": "fraction"
+                  },
+                  "layout": {
+                    "gap": 4
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 15,
+                        "decimals": 0,
+                        "suffix": "M+",
+                        "title": "Events tracked daily",
+                        "separator": false,
+                        "animate": true,
+                        "align": "left"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 44,
+                        "fontWeight": 800,
+                        "textColor": "{{color.primary}}",
+                        "mobile": {
+                          "fontSize": 36
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Uptime, last 12 months",
+                  "width": 4,
+                  "widthDesktop": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 12,
+                    "unit": "fraction"
+                  },
+                  "layout": {
+                    "gap": 4
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 99.9,
+                        "decimals": 1,
+                        "suffix": "%",
+                        "title": "Uptime, last 12 months",
+                        "separator": false,
+                        "animate": true,
+                        "align": "left"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 44,
+                        "fontWeight": 800,
+                        "textColor": "{{color.primary}}",
+                        "mobile": {
+                          "fontSize": 36
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Median response time",
+                  "width": 4,
+                  "widthDesktop": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 12,
+                    "unit": "fraction"
+                  },
+                  "layout": {
+                    "gap": 4
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 250,
+                        "decimals": 0,
+                        "suffix": "ms",
+                        "title": "Median response time",
+                        "separator": false,
+                        "animate": true,
+                        "align": "left"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 44,
+                        "fontWeight": 800,
+                        "textColor": "{{color.primary}}",
+                        "mobile": {
+                          "fontSize": 36
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

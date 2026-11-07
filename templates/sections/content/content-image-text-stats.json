@@ -1,0 +1,281 @@
+{
+  "meta": {
+    "slug": "content-image-text-stats",
+    "kind": "section",
+    "category": "content",
+    "version": "1.0.0",
+    "title": "Large photo beside text with three counters",
+    "description": "Big photo on the left; headline, paragraph and three animated stats on the right. Stacks with the photo on top on mobile.",
+    "tags": [
+      "content",
+      "split",
+      "photo",
+      "stats",
+      "counters",
+      "animated"
+    ],
+    "industry": [
+      "legal",
+      "health",
+      "general"
+    ],
+    "style": "mono",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "{{color.bg}}",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 72,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center"
+        }
+      },
+      "columns": [
+        {
+          "label": "Photo",
+          "width": 6,
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": "img:meeting2@1400|Advisers meeting with a client",
+                "alt": "Advisers meeting with a client",
+                "ratio": "3:4",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "borderRadius": "{{radius}}",
+                "boxShadow": "lg",
+                "reveal": "slide-right"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Text",
+          "width": 6,
+          "layout": {
+            "gap": 20,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "About the firm",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "{{color.primary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Straight answers from people who care",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.15,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": "We keep things plain: clear advice, fair fees and no jargon. Whether you are starting out or starting over, you will always know where you stand and what happens next."
+              },
+              "design": {
+                "textColor": "{{color.muted}}",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "gap": {
+                    "desktop": 24,
+                    "mobile": 12
+                  },
+                  "wrap": false,
+                  "alignItems": "start"
+                },
+                "paddingTop": 24,
+                "reveal": "fade-up",
+                "revealDelay": 4
+              },
+              "columns": [
+                {
+                  "label": "Years in practice",
+                  "width": 4,
+                  "widthDesktop": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 12,
+                        "decimals": 0,
+                        "suffix": "+",
+                        "title": "Years in practice",
+                        "separator": false,
+                        "animate": true,
+                        "align": "left"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 40,
+                        "fontWeight": 800,
+                        "textColor": "{{color.primary}}",
+                        "mobile": {
+                          "fontSize": 32
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Clients helped",
+                  "width": 4,
+                  "widthDesktop": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 4800,
+                        "decimals": 0,
+                        "suffix": "+",
+                        "title": "Clients helped",
+                        "separator": false,
+                        "animate": true,
+                        "align": "left"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 40,
+                        "fontWeight": 800,
+                        "textColor": "{{color.primary}}",
+                        "mobile": {
+                          "fontSize": 32
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Would recommend",
+                  "width": 4,
+                  "widthDesktop": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 98,
+                        "decimals": 0,
+                        "suffix": "%",
+                        "title": "Would recommend",
+                        "separator": false,
+                        "animate": true,
+                        "align": "left"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 40,
+                        "fontWeight": 800,
+                        "textColor": "{{color.primary}}",
+                        "mobile": {
+                          "fontSize": 32
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

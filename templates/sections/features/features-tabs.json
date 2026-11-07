@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "slug": "features-tabs",
+    "kind": "section",
+    "category": "features",
+    "version": "1.0.0",
+    "title": "Tabbed feature panels with image and text",
+    "description": "Centered heading above three tabs; each panel pairs a photo with text and a checklist, and panels stack on mobile.",
+    "tags": [
+      "features",
+      "tabs",
+      "photo",
+      "interactive",
+      "centered"
+    ],
+    "industry": [
+      "travel",
+      "general",
+      "real-estate"
+    ],
+    "style": "candy",
+    "frameworks": [
+      "shine"
+    ]
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "{{color.bg}}",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Intro and tabs",
+          "width": 12,
+          "layout": {
+            "gap": 20
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "How it works",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "{{color.primary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "One journey, three simple stages",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.15,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "tabs",
+                  "tabsAlign": "center",
+                  "tabsColor": "{{color.primary}}",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "column"
+                  }
+                }
+              },
+              "columns": [
+                {
+                  "label": "Discover",
+                  "width": 12,
+                  "design": {
+                    "paddingTop": 32
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "column"
+                          },
+                          "gap": {
+                            "desktop": 48,
+                            "mobile": 24
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "label": "Image",
+                          "width": 6,
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": "img:house@1100|Discover step photo",
+                                "alt": "Discover step photo",
+                                "ratio": "4:3",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "borderRadius": "{{radius}}",
+                                "boxShadow": "lg"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Text",
+                          "width": 6,
+                          "layout": {
+                            "gap": 16,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Find the right fit",
+                                "tag": "h3",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontFamily": "{{font.heading}}",
+                                "fontSize": 30,
+                                "fontWeight": 700,
+                                "lineHeight": 1.25,
+                                "mobile": {
+                                  "fontSize": 22
+                                }
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "align": "left",
+                                "content": "Browse curated options and compare them side by side before you commit."
+                              },
+                              "design": {
+                                "textColor": "{{color.muted}}",
+                                "fontSize": 17,
+                                "lineHeight": 1.65
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "list",
+                              "props": {
+                                "items": [
+                                  {
+                                    "text": "Short, honest descriptions"
+                                  },
+                                  {
+                                    "text": "Filters that make sense"
+                                  },
+                                  {
+                                    "text": "Save favourites for later"
+                                  }
+                                ],
+                                "marker": "check",
+                                "iconColour": "{{color.primary}}",
+                                "gap": 10,
+                                "align": "left"
+                              },
+                              "design": {
+                                "fontSize": 16
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Decide",
+                  "width": 12,
+                  "design": {
+                    "paddingTop": 32
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "column"
+                          },
+                          "gap": {
+                            "desktop": 48,
+                            "mobile": 24
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "label": "Image",
+                          "width": 6,
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": "img:hotel@1100|Decide step photo",
+                                "alt": "Decide step photo",
+                                "ratio": "4:3",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "borderRadius": "{{radius}}",
+                                "boxShadow": "lg"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Text",
+                          "width": 6,
+                          "layout": {
+                            "gap": 16,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Book with confidence",
+                                "tag": "h3",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontFamily": "{{font.heading}}",
+                                "fontSize": 30,
+                                "fontWeight": 700,
+                                "lineHeight": 1.25,
+                                "mobile": {
+                                  "fontSize": 22
+                                }
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "align": "left",
+                                "content": "Clear pricing, flexible dates and a real person on hand if plans change."
+                              },
+                              "design": {
+                                "textColor": "{{color.muted}}",
+                                "fontSize": 17,
+                                "lineHeight": 1.65
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "list",
+                              "props": {
+                                "items": [
+                                  {
+                                    "text": "No hidden fees"
+                                  },
+                                  {
+                                    "text": "Free changes up to 48 hours"
+                                  },
+                                  {
+                                    "text": "Friendly local support"
+                                  }
+                                ],
+                                "marker": "check",
+                                "iconColour": "{{color.primary}}",
+                                "gap": 10,
+                                "align": "left"
+                              },
+                              "design": {
+                                "fontSize": 16
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Enjoy",
+                  "width": 12,
+                  "design": {
+                    "paddingTop": 32
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "column"
+                          },
+                          "gap": {
+                            "desktop": 48,
+                            "mobile": 24
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "label": "Image",
+                          "width": 6,
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": "img:travel@1100|Enjoy step photo",
+                                "alt": "Enjoy step photo",
+                                "ratio": "4:3",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "borderRadius": "{{radius}}",
+                                "boxShadow": "lg"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Text",
+                          "width": 6,
+                          "layout": {
+                            "gap": 16,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Everything taken care of",
+                                "tag": "h3",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontFamily": "{{font.heading}}",
+                                "fontSize": 30,
+                                "fontWeight": 700,
+                                "lineHeight": 1.25,
+                                "mobile": {
+                                  "fontSize": 22
+                                }
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "align": "left",
+                                "content": "Arrive to a prepared welcome and tips from people who know the area."
+                              },
+                              "design": {
+                                "textColor": "{{color.muted}}",
+                                "fontSize": 17,
+                                "lineHeight": 1.65
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "list",
+                              "props": {
+                                "items": [
+                                  {
+                                    "text": "Local recommendations"
+                                  },
+                                  {
+                                    "text": "Easy check-in"
+                                  },
+                                  {
+                                    "text": "Help any time of day"
+                                  }
+                                ],
+                                "marker": "check",
+                                "iconColour": "{{color.primary}}",
+                                "gap": 10,
+                                "align": "left"
+                              },
+                              "design": {
+                                "fontSize": 16
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

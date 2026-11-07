@@ -1,0 +1,332 @@
+{
+  "meta": {
+    "slug": "features-icon-grid",
+    "kind": "section",
+    "category": "features",
+    "version": "1.0.0",
+    "title": "Centered heading with six-card icon grid",
+    "description": "Centered heading above a grid of six icon cards that reveal in sequence; 3 columns on desktop, 2 on tablet and 1 on phones.",
+    "tags": [
+      "features",
+      "grid",
+      "icons",
+      "centered",
+      "animated"
+    ],
+    "industry": [
+      "saas",
+      "agency",
+      "general"
+    ],
+    "style": "shine-light",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "{{color.bg}}",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Intro and grid",
+          "width": 12,
+          "layout": {
+            "gap": 16
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Why teams switch",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "{{color.primary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Everything you need, nothing you don’t",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.15,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": "Six simple reasons small teams get more done with less fuss."
+              },
+              "design": {
+                "textColor": "{{color.muted}}",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 3,
+                  "gridColumnsTablet": 2,
+                  "gridColumnsMobile": 1,
+                  "gridGap": 24,
+                  "gridGapMobile": 16,
+                  "gridAlign": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Ready in minutes",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "card",
+                      "props": {
+                        "media": "icon",
+                        "icon": "bolt",
+                        "iconSize": 36,
+                        "iconColour": "{{color.primary}}",
+                        "title": "Ready in minutes",
+                        "titleTag": "h3",
+                        "text": "Pick a layout, swap the words and publish the same afternoon.",
+                        "layout": "top",
+                        "align": "left",
+                        "bgColour": "{{color.surface}}",
+                        "borderRadius": "{{radius}}",
+                        "shadow": "sm",
+                        "hoverEffect": "lift"
+                      },
+                      "design": {
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Safe by default",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "card",
+                      "props": {
+                        "media": "icon",
+                        "icon": "shield",
+                        "iconSize": 36,
+                        "iconColour": "{{color.primary}}",
+                        "title": "Safe by default",
+                        "titleTag": "h3",
+                        "text": "Backups, secure forms and spam filtering are switched on from day one.",
+                        "layout": "top",
+                        "align": "left",
+                        "bgColour": "{{color.surface}}",
+                        "borderRadius": "{{radius}}",
+                        "shadow": "sm",
+                        "hoverEffect": "lift"
+                      },
+                      "design": {
+                        "reveal": "fade-up",
+                        "revealDelay": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Looks the part",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "card",
+                      "props": {
+                        "media": "icon",
+                        "icon": "sparkle",
+                        "iconSize": 36,
+                        "iconColour": "{{color.primary}}",
+                        "title": "Looks the part",
+                        "titleTag": "h3",
+                        "text": "Considered type and spacing so every page feels designed, not assembled.",
+                        "layout": "top",
+                        "align": "left",
+                        "bgColour": "{{color.surface}}",
+                        "borderRadius": "{{radius}}",
+                        "shadow": "sm",
+                        "hoverEffect": "lift"
+                      },
+                      "design": {
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Edit anytime",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "card",
+                      "props": {
+                        "media": "icon",
+                        "icon": "clock",
+                        "iconSize": 36,
+                        "iconColour": "{{color.primary}}",
+                        "title": "Edit anytime",
+                        "titleTag": "h3",
+                        "text": "Change a headline or a price in seconds, no developer in the loop.",
+                        "layout": "top",
+                        "align": "left",
+                        "bgColour": "{{color.surface}}",
+                        "borderRadius": "{{radius}}",
+                        "shadow": "sm",
+                        "hoverEffect": "lift"
+                      },
+                      "design": {
+                        "reveal": "fade-up",
+                        "revealDelay": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Built for visitors",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "card",
+                      "props": {
+                        "media": "icon",
+                        "icon": "user",
+                        "iconSize": 36,
+                        "iconColour": "{{color.primary}}",
+                        "title": "Built for visitors",
+                        "titleTag": "h3",
+                        "text": "Fast, readable and comfortable on a phone held in one hand.",
+                        "layout": "top",
+                        "align": "left",
+                        "bgColour": "{{color.surface}}",
+                        "borderRadius": "{{radius}}",
+                        "shadow": "sm",
+                        "hoverEffect": "lift"
+                      },
+                      "design": {
+                        "reveal": "fade-up",
+                        "revealDelay": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Light on the web",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "card",
+                      "props": {
+                        "media": "icon",
+                        "icon": "leaf",
+                        "iconSize": 36,
+                        "iconColour": "{{color.primary}}",
+                        "title": "Light on the web",
+                        "titleTag": "h3",
+                        "text": "Lean pages that load quickly and keep your hosting bill low.",
+                        "layout": "top",
+                        "align": "left",
+                        "bgColour": "{{color.surface}}",
+                        "borderRadius": "{{radius}}",
+                        "shadow": "sm",
+                        "hoverEffect": "lift"
+                      },
+                      "design": {
+                        "reveal": "fade-up",
+                        "revealDelay": 5
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

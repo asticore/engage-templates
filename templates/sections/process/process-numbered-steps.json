@@ -1,0 +1,397 @@
+{
+  "meta": {
+    "slug": "process-numbered-steps",
+    "kind": "section",
+    "category": "process",
+    "version": "1.0.0",
+    "title": "Four numbered steps in a grid",
+    "description": "Centered heading above four steps with oversized numbers 01 to 04 and short descriptions; 4 columns, then 2, then 1 on phones.",
+    "tags": [
+      "process",
+      "steps",
+      "numbered",
+      "grid",
+      "centered"
+    ],
+    "industry": [
+      "real-estate",
+      "general",
+      "agency"
+    ],
+    "style": "sunset",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "{{color.surface}}",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 56,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Intro and steps",
+          "width": 12,
+          "layout": {
+            "gap": 56
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "How it works",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "{{color.primary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "From first call to finished room",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.15,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 4,
+                  "gridColumnsTablet": 2,
+                  "gridColumnsMobile": 1,
+                  "gridGap": 32,
+                  "gridGapMobile": 24,
+                  "gridAlign": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Say hello",
+                  "width": 3,
+                  "layout": {
+                    "gap": 12
+                  },
+                  "design": {
+                    "paddingTop": 24
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "01",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 64,
+                        "fontWeight": 800,
+                        "lineHeight": 1,
+                        "textColor": "{{color.primary}}",
+                        "opacity": 90,
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Say hello",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 22,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": "Tell us about your space and what you would like to change in a short call."
+                      },
+                      "design": {
+                        "textColor": "{{color.muted}}",
+                        "fontSize": 16,
+                        "lineHeight": 1.65,
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Get a plan",
+                  "width": 3,
+                  "layout": {
+                    "gap": 12
+                  },
+                  "design": {
+                    "paddingTop": 24
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "02",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 64,
+                        "fontWeight": 800,
+                        "lineHeight": 1,
+                        "textColor": "{{color.primary}}",
+                        "opacity": 90,
+                        "reveal": "fade-up",
+                        "revealDelay": 1
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Get a plan",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 22,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 1
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": "Receive a clear proposal with timings, options and a fixed price."
+                      },
+                      "design": {
+                        "textColor": "{{color.muted}}",
+                        "fontSize": 16,
+                        "lineHeight": 1.65,
+                        "reveal": "fade-up",
+                        "revealDelay": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "We get to work",
+                  "width": 3,
+                  "layout": {
+                    "gap": 12
+                  },
+                  "design": {
+                    "paddingTop": 24
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "03",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 64,
+                        "fontWeight": 800,
+                        "lineHeight": 1,
+                        "textColor": "{{color.primary}}",
+                        "opacity": 90,
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "We get to work",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 22,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": "A tidy, friendly crew handles the job and keeps you posted daily."
+                      },
+                      "design": {
+                        "textColor": "{{color.muted}}",
+                        "fontSize": 16,
+                        "lineHeight": 1.65,
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Enjoy the result",
+                  "width": 3,
+                  "layout": {
+                    "gap": 12
+                  },
+                  "design": {
+                    "paddingTop": 24
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "04",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 64,
+                        "fontWeight": 800,
+                        "lineHeight": 1,
+                        "textColor": "{{color.primary}}",
+                        "opacity": 90,
+                        "reveal": "fade-up",
+                        "revealDelay": 3
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Enjoy the result",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 22,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 3
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": "We walk through everything together and stay on hand afterwards."
+                      },
+                      "design": {
+                        "textColor": "{{color.muted}}",
+                        "fontSize": 16,
+                        "lineHeight": 1.65,
+                        "reveal": "fade-up",
+                        "revealDelay": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
