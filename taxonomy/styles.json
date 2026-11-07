@@ -1,0 +1,53 @@
+{
+  "$comment": "Style presets. Each maps Shine design tokens (--sh-*) to the values templates write into builder design fields, so a template looks the same with or without Shine loaded. Font values are the builder built-in font keys: inter, montserrat, jost, playfair, cormorant, cinzel.",
+  "styles": [
+    {
+      "id": "shine-light", "label": "Shine Light", "theme": "light",
+      "colors": { "primary": "#4f46e5", "onPrimary": "#ffffff", "secondary": "#0ea5e9", "accent": "#f59e0b", "bg": "#ffffff", "surface": "#f8fafc", "surface2": "#eef2ff", "text": "#0f172a", "muted": "#64748b", "border": "#e2e8f0" },
+      "fonts": { "heading": "inter", "body": "inter" }, "radius": 12,
+      "shine": { "data-theme": "light", "data-radius": "3", "--sh-primary": "#4f46e5" }
+    },
+    {
+      "id": "shine-dark", "label": "Shine Dark", "theme": "dark",
+      "colors": { "primary": "#818cf8", "onPrimary": "#0b1020", "secondary": "#22d3ee", "accent": "#f472b6", "bg": "#0b1020", "surface": "#111827", "surface2": "#1e1b4b", "text": "#f8fafc", "muted": "#94a3b8", "border": "#1f2937" },
+      "fonts": { "heading": "inter", "body": "inter" }, "radius": 12,
+      "shine": { "data-theme": "dark", "data-radius": "3", "--sh-primary": "#818cf8" }
+    },
+    {
+      "id": "ocean", "label": "Ocean", "theme": "light",
+      "colors": { "primary": "#0369a1", "onPrimary": "#ffffff", "secondary": "#14b8a6", "accent": "#f97316", "bg": "#ffffff", "surface": "#f0f9ff", "surface2": "#e0f2fe", "text": "#0c1a2b", "muted": "#475569", "border": "#dbeafe" },
+      "fonts": { "heading": "montserrat", "body": "inter" }, "radius": 8,
+      "shine": { "data-theme": "light", "data-radius": "2", "--sh-primary": "#0369a1" }
+    },
+    {
+      "id": "sunset", "label": "Sunset", "theme": "mixed",
+      "colors": { "primary": "#e11d48", "onPrimary": "#ffffff", "secondary": "#f97316", "accent": "#facc15", "bg": "#fff7ed", "surface": "#ffffff", "surface2": "#ffe4e6", "text": "#1c1917", "muted": "#78716c", "border": "#fed7aa", "dark": "#1c1917" },
+      "fonts": { "heading": "jost", "body": "inter" }, "radius": 16,
+      "shine": { "data-theme": "light", "data-radius": "4", "--sh-primary": "#e11d48" }
+    },
+    {
+      "id": "forest", "label": "Forest", "theme": "light",
+      "colors": { "primary": "#166534", "onPrimary": "#ffffff", "secondary": "#65a30d", "accent": "#ca8a04", "bg": "#fbfaf5", "surface": "#f3f1e7", "surface2": "#dcfce7", "text": "#1a2e1f", "muted": "#57534e", "border": "#e7e5d8" },
+      "fonts": { "heading": "playfair", "body": "inter" }, "radius": 6,
+      "shine": { "data-theme": "light", "data-radius": "2", "--sh-primary": "#166534" }
+    },
+    {
+      "id": "mono", "label": "Mono", "theme": "light",
+      "colors": { "primary": "#111111", "onPrimary": "#ffffff", "secondary": "#525252", "accent": "#ef4444", "bg": "#ffffff", "surface": "#f5f5f5", "surface2": "#e5e5e5", "text": "#0a0a0a", "muted": "#737373", "border": "#e5e5e5" },
+      "fonts": { "heading": "jost", "body": "inter" }, "radius": 0,
+      "shine": { "data-theme": "light", "data-radius": "0", "--sh-primary": "#111111" }
+    },
+    {
+      "id": "luxe", "label": "Luxe", "theme": "dark",
+      "colors": { "primary": "#c8a45d", "onPrimary": "#111111", "secondary": "#e7d5ae", "accent": "#8b5e34", "bg": "#0e0d0b", "surface": "#1a1815", "surface2": "#26221c", "text": "#f5efe3", "muted": "#a8a29e", "border": "#2e2a23" },
+      "fonts": { "heading": "cormorant", "body": "jost" }, "radius": 2,
+      "shine": { "data-theme": "dark", "data-radius": "1", "--sh-primary": "#c8a45d" }
+    },
+    {
+      "id": "candy", "label": "Candy", "theme": "light",
+      "colors": { "primary": "#9333ea", "onPrimary": "#ffffff", "secondary": "#ec4899", "accent": "#06b6d4", "bg": "#ffffff", "surface": "#faf5ff", "surface2": "#fce7f3", "text": "#1e1033", "muted": "#6b5b7b", "border": "#f3e8ff" },
+      "fonts": { "heading": "montserrat", "body": "inter" }, "radius": 20,
+      "shine": { "data-theme": "light", "data-radius": "5", "--sh-primary": "#9333ea" }
+    }
+  ]
+}

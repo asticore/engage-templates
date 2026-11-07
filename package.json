@@ -1,0 +1,16 @@
+{
+  "name": "engage-templates",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Section and page template library for the Engage visual builder, styled with Shine and animated with Effix.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "validate": "node scripts/build.mjs --dry",
+    "previews": "node scripts/previews.mjs",
+    "verify:app": "node scripts/verify-app.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

@@ -1,0 +1,39 @@
+{
+  "$comment": "Category ids are what item meta.category refers to. label is written to library.json (what the builder shows and filters on). kind says whether the category holds sections or pages.",
+  "sections": [
+    { "id": "announcement", "label": "Announcement", "description": "Thin full-width strip above the header for news or offers.", "keywords": ["banner", "notice", "promo", "strip"] },
+    { "id": "header", "label": "Header", "description": "Site header / navigation bar with logo, menu and call to action.", "keywords": ["navbar", "nav", "menu", "navigation"] },
+    { "id": "hero", "label": "Hero", "description": "First screen of a page: headline, supporting text, buttons, picture or background.", "keywords": ["intro", "banner", "above the fold", "landing"] },
+    { "id": "logos", "label": "Logos", "description": "Client, partner or press logo strips.", "keywords": ["clients", "partners", "press", "featured in", "trust"] },
+    { "id": "features", "label": "Features", "description": "Grids and lists of features, benefits or services.", "keywords": ["benefits", "services", "icons", "grid", "bento"] },
+    { "id": "content", "label": "Content", "description": "Text and picture split panels, story blocks, long-form content.", "keywords": ["about", "split", "image text", "story"] },
+    { "id": "stats", "label": "Stats", "description": "Numbers, counters and key metrics.", "keywords": ["numbers", "metrics", "counters", "kpi"] },
+    { "id": "process", "label": "Process", "description": "Steps, timelines and how-it-works sections.", "keywords": ["steps", "how it works", "timeline", "workflow"] },
+    { "id": "testimonials", "label": "Testimonials", "description": "Customer quotes, reviews and ratings.", "keywords": ["reviews", "quotes", "social proof", "ratings"] },
+    { "id": "pricing", "label": "Pricing", "description": "Plans, price tables and comparison.", "keywords": ["plans", "price", "tiers", "subscription"] },
+    { "id": "team", "label": "Team", "description": "People, staff and author profiles.", "keywords": ["people", "staff", "about us", "members"] },
+    { "id": "faq", "label": "FAQ", "description": "Frequently asked questions in accordions or lists.", "keywords": ["questions", "accordion", "help"] },
+    { "id": "cta", "label": "Call to action", "description": "Conversion bands that ask the visitor to act.", "keywords": ["cta", "signup", "conversion", "banner"] },
+    { "id": "newsletter", "label": "Newsletter", "description": "Email sign-up blocks.", "keywords": ["subscribe", "email", "signup"] },
+    { "id": "contact", "label": "Contact", "description": "Contact details, maps, hours and forms.", "keywords": ["map", "address", "hours", "form", "location"] },
+    { "id": "gallery", "label": "Gallery", "description": "Picture galleries, carousels and portfolio grids.", "keywords": ["images", "portfolio", "photos", "carousel"] },
+    { "id": "blog", "label": "Blog", "description": "Post lists, article cards and news grids.", "keywords": ["posts", "articles", "news"] },
+    { "id": "commerce", "label": "Commerce", "description": "Product highlights, collections and shop promos.", "keywords": ["shop", "products", "store", "ecommerce"] },
+    { "id": "footer", "label": "Footer", "description": "Site footers with links, contact and social icons.", "keywords": ["sitemap", "bottom", "links", "social"] }
+  ],
+  "pages": [
+    { "id": "landing", "label": "Landing pages", "description": "Single-page product or campaign landing pages.", "keywords": ["saas", "product", "campaign"] },
+    { "id": "business", "label": "Business pages", "description": "Home pages for agencies, firms and local businesses.", "keywords": ["agency", "company", "corporate", "local"] },
+    { "id": "about", "label": "About pages", "description": "Company story, values and team.", "keywords": ["story", "team", "mission"] },
+    { "id": "services", "label": "Services pages", "description": "Service lists with process and pricing.", "keywords": ["offer", "services"] },
+    { "id": "contact-page", "label": "Contact pages", "description": "Full contact page with details, map and form.", "keywords": ["contact", "location"] },
+    { "id": "pricing-page", "label": "Pricing pages", "description": "Plans with FAQ and comparison.", "keywords": ["plans", "pricing"] },
+    { "id": "portfolio", "label": "Portfolio pages", "description": "Showcase for creatives and studios.", "keywords": ["work", "case studies", "creative"] },
+    { "id": "hospitality", "label": "Hospitality pages", "description": "Restaurants, cafes and hotels.", "keywords": ["restaurant", "menu", "cafe", "hotel"] },
+    { "id": "events", "label": "Event pages", "description": "Conferences, launches and weddings.", "keywords": ["conference", "speakers", "schedule"] },
+    { "id": "health", "label": "Health & wellness pages", "description": "Clinics, gyms, studios and salons.", "keywords": ["clinic", "fitness", "yoga", "salon"] },
+    { "id": "shop", "label": "Shop pages", "description": "Store front and product launch pages.", "keywords": ["store", "product", "ecommerce"] }
+  ],
+  "industries": ["saas", "ai", "agency", "ecommerce", "fintech", "devtools", "media", "education", "health", "fitness", "restaurant", "real-estate", "legal", "events", "travel", "nonprofit", "personal", "general"],
+  "themes": ["light", "dark", "mixed"]
+}
