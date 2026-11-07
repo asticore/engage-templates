@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "slug": "pricing-page-saas",
+    "kind": "page",
+    "title": "Pricing page",
+    "category": "pricing-page",
+    "description": "Pricing page with three plans, a two-plan comparison band, logo strip, testimonials, FAQ accordion and call to action.",
+    "tags": [
+      "pricing",
+      "plans",
+      "faq",
+      "saas"
+    ],
+    "industry": [
+      "saas",
+      "ai",
+      "devtools"
+    ],
+    "style": "shine-light",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "$section": "header-logo-links-cta"
+    },
+    {
+      "$section": "pricing-three-tier"
+    },
+    {
+      "$section": "logos-wordmark-strip"
+    },
+    {
+      "$section": "testimonials-three-cards"
+    },
+    {
+      "$section": "faq-accordion-centered"
+    },
+    {
+      "$section": "cta-gradient-band"
+    },
+    {
+      "$section": "footer-four-column"
+    }
+  ]
+}

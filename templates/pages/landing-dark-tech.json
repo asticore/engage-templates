@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "slug": "landing-dark-tech",
+    "kind": "page",
+    "title": "Dark tech landing page",
+    "category": "landing",
+    "description": "Dark landing page with a particle hero, glowing feature cards, stats band, two-plan pricing and a dark call to action.",
+    "tags": [
+      "landing",
+      "dark",
+      "tech",
+      "animated"
+    ],
+    "industry": [
+      "ai",
+      "devtools",
+      "saas"
+    ],
+    "style": "shine-dark",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "$section": "announcement-bar-dark-link"
+    },
+    {
+      "$section": "header-dark-transparent"
+    },
+    {
+      "$section": "hero-dark-particles"
+    },
+    {
+      "$section": "logos-wordmark-strip"
+    },
+    {
+      "$section": "features-dark-cards-glow"
+    },
+    {
+      "$section": "stats-dark-band"
+    },
+    {
+      "$section": "pricing-two-plan-dark"
+    },
+    {
+      "$section": "cta-dark-centered"
+    },
+    {
+      "$section": "footer-dark-minimal"
+    }
+  ]
+}

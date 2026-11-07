@@ -1,0 +1,1863 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "page",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#0a0a0a",
+        "fontFamily": "inter",
+        "paddingTop": 20,
+        "paddingBottom": 20,
+        "mobile": {
+          "paddingTop": 12,
+          "paddingBottom": 12
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "row"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center",
+          "justify": "between",
+          "gap": {
+            "desktop": 24,
+            "mobile": 12
+          },
+          "wrap": false
+        },
+        "borderWidth": 1,
+        "borderColor": "#e5e5e5",
+        "borderStyle": "solid"
+      },
+      "columns": [
+        {
+          "label": "Logo",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "layout": {
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-logo",
+              "props": {
+                "width": 132
+              }
+            }
+          ]
+        },
+        {
+          "label": "Menu",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "fill"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "layout": {
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "nav-menu",
+              "props": {
+                "layout": "horizontal",
+                "label": "Main menu",
+                "mobileBreakpoint": "768",
+                "mobileStyle": "offcanvas",
+                "submenuStyle": "dropdown"
+              },
+              "design": {
+                "fontWeight": 500,
+                "fontSize": 15,
+                "textAlign": "center",
+                "textColor": "#737373"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Action",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "layout": {
+            "vAlign": "middle"
+          },
+          "design": {
+            "hideOnMobile": true
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Start building",
+                "url": "/signup",
+                "variant": "secondary",
+                "size": "md",
+                "align": "right"
+              },
+              "design": {
+                "borderFx": "glow",
+                "borderFxColor": "#111111",
+                "borderRadius": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "image",
+        "bgImageUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=2000&q=80&auto=format&fit=crop",
+        "kenBurns": "zoom-in",
+        "kenBurnsDuration": 24,
+        "overlayType": "color",
+        "overlayColor": "#0b1a10",
+        "overlayOpacity": 55,
+        "minHeight": 90,
+        "minHeightUnit": "vh",
+        "textColor": "#ffffff",
+        "fontFamily": "inter",
+        "paddingTop": 112,
+        "paddingBottom": 112,
+        "mobile": {
+          "paddingTop": 72,
+          "paddingBottom": 72,
+          "minHeight": 80,
+          "minHeightUnit": "vh"
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center",
+          "verticalAlign": "middle"
+        }
+      },
+      "columns": [
+        {
+          "label": "Copy",
+          "width": 8,
+          "layout": {
+            "gap": 24,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Guided alpine treks",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "textColor": "#525252",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Walk where the maps run out",
+                "tag": "h1",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "textColor": "#ffffff",
+                "fontSize": 64,
+                "fontWeight": 600,
+                "lineHeight": 1.08,
+                "mobile": {
+                  "fontSize": 38
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Small groups, local guides and quiet ridgelines. Six-day routes for every pace, with huts booked and bags carried.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#f1f5ee",
+                "fontSize": 19,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2,
+                "mobile": {
+                  "fontSize": 17
+                }
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "justify": "start",
+                  "wrap": true
+                },
+                "reveal": "fade-up",
+                "revealDelay": 3
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Browse treks",
+                        "url": "/treks",
+                        "variant": "primary",
+                        "size": "lg",
+                        "align": "left"
+                      },
+                      "design": {
+                        "pointerFx": "magnetic"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Talk to a guide",
+                        "url": "/contact",
+                        "variant": "secondary",
+                        "size": "lg",
+                        "align": "left"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#0a0a0a",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "alignItems": "stretch",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 12
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Gallery",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#0a0a0a",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "A look around",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Moments from the studio, the shop floor and the corners we love.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#737373",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Photos",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 3,
+                  "gridColumnsTablet": 2,
+                  "gridColumnsMobile": 1,
+                  "gridGap": 16,
+                  "gridGapMobile": 20,
+                  "contentWidth": "boxed",
+                  "boxedWidth": 1200
+                }
+              },
+              "columns": [
+                {
+                  "label": "Boutique shopfront",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Boutique shopfront"
+                        },
+                        "alt": "Boutique shopfront",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Fresh coffee on the counter",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Fresh coffee on the counter"
+                        },
+                        "alt": "Fresh coffee on the counter",
+                        "ratio": "3:4",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Light-filled interior",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Light-filled interior"
+                        },
+                        "alt": "Light-filled interior",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Green corner by the window",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Green corner by the window"
+                        },
+                        "alt": "Green corner by the window",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "A tidy workspace",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=900&q=80&auto=format&fit=crop",
+                          "alt": "A tidy workspace"
+                        },
+                        "alt": "A tidy workspace",
+                        "ratio": "3:4",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Architectural detail",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Architectural detail"
+                        },
+                        "alt": "Architectural detail",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#0a0a0a",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 72,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center"
+        }
+      },
+      "columns": [
+        {
+          "label": "Story",
+          "width": 6,
+          "layout": {
+            "gap": 20,
+            "vAlign": "middle"
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Our story",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#111111",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Grown slowly, shared generously",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.15,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "It began with a single plot of land and a stubborn belief that good food should taste of where it comes from. We planted what the soil wanted to grow and cooked what the seasons gave us.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#737373",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Years later the plot is a working farm, the kitchen is full of familiar faces, and the table is still the best place we know to say thank you.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#737373",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 3
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "quote",
+              "props": {
+                "text": "Feed people the way you would feed family, and the rest looks after itself.",
+                "cite": "Marta Ellison, founder",
+                "style": "bar",
+                "align": "left"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 20,
+                "fontStyle": "italic",
+                "textColor": "#0a0a0a",
+                "reveal": "fade-up",
+                "revealDelay": 4
+              }
+            }
+          ]
+        },
+        {
+          "label": "Photo",
+          "width": 6,
+          "layout": {
+            "order": {
+              "mobile": -1
+            }
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1300&q=80&auto=format&fit=crop",
+                  "alt": "Green fields at golden hour"
+                },
+                "alt": "Green fields at golden hour",
+                "ratio": "3:4",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "borderRadius": 0,
+                "boxShadow": "lg",
+                "reveal": "zoom"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#0a0a0a",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "alignItems": "stretch",
+          "contentWidth": "boxed",
+          "boxedWidth": 1100
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 12
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Field notes",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#111111",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Places that stay with you",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Slides",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "carousel",
+                  "carouselPerView": 1,
+                  "carouselGap": 24,
+                  "carouselArrows": true,
+                  "contentWidth": "boxed",
+                  "boxedWidth": 1100
+                }
+              },
+              "columns": [
+                {
+                  "label": "Morning light on the ridge",
+                  "width": 12,
+                  "layout": {
+                    "gap": 8
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600&q=80&auto=format&fit=crop",
+                          "alt": "Morning light on the ridge"
+                        },
+                        "alt": "Morning light on the ridge",
+                        "caption": "Morning light on the ridge",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "boxShadow": "lg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Green valley trail",
+                  "width": 12,
+                  "layout": {
+                    "gap": 8
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80&auto=format&fit=crop",
+                          "alt": "Green valley trail"
+                        },
+                        "alt": "Green valley trail",
+                        "caption": "Green valley trail",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "boxShadow": "lg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Quiet beach at dusk",
+                  "width": 12,
+                  "layout": {
+                    "gap": 8
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80&auto=format&fit=crop",
+                          "alt": "Quiet beach at dusk"
+                        },
+                        "alt": "Quiet beach at dusk",
+                        "caption": "Quiet beach at dusk",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "boxShadow": "lg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Lakeside at sunrise",
+                  "width": 12,
+                  "layout": {
+                    "gap": 8
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1600&q=80&auto=format&fit=crop",
+                          "alt": "Lakeside at sunrise"
+                        },
+                        "alt": "Lakeside at sunrise",
+                        "caption": "Lakeside at sunrise",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "boxShadow": "lg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "The road to the coast",
+                  "width": 12,
+                  "layout": {
+                    "gap": 8
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1600&q=80&auto=format&fit=crop",
+                          "alt": "The road to the coast"
+                        },
+                        "alt": "The road to the coast",
+                        "caption": "The road to the coast",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "boxShadow": "lg"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#0a0a0a",
+        "fontFamily": "inter",
+        "paddingTop": 112,
+        "paddingBottom": 112,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#f5f5f5",
+        "reveal": "fade",
+        "layout": {
+          "display": "carousel",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 32,
+            "mobile": 24
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1000,
+          "carouselPerView": 1,
+          "carouselGap": 24,
+          "carouselArrows": true
+        }
+      },
+      "columns": [
+        {
+          "label": "Helena Marsh",
+          "width": 12,
+          "layout": {
+            "gap": 20,
+            "alignSelf": "center"
+          },
+          "design": {
+            "textAlign": "center",
+            "paddingLeft": 56,
+            "paddingRight": 56,
+            "mobile": {
+              "paddingLeft": 8,
+              "paddingRight": 8
+            }
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=240&q=80&auto=format&fit=crop",
+                  "alt": "Helena Marsh"
+                },
+                "alt": "Helena Marsh",
+                "ratio": "1:1",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "maskShape": "circle",
+                "selfWidth": "custom",
+                "selfWidthPercent": 12,
+                "selfAlign": "center",
+                "mobile": {
+                  "selfWidthPercent": 28
+                }
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "star-rating",
+              "props": {
+                "rating": 5,
+                "scale": 5,
+                "title": "",
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#ef4444"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "quote",
+              "props": {
+                "text": "The produce tastes like it was picked this morning, and the staff remember your name. It has become our Friday ritual.",
+                "cite": "Helena Marsh, regular guest",
+                "style": "plain",
+                "align": "center"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 30,
+                "lineHeight": 1.35,
+                "textColor": "#0a0a0a",
+                "mobile": {
+                  "fontSize": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "label": "Tomas Reyes",
+          "width": 12,
+          "layout": {
+            "gap": 20,
+            "alignSelf": "center"
+          },
+          "design": {
+            "textAlign": "center",
+            "paddingLeft": 56,
+            "paddingRight": 56,
+            "mobile": {
+              "paddingLeft": 8,
+              "paddingRight": 8
+            }
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=240&q=80&auto=format&fit=crop",
+                  "alt": "Tomas Reyes"
+                },
+                "alt": "Tomas Reyes",
+                "ratio": "1:1",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "maskShape": "circle",
+                "selfWidth": "custom",
+                "selfWidthPercent": 12,
+                "selfAlign": "center",
+                "mobile": {
+                  "selfWidthPercent": 28
+                }
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "star-rating",
+              "props": {
+                "rating": 5,
+                "scale": 5,
+                "title": "",
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#ef4444"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "quote",
+              "props": {
+                "text": "They fed sixty guests at our wedding and not one plate came back unfinished. Calm, kind and wonderfully organised.",
+                "cite": "Tomas Reyes, catering client",
+                "style": "plain",
+                "align": "center"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 30,
+                "lineHeight": 1.35,
+                "textColor": "#0a0a0a",
+                "mobile": {
+                  "fontSize": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "label": "Ingrid Solheim",
+          "width": 12,
+          "layout": {
+            "gap": 20,
+            "alignSelf": "center"
+          },
+          "design": {
+            "textAlign": "center",
+            "paddingLeft": 56,
+            "paddingRight": 56,
+            "mobile": {
+              "paddingLeft": 8,
+              "paddingRight": 8
+            }
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=240&q=80&auto=format&fit=crop",
+                  "alt": "Ingrid Solheim"
+                },
+                "alt": "Ingrid Solheim",
+                "ratio": "1:1",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "maskShape": "circle",
+                "selfWidth": "custom",
+                "selfWidthPercent": 12,
+                "selfAlign": "center",
+                "mobile": {
+                  "selfWidthPercent": 28
+                }
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "star-rating",
+              "props": {
+                "rating": 5,
+                "scale": 5,
+                "title": "",
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#ef4444"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "quote",
+              "props": {
+                "text": "A quiet corner of the high street that feels like a friend's kitchen. I bring everyone who visits.",
+                "cite": "Ingrid Solheim, neighbour",
+                "style": "plain",
+                "align": "center"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 30,
+                "lineHeight": 1.35,
+                "textColor": "#0a0a0a",
+                "mobile": {
+                  "fontSize": 22
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#0a0a0a",
+        "fontFamily": "inter",
+        "paddingTop": 80,
+        "paddingBottom": 80,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#ffffff",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 32,
+            "mobile": 24
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Card",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "bgType": "color",
+                "bgColor": "#e5e5e5",
+                "borderRadius": 0,
+                "boxShadow": "md",
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "column-reverse"
+                  },
+                  "gap": {
+                    "desktop": 0,
+                    "mobile": 0
+                  },
+                  "alignItems": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Copy",
+                  "width": 6,
+                  "layout": {
+                    "gap": 20,
+                    "vAlign": "middle"
+                  },
+                  "design": {
+                    "paddingTop": 56,
+                    "paddingBottom": 56,
+                    "paddingLeft": 56,
+                    "paddingRight": 56,
+                    "mobile": {
+                      "paddingTop": 32,
+                      "paddingBottom": 32,
+                      "paddingLeft": 24,
+                      "paddingRight": 24
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Visit us",
+                        "tag": "h6",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "textColor": "#111111",
+                        "textTransform": "uppercase",
+                        "letterSpacing": 2,
+                        "fontWeight": 700,
+                        "fontSize": 13
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Find the home that fits your life",
+                        "tag": "h2",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 38,
+                        "fontWeight": 700,
+                        "lineHeight": 1.1,
+                        "letterSpacing": -0.5,
+                        "mobile": {
+                          "fontSize": 28
+                        },
+                        "reveal": "fade-up"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Tell us what matters most and we will line up viewings that are worth your weekend.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#737373",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Book a viewing",
+                        "url": "/viewing",
+                        "variant": "primary",
+                        "size": "lg",
+                        "align": "left"
+                      },
+                      "design": {
+                        "pointerFx": "magnetic"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Photo",
+                  "width": 6,
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "design": {
+                    "paddingTop": 16,
+                    "paddingBottom": 16,
+                    "paddingLeft": 16,
+                    "paddingRight": 16
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80&auto=format&fit=crop",
+                          "alt": "Bright modern home with large windows"
+                        },
+                        "alt": "Bright modern home with large windows",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "reveal": "zoom"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 40,
+        "paddingBottom": 40,
+        "mobile": {
+          "paddingTop": 32,
+          "paddingBottom": 32,
+          "textAlign": "center"
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#737373",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 24,
+            "mobile": 20
+          },
+          "alignItems": "center",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "justify": "between"
+        }
+      },
+      "columns": [
+        {
+          "label": "Site title",
+          "width": 4,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-title",
+              "props": {
+                "tag": "p",
+                "showTagline": false
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 20,
+                "fontWeight": 700,
+                "textColor": "#0a0a0a"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Links",
+          "width": 4,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "list",
+              "props": {
+                "items": [
+                  {
+                    "text": "Privacy",
+                    "href": "/privacy"
+                  },
+                  {
+                    "text": "Terms",
+                    "href": "/terms"
+                  },
+                  {
+                    "text": "Contact",
+                    "href": "/contact"
+                  }
+                ],
+                "marker": "none",
+                "gap": 8,
+                "align": "center"
+              },
+              "design": {
+                "fontSize": 14,
+                "textColor": "#737373"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Social",
+          "width": 4,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "social-icons",
+              "props": {
+                "items": [
+                  {
+                    "network": "instagram",
+                    "address": "https://instagram.com/"
+                  },
+                  {
+                    "network": "facebook",
+                    "address": "https://facebook.com/"
+                  },
+                  {
+                    "network": "linkedin",
+                    "address": "https://linkedin.com/"
+                  }
+                ],
+                "shape": "plain",
+                "size": 18,
+                "align": "right",
+                "mode": "follow"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "portfolio-studio",
+    "title": "Studio portfolio page",
+    "category": "portfolio",
+    "description": "Portfolio for a photographer or studio: full-image hero, photo gallery, carousel, story, testimonials and a minimal dark footer.",
+    "tags": [
+      "portfolio",
+      "gallery",
+      "creative",
+      "photography"
+    ],
+    "industry": [
+      "agency",
+      "media",
+      "personal"
+    ],
+    "theme": "light",
+    "style": "mono",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "sections": [
+      "header-dark-transparent",
+      "hero-fullscreen-image-overlay",
+      "gallery-grid",
+      "content-split-story",
+      "gallery-carousel",
+      "testimonials-carousel-quote",
+      "cta-split-image",
+      "footer-dark-minimal"
+    ],
+    "images": [
+      {
+        "id": "architecture",
+        "url": "https://images.unsplash.com/photo-1487958449943-2429e8be8625",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "beach",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "coffee",
+        "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "desk",
+        "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "interior",
+        "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "landscape",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "modern-house",
+        "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "mountains",
+        "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "nature",
+        "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "plant",
+        "url": "https://images.unsplash.com/photo-1485955900006-10f4d324d411",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-m2",
+        "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-w3",
+        "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-w4",
+        "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "store",
+        "url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "travel",
+        "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

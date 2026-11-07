@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "slug": "about-company-story",
+    "kind": "page",
+    "title": "Company about page",
+    "category": "about",
+    "description": "About page: full-image hero, company story, stats with picture, leadership, team grid, testimonials and a call to action.",
+    "tags": [
+      "about",
+      "story",
+      "team",
+      "values"
+    ],
+    "industry": [
+      "general",
+      "agency",
+      "nonprofit"
+    ],
+    "style": "forest",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "$section": "header-centered-logo"
+    },
+    {
+      "$section": "hero-fullscreen-image-overlay"
+    },
+    {
+      "$section": "content-split-story"
+    },
+    {
+      "$section": "content-image-text-stats"
+    },
+    {
+      "$section": "team-leadership-split"
+    },
+    {
+      "$section": "team-four-grid"
+    },
+    {
+      "$section": "testimonials-photo-split"
+    },
+    {
+      "$section": "cta-gradient-band"
+    },
+    {
+      "$section": "footer-four-column"
+    }
+  ]
+}

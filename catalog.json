@@ -253,7 +253,7 @@
           "product",
           "campaign"
         ],
-        "count": 0
+        "count": 3
       },
       {
         "id": "business",
@@ -265,7 +265,7 @@
           "corporate",
           "local"
         ],
-        "count": 0
+        "count": 1
       },
       {
         "id": "about",
@@ -276,7 +276,7 @@
           "team",
           "mission"
         ],
-        "count": 0
+        "count": 1
       },
       {
         "id": "services",
@@ -286,7 +286,7 @@
           "offer",
           "services"
         ],
-        "count": 0
+        "count": 1
       },
       {
         "id": "contact-page",
@@ -296,7 +296,7 @@
           "contact",
           "location"
         ],
-        "count": 0
+        "count": 1
       },
       {
         "id": "pricing-page",
@@ -306,7 +306,7 @@
           "plans",
           "pricing"
         ],
-        "count": 0
+        "count": 1
       },
       {
         "id": "portfolio",
@@ -317,7 +317,7 @@
           "case studies",
           "creative"
         ],
-        "count": 0
+        "count": 1
       },
       {
         "id": "hospitality",
@@ -329,7 +329,7 @@
           "cafe",
           "hotel"
         ],
-        "count": 0
+        "count": 1
       },
       {
         "id": "events",
@@ -340,7 +340,7 @@
           "speakers",
           "schedule"
         ],
-        "count": 0
+        "count": 1
       },
       {
         "id": "health",
@@ -352,7 +352,7 @@
           "yoga",
           "salon"
         ],
-        "count": 0
+        "count": 1
       },
       {
         "id": "shop",
@@ -363,7 +363,7 @@
           "product",
           "ecommerce"
         ],
-        "count": 0
+        "count": 1
       }
     ]
   },
@@ -1932,6 +1932,486 @@
       ],
       "preview": "previews/footer-four-column.png",
       "file": "items/footer-four-column.json"
+    },
+    {
+      "slug": "landing-dark-tech",
+      "kind": "page",
+      "title": "Dark tech landing page",
+      "category": "landing",
+      "categoryLabel": "Landing pages",
+      "description": "Dark landing page with a particle hero, glowing feature cards, stats band, two-plan pricing and a dark call to action.",
+      "tags": [
+        "landing",
+        "dark",
+        "tech",
+        "animated"
+      ],
+      "industry": [
+        "ai",
+        "devtools",
+        "saas"
+      ],
+      "theme": "dark",
+      "style": "shine-dark",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "sections": [
+        "announcement-bar-dark-link",
+        "header-dark-transparent",
+        "hero-dark-particles",
+        "logos-wordmark-strip",
+        "features-dark-cards-glow",
+        "stats-dark-band",
+        "pricing-two-plan-dark",
+        "cta-dark-centered",
+        "footer-dark-minimal"
+      ],
+      "preview": "previews/landing-dark-tech.png",
+      "file": "items/landing-dark-tech.json"
+    },
+    {
+      "slug": "landing-app-launch",
+      "kind": "page",
+      "title": "Mobile app launch page",
+      "category": "landing",
+      "categoryLabel": "Landing pages",
+      "description": "Launch page for a mobile app: app showcase hero, bento feature cards, numbered steps, quote carousel, newsletter sign-up and a centered footer.",
+      "tags": [
+        "landing",
+        "app",
+        "mobile",
+        "launch"
+      ],
+      "industry": [
+        "saas",
+        "general"
+      ],
+      "theme": "light",
+      "style": "candy",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "sections": [
+        "announcement-bar-offer",
+        "header-logo-links-cta",
+        "hero-app-showcase",
+        "features-bento-cards",
+        "process-numbered-steps",
+        "testimonials-carousel-quote",
+        "newsletter-inline-band",
+        "footer-centered-social"
+      ],
+      "preview": "previews/landing-app-launch.png",
+      "file": "items/landing-app-launch.json"
+    },
+    {
+      "slug": "landing-saas-product",
+      "kind": "page",
+      "title": "SaaS product landing page",
+      "category": "landing",
+      "categoryLabel": "Landing pages",
+      "description": "Full product landing page: header, split hero, logo strip, icon feature grid, alternating feature rows, stats, testimonials, three-tier pricing, FAQ and a gradient call to action.",
+      "tags": [
+        "landing",
+        "saas",
+        "product",
+        "pricing"
+      ],
+      "industry": [
+        "saas",
+        "ai",
+        "devtools"
+      ],
+      "theme": "light",
+      "style": "shine-light",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "sections": [
+        "header-logo-links-cta",
+        "hero-split-photo",
+        "logos-wordmark-strip",
+        "features-icon-grid",
+        "features-alternating-rows",
+        "stats-four-counters",
+        "testimonials-three-cards",
+        "pricing-three-tier",
+        "faq-accordion-centered",
+        "cta-gradient-band",
+        "footer-four-column"
+      ],
+      "preview": "previews/landing-saas-product.png",
+      "file": "items/landing-saas-product.json"
+    },
+    {
+      "slug": "business-agency-home",
+      "kind": "page",
+      "title": "Agency home page",
+      "category": "business",
+      "categoryLabel": "Business pages",
+      "description": "Home page for a creative or digital agency: gradient hero, press mentions, story split, tabbed services, team grid, gallery and contact call to action.",
+      "tags": [
+        "home",
+        "agency",
+        "studio",
+        "portfolio"
+      ],
+      "industry": [
+        "agency",
+        "media"
+      ],
+      "theme": "mixed",
+      "style": "sunset",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "sections": [
+        "header-logo-links-cta",
+        "hero-centered-gradient",
+        "logos-press-mentions",
+        "content-split-story",
+        "features-tabs",
+        "team-four-grid",
+        "gallery-grid",
+        "cta-split-image",
+        "footer-four-column"
+      ],
+      "preview": "previews/business-agency-home.png",
+      "file": "items/business-agency-home.json"
+    },
+    {
+      "slug": "about-company-story",
+      "kind": "page",
+      "title": "Company about page",
+      "category": "about",
+      "categoryLabel": "About pages",
+      "description": "About page: full-image hero, company story, stats with picture, leadership, team grid, testimonials and a call to action.",
+      "tags": [
+        "about",
+        "story",
+        "team",
+        "values"
+      ],
+      "industry": [
+        "general",
+        "agency",
+        "nonprofit"
+      ],
+      "theme": "light",
+      "style": "forest",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "sections": [
+        "header-centered-logo",
+        "hero-fullscreen-image-overlay",
+        "content-split-story",
+        "content-image-text-stats",
+        "team-leadership-split",
+        "team-four-grid",
+        "testimonials-photo-split",
+        "cta-gradient-band",
+        "footer-four-column"
+      ],
+      "preview": "previews/about-company-story.png",
+      "file": "items/about-company-story.json"
+    },
+    {
+      "slug": "services-consulting",
+      "kind": "page",
+      "title": "Consulting services page",
+      "category": "services",
+      "categoryLabel": "Services pages",
+      "description": "Services page for consultants and firms: split hero, icon service grid, sticky process steps, client quotes, FAQ and contact.",
+      "tags": [
+        "services",
+        "consulting",
+        "process",
+        "professional"
+      ],
+      "industry": [
+        "legal",
+        "fintech",
+        "general"
+      ],
+      "theme": "light",
+      "style": "ocean",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "sections": [
+        "header-logo-links-cta",
+        "hero-split-photo",
+        "features-icon-grid",
+        "process-sticky-steps",
+        "testimonials-three-cards",
+        "faq-two-column",
+        "contact-split-details-form",
+        "footer-four-column"
+      ],
+      "preview": "previews/services-consulting.png",
+      "file": "items/services-consulting.json"
+    },
+    {
+      "slug": "contact-page-standard",
+      "kind": "page",
+      "title": "Contact page",
+      "category": "contact-page",
+      "categoryLabel": "Contact pages",
+      "description": "Contact page with a slim hero band, contact details and form, map with opening hours, FAQ and footer.",
+      "tags": [
+        "contact",
+        "map",
+        "form",
+        "hours"
+      ],
+      "industry": [
+        "general"
+      ],
+      "theme": "light",
+      "style": "shine-light",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "sections": [
+        "header-logo-links-cta",
+        "cta-dark-centered",
+        "contact-split-details-form",
+        "contact-map-hours",
+        "faq-two-column",
+        "footer-four-column"
+      ],
+      "preview": "previews/contact-page-standard.png",
+      "file": "items/contact-page-standard.json"
+    },
+    {
+      "slug": "pricing-page-saas",
+      "kind": "page",
+      "title": "Pricing page",
+      "category": "pricing-page",
+      "categoryLabel": "Pricing pages",
+      "description": "Pricing page with three plans, a two-plan comparison band, logo strip, testimonials, FAQ accordion and call to action.",
+      "tags": [
+        "pricing",
+        "plans",
+        "faq",
+        "saas"
+      ],
+      "industry": [
+        "saas",
+        "ai",
+        "devtools"
+      ],
+      "theme": "light",
+      "style": "shine-light",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "sections": [
+        "header-logo-links-cta",
+        "pricing-three-tier",
+        "logos-wordmark-strip",
+        "testimonials-three-cards",
+        "faq-accordion-centered",
+        "cta-gradient-band",
+        "footer-four-column"
+      ],
+      "preview": "previews/pricing-page-saas.png",
+      "file": "items/pricing-page-saas.json"
+    },
+    {
+      "slug": "portfolio-studio",
+      "kind": "page",
+      "title": "Studio portfolio page",
+      "category": "portfolio",
+      "categoryLabel": "Portfolio pages",
+      "description": "Portfolio for a photographer or studio: full-image hero, photo gallery, carousel, story, testimonials and a minimal dark footer.",
+      "tags": [
+        "portfolio",
+        "gallery",
+        "creative",
+        "photography"
+      ],
+      "industry": [
+        "agency",
+        "media",
+        "personal"
+      ],
+      "theme": "light",
+      "style": "mono",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "sections": [
+        "header-dark-transparent",
+        "hero-fullscreen-image-overlay",
+        "gallery-grid",
+        "content-split-story",
+        "gallery-carousel",
+        "testimonials-carousel-quote",
+        "cta-split-image",
+        "footer-dark-minimal"
+      ],
+      "preview": "previews/portfolio-studio.png",
+      "file": "items/portfolio-studio.json"
+    },
+    {
+      "slug": "hospitality-restaurant",
+      "kind": "page",
+      "title": "Restaurant page",
+      "category": "hospitality",
+      "categoryLabel": "Hospitality pages",
+      "description": "Restaurant or cafe page: elegant serif hero, story, menu price list, gallery, reviews, map with opening hours and newsletter.",
+      "tags": [
+        "restaurant",
+        "menu",
+        "cafe",
+        "dining"
+      ],
+      "industry": [
+        "restaurant",
+        "travel"
+      ],
+      "theme": "dark",
+      "style": "luxe",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "sections": [
+        "header-centered-logo",
+        "hero-luxe-serif",
+        "content-split-story",
+        "pricing-menu-list",
+        "gallery-carousel",
+        "testimonials-three-cards",
+        "contact-map-hours",
+        "newsletter-card-image",
+        "footer-centered-social"
+      ],
+      "preview": "previews/hospitality-restaurant.png",
+      "file": "items/hospitality-restaurant.json"
+    },
+    {
+      "slug": "events-conference",
+      "kind": "page",
+      "title": "Conference event page",
+      "category": "events",
+      "categoryLabel": "Event pages",
+      "description": "Event page: gradient hero, numbered schedule steps, speakers grid, stats, ticket pricing, FAQ and venue map.",
+      "tags": [
+        "event",
+        "conference",
+        "speakers",
+        "tickets"
+      ],
+      "industry": [
+        "events",
+        "education"
+      ],
+      "theme": "mixed",
+      "style": "sunset",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "sections": [
+        "announcement-bar-offer",
+        "header-logo-links-cta",
+        "hero-centered-gradient",
+        "stats-four-counters",
+        "process-numbered-steps",
+        "team-four-grid",
+        "pricing-three-tier",
+        "faq-accordion-centered",
+        "contact-map-hours",
+        "footer-four-column"
+      ],
+      "preview": "previews/events-conference.png",
+      "file": "items/events-conference.json"
+    },
+    {
+      "slug": "health-wellness-studio",
+      "kind": "page",
+      "title": "Wellness studio page",
+      "category": "health",
+      "categoryLabel": "Health & wellness pages",
+      "description": "Yoga, fitness or clinic page: image hero, alternating benefit rows, instructors, class pricing, testimonials and booking call to action.",
+      "tags": [
+        "wellness",
+        "yoga",
+        "fitness",
+        "clinic"
+      ],
+      "industry": [
+        "health",
+        "fitness"
+      ],
+      "theme": "light",
+      "style": "forest",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "sections": [
+        "header-centered-logo",
+        "hero-fullscreen-image-overlay",
+        "features-alternating-rows",
+        "team-four-grid",
+        "pricing-menu-list",
+        "testimonials-photo-split",
+        "cta-split-image",
+        "contact-map-hours",
+        "footer-centered-social"
+      ],
+      "preview": "previews/health-wellness-studio.png",
+      "file": "items/health-wellness-studio.json"
+    },
+    {
+      "slug": "shop-store-front",
+      "kind": "page",
+      "title": "Store front page",
+      "category": "shop",
+      "categoryLabel": "Shop pages",
+      "description": "Online shop home: offer bar, collection banner, product cards, feature icons, reviews, blog cards and newsletter.",
+      "tags": [
+        "shop",
+        "store",
+        "products",
+        "ecommerce"
+      ],
+      "industry": [
+        "ecommerce"
+      ],
+      "theme": "light",
+      "style": "mono",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "sections": [
+        "announcement-bar-offer",
+        "header-logo-links-cta",
+        "commerce-collection-banner",
+        "commerce-product-cards",
+        "features-icon-grid",
+        "testimonials-three-cards",
+        "blog-three-cards",
+        "newsletter-inline-band",
+        "footer-four-column"
+      ],
+      "preview": "previews/shop-store-front.png",
+      "file": "items/shop-store-front.json"
     }
   ]
 }

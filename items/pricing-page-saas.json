@@ -1,0 +1,3100 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "page",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#0f172a",
+        "fontFamily": "inter",
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "mobile": {
+          "paddingTop": 12,
+          "paddingBottom": 12
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "row"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center",
+          "justify": "between",
+          "gap": {
+            "desktop": 24,
+            "mobile": 12
+          },
+          "wrap": false
+        },
+        "borderWidth": 1,
+        "borderColor": "#e2e8f0",
+        "borderStyle": "solid",
+        "boxShadow": "sm"
+      },
+      "columns": [
+        {
+          "label": "Logo",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "layout": {
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-logo",
+              "props": {
+                "width": 140
+              }
+            }
+          ]
+        },
+        {
+          "label": "Menu",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "fill"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "layout": {
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "nav-menu",
+              "props": {
+                "layout": "horizontal",
+                "label": "Main menu",
+                "mobileBreakpoint": "768",
+                "mobileStyle": "offcanvas",
+                "submenuStyle": "dropdown",
+                "sticky": true
+              },
+              "design": {
+                "fontWeight": 500,
+                "fontSize": 15,
+                "textAlign": "center"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Action",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "layout": {
+            "vAlign": "middle"
+          },
+          "design": {
+            "hideOnMobile": true
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Get a quote",
+                "url": "/contact",
+                "variant": "primary",
+                "size": "md",
+                "align": "right"
+              },
+              "design": {
+                "pointerFx": "magnetic"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#0f172a",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#f8fafc",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 16
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Pricing",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#4f46e5",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Simple plans that grow with you",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.1,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Pay monthly, switch any time. No setup fees, no surprises.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#64748b",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Plans",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "tablet": "column",
+                    "mobile": "column"
+                  },
+                  "gap": {
+                    "desktop": 24,
+                    "mobile": 20
+                  },
+                  "alignItems": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Starter",
+                  "width": 4,
+                  "layout": {
+                    "gap": 16,
+                    "vAlign": "between"
+                  },
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#ffffff",
+                    "borderRadius": 12,
+                    "borderWidth": 1,
+                    "borderStyle": "solid",
+                    "borderColor": "#e2e8f0",
+                    "boxShadow": "sm",
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 28,
+                    "paddingRight": 28,
+                    "reveal": "fade-up",
+                    "revealDelay": 0,
+                    "mobile": {
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "paddingTop": 24,
+                      "paddingBottom": 24
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Starter",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "inter",
+                        "fontSize": 22,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "For individuals getting going.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 15,
+                        "lineHeight": 1.65
+                      }
+                    },
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 6
+                          },
+                          "alignItems": "end"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "auto"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "auto"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "$19",
+                                "tag": "h2",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontFamily": "inter",
+                                "fontSize": 52,
+                                "fontWeight": 800,
+                                "letterSpacing": -1,
+                                "lineHeight": 1,
+                                "mobile": {
+                                  "fontSize": 44
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "auto"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "auto"
+                          },
+                          "layout": {
+                            "gap": 0,
+                            "vAlign": "bottom"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "/ month",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#64748b",
+                                "fontSize": 15,
+                                "lineHeight": 1.65
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 4,
+                        "style": "solid",
+                        "weight": 1,
+                        "width": 100,
+                        "align": "center"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "list",
+                      "props": {
+                        "items": [
+                          {
+                            "text": "1 project"
+                          },
+                          {
+                            "text": "Core templates"
+                          },
+                          {
+                            "text": "Email support"
+                          },
+                          {
+                            "text": "Basic analytics"
+                          }
+                        ],
+                        "marker": "check",
+                        "iconColour": "#4f46e5",
+                        "gap": 10,
+                        "align": "left"
+                      },
+                      "design": {
+                        "fontSize": 15,
+                        "lineHeight": 1.5,
+                        "textColor": "#0f172a"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Start with Starter",
+                        "url": "/signup?plan=starter",
+                        "variant": "secondary",
+                        "size": "lg",
+                        "align": "left"
+                      },
+                      "design": {
+                        "selfWidth": "full",
+                        "pointerFx": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Growth",
+                  "width": 4,
+                  "layout": {
+                    "gap": 16,
+                    "vAlign": "between"
+                  },
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#eef2ff",
+                    "borderRadius": 12,
+                    "borderWidth": 2,
+                    "borderStyle": "solid",
+                    "borderColor": "#4f46e5",
+                    "boxShadow": "lg",
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 28,
+                    "paddingRight": 28,
+                    "reveal": "fade-up",
+                    "revealDelay": 2,
+                    "mobile": {
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "paddingTop": 24,
+                      "paddingBottom": 24
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Most popular",
+                        "tag": "h6",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "bgType": "color",
+                        "bgColor": "#4f46e5",
+                        "textColor": "#ffffff",
+                        "borderRadius": 999,
+                        "paddingTop": 4,
+                        "paddingBottom": 4,
+                        "paddingLeft": 12,
+                        "paddingRight": 12,
+                        "fontSize": 12,
+                        "fontWeight": 700,
+                        "textTransform": "uppercase",
+                        "letterSpacing": 1,
+                        "selfWidth": "auto",
+                        "selfAlign": "start"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Growth",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "inter",
+                        "fontSize": 22,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "For small teams that ship weekly.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 15,
+                        "lineHeight": 1.65
+                      }
+                    },
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 6
+                          },
+                          "alignItems": "end"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "auto"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "auto"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "$49",
+                                "tag": "h2",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontFamily": "inter",
+                                "fontSize": 52,
+                                "fontWeight": 800,
+                                "letterSpacing": -1,
+                                "lineHeight": 1,
+                                "mobile": {
+                                  "fontSize": 44
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "auto"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "auto"
+                          },
+                          "layout": {
+                            "gap": 0,
+                            "vAlign": "bottom"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "/ month",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#64748b",
+                                "fontSize": 15,
+                                "lineHeight": 1.65
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 4,
+                        "style": "solid",
+                        "weight": 1,
+                        "width": 100,
+                        "align": "center"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "list",
+                      "props": {
+                        "items": [
+                          {
+                            "text": "Unlimited projects"
+                          },
+                          {
+                            "text": "All templates"
+                          },
+                          {
+                            "text": "Priority support"
+                          },
+                          {
+                            "text": "Team roles"
+                          },
+                          {
+                            "text": "Advanced analytics"
+                          }
+                        ],
+                        "marker": "check",
+                        "iconColour": "#4f46e5",
+                        "gap": 10,
+                        "align": "left"
+                      },
+                      "design": {
+                        "fontSize": 15,
+                        "lineHeight": 1.5,
+                        "textColor": "#0f172a"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Choose Growth",
+                        "url": "/signup?plan=growth",
+                        "variant": "primary",
+                        "size": "lg",
+                        "align": "left"
+                      },
+                      "design": {
+                        "selfWidth": "full",
+                        "pointerFx": "magnetic"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Scale",
+                  "width": 4,
+                  "layout": {
+                    "gap": 16,
+                    "vAlign": "between"
+                  },
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#ffffff",
+                    "borderRadius": 12,
+                    "borderWidth": 1,
+                    "borderStyle": "solid",
+                    "borderColor": "#e2e8f0",
+                    "boxShadow": "sm",
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 28,
+                    "paddingRight": 28,
+                    "reveal": "fade-up",
+                    "revealDelay": 4,
+                    "mobile": {
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "paddingTop": 24,
+                      "paddingBottom": 24
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Scale",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "inter",
+                        "fontSize": 22,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "For companies with bigger needs.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 15,
+                        "lineHeight": 1.65
+                      }
+                    },
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 6
+                          },
+                          "alignItems": "end"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "auto"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "auto"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "$129",
+                                "tag": "h2",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontFamily": "inter",
+                                "fontSize": 52,
+                                "fontWeight": 800,
+                                "letterSpacing": -1,
+                                "lineHeight": 1,
+                                "mobile": {
+                                  "fontSize": 44
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "auto"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "auto"
+                          },
+                          "layout": {
+                            "gap": 0,
+                            "vAlign": "bottom"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "/ month",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#64748b",
+                                "fontSize": 15,
+                                "lineHeight": 1.65
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 4,
+                        "style": "solid",
+                        "weight": 1,
+                        "width": 100,
+                        "align": "center"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "list",
+                      "props": {
+                        "items": [
+                          {
+                            "text": "Everything in Growth"
+                          },
+                          {
+                            "text": "Single sign-on"
+                          },
+                          {
+                            "text": "Audit log"
+                          },
+                          {
+                            "text": "Custom domains"
+                          },
+                          {
+                            "text": "Dedicated manager"
+                          }
+                        ],
+                        "marker": "check",
+                        "iconColour": "#4f46e5",
+                        "gap": 10,
+                        "align": "left"
+                      },
+                      "design": {
+                        "fontSize": 15,
+                        "lineHeight": 1.5,
+                        "textColor": "#0f172a"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Talk to sales",
+                        "url": "/contact",
+                        "variant": "secondary",
+                        "size": "lg",
+                        "align": "left"
+                      },
+                      "design": {
+                        "selfWidth": "full",
+                        "pointerFx": "none"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#0f172a",
+        "fontFamily": "inter",
+        "paddingTop": 64,
+        "paddingBottom": 64,
+        "mobile": {
+          "paddingTop": 40,
+          "paddingBottom": 40
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1100,
+          "alignItems": "stretch",
+          "gap": {
+            "desktop": 32,
+            "mobile": 24
+          }
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Trusted by teams at",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "textColor": "#64748b",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Wordmarks",
+          "width": 12,
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 6,
+                  "gridColumnsTablet": 3,
+                  "gridColumnsMobile": 2,
+                  "gridGap": 32,
+                  "gridGapMobile": 20,
+                  "gridAlign": "center",
+                  "gridJustify": "center"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Northwind",
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Northwind",
+                        "tag": "h6",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "inter",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "letterSpacing": -0.5,
+                        "textColor": "#64748b",
+                        "opacity": 75,
+                        "mobile": {
+                          "fontSize": 20
+                        },
+                        "reveal": "fade",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Lumora",
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Lumora",
+                        "tag": "h6",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "playfair",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "letterSpacing": -0.5,
+                        "textColor": "#64748b",
+                        "opacity": 75,
+                        "mobile": {
+                          "fontSize": 20
+                        },
+                        "reveal": "fade",
+                        "revealDelay": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Parcelo",
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Parcelo",
+                        "tag": "h6",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "inter",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "letterSpacing": -0.5,
+                        "textColor": "#64748b",
+                        "opacity": 75,
+                        "mobile": {
+                          "fontSize": 20
+                        },
+                        "reveal": "fade",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Kestrel&Co",
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Kestrel&Co",
+                        "tag": "h6",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "inter",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "letterSpacing": -0.5,
+                        "textColor": "#64748b",
+                        "opacity": 75,
+                        "mobile": {
+                          "fontSize": 20
+                        },
+                        "reveal": "fade",
+                        "revealDelay": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Brightloop",
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Brightloop",
+                        "tag": "h6",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "playfair",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "letterSpacing": -0.5,
+                        "textColor": "#64748b",
+                        "opacity": 75,
+                        "mobile": {
+                          "fontSize": 20
+                        },
+                        "reveal": "fade",
+                        "revealDelay": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Oakfield",
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Oakfield",
+                        "tag": "h6",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "inter",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "letterSpacing": -0.5,
+                        "textColor": "#64748b",
+                        "opacity": 75,
+                        "mobile": {
+                          "fontSize": 20
+                        },
+                        "reveal": "fade",
+                        "revealDelay": 5
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#0f172a",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#f8fafc",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 16
+          },
+          "design": {
+            "textAlign": "center"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Customer love",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#4f46e5",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Teams that never looked back",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.1,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Real words from people who switched and stayed.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#64748b",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Cards",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "tablet": "column",
+                    "mobile": "column"
+                  },
+                  "gap": {
+                    "desktop": 24,
+                    "mobile": 16
+                  },
+                  "alignItems": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Maya Ellison",
+                  "width": 4,
+                  "layout": {
+                    "gap": 20,
+                    "vAlign": "between"
+                  },
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#ffffff",
+                    "borderRadius": 12,
+                    "borderWidth": 1,
+                    "borderStyle": "solid",
+                    "borderColor": "#e2e8f0",
+                    "boxShadow": "sm",
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 28,
+                    "paddingRight": 28,
+                    "reveal": "fade-up",
+                    "revealDelay": 0,
+                    "hover": "lift",
+                    "mobile": {
+                      "paddingTop": 24,
+                      "paddingBottom": 24,
+                      "paddingLeft": 20,
+                      "paddingRight": 20
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "star-rating",
+                      "props": {
+                        "rating": 5,
+                        "scale": 5,
+                        "title": "",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#f59e0b"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"We cut our onboarding time in half. The whole team picked it up in an afternoon.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#0f172a",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    },
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 14
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "widthMobile": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": {
+                                  "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80&auto=format&fit=crop",
+                                  "alt": "Maya Ellison"
+                                },
+                                "alt": "Maya Ellison",
+                                "ratio": "1:1",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "maskShape": "circle"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "layout": {
+                            "gap": 2,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Maya Ellison",
+                                "tag": "h4",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontSize": 16,
+                                "fontWeight": 700,
+                                "fontFamily": "inter"
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Operations lead",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#64748b",
+                                "fontSize": 14
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Daniel Okafor",
+                  "width": 4,
+                  "layout": {
+                    "gap": 20,
+                    "vAlign": "between"
+                  },
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#ffffff",
+                    "borderRadius": 12,
+                    "borderWidth": 1,
+                    "borderStyle": "solid",
+                    "borderColor": "#e2e8f0",
+                    "boxShadow": "sm",
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 28,
+                    "paddingRight": 28,
+                    "reveal": "fade-up",
+                    "revealDelay": 2,
+                    "hover": "lift",
+                    "mobile": {
+                      "paddingTop": 24,
+                      "paddingBottom": 24,
+                      "paddingLeft": 20,
+                      "paddingRight": 20
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "star-rating",
+                      "props": {
+                        "rating": 5,
+                        "scale": 5,
+                        "title": "",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#f59e0b"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"Clear, fast and honestly a pleasure to use. Our clients keep asking what we changed.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#0f172a",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    },
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 14
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "widthMobile": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": {
+                                  "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80&auto=format&fit=crop",
+                                  "alt": "Daniel Okafor"
+                                },
+                                "alt": "Daniel Okafor",
+                                "ratio": "1:1",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "maskShape": "circle"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "layout": {
+                            "gap": 2,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Daniel Okafor",
+                                "tag": "h4",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontSize": 16,
+                                "fontWeight": 700,
+                                "fontFamily": "inter"
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Founder, Northlake Studio",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#64748b",
+                                "fontSize": 14
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Priya Raman",
+                  "width": 4,
+                  "layout": {
+                    "gap": 20,
+                    "vAlign": "between"
+                  },
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#ffffff",
+                    "borderRadius": 12,
+                    "borderWidth": 1,
+                    "borderStyle": "solid",
+                    "borderColor": "#e2e8f0",
+                    "boxShadow": "sm",
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 28,
+                    "paddingRight": 28,
+                    "reveal": "fade-up",
+                    "revealDelay": 4,
+                    "hover": "lift",
+                    "mobile": {
+                      "paddingTop": 24,
+                      "paddingBottom": 24,
+                      "paddingLeft": 20,
+                      "paddingRight": 20
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "star-rating",
+                      "props": {
+                        "rating": 5,
+                        "scale": 5,
+                        "title": "",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#f59e0b"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"Support answers in minutes, and every update has made things better. Easy five stars.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#0f172a",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    },
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 14
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "widthMobile": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": {
+                                  "url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80&auto=format&fit=crop",
+                                  "alt": "Priya Raman"
+                                },
+                                "alt": "Priya Raman",
+                                "ratio": "1:1",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "maskShape": "circle"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "layout": {
+                            "gap": 2,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Priya Raman",
+                                "tag": "h4",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontSize": 16,
+                                "fontWeight": 700,
+                                "fontFamily": "inter"
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Head of growth",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#64748b",
+                                "fontSize": 14
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#0f172a",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#ffffff",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 32,
+            "mobile": 24
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 820
+        }
+      },
+      "columns": [
+        {
+          "label": "FAQ",
+          "width": 12,
+          "layout": {
+            "gap": 16
+          },
+          "design": {
+            "textAlign": "center"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "FAQ",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#4f46e5",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Questions, answered",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.1,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Can't find what you need? Our team is a message away.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#64748b",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "marginTop": 24,
+                "reveal": "fade-up",
+                "revealDelay": 3,
+                "layout": {
+                  "display": "accordion",
+                  "tabsColor": "#4f46e5"
+                }
+              },
+              "columns": [
+                {
+                  "label": "How long does setup take?",
+                  "width": 12,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Most customers are live within a day. We import your content, check the details and walk you through the first week.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 16,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Can I change plans later?",
+                  "width": 12,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Yes. Upgrade or downgrade whenever you like and we will prorate the difference on your next invoice.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 16,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Do you offer refunds?",
+                  "width": 12,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "If it is not right for you, tell us within 30 days and we will refund you in full, no forms and no fuss.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 16,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Is my data safe?",
+                  "width": 12,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Everything is encrypted in transit and at rest, backed up every night and stored in the region you choose.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 16,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Who do I contact for help?",
+                  "width": 12,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Our support team answers by chat and email, usually within a few hours on weekdays.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 16,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "gradient",
+        "textColor": "#ffffff",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgGradientFrom": "#4f46e5",
+        "bgGradientTo": "#0ea5e9",
+        "bgGradientAngle": 120,
+        "bgEffect": "particles",
+        "bgEffectColor": "#ffffff",
+        "particlesCount": 40,
+        "particlesOpacity": 30,
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 32,
+            "mobile": 24
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 900
+        }
+      },
+      "columns": [
+        {
+          "label": "CTA",
+          "width": 12,
+          "layout": {
+            "gap": 20,
+            "alignSelf": "center"
+          },
+          "design": {
+            "textAlign": "center"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Ready to make something wonderful?",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "fontSize": 46,
+                "fontWeight": 800,
+                "lineHeight": 1.1,
+                "textColor": "#ffffff",
+                "reveal": "fade-up",
+                "mobile": {
+                  "fontSize": 30
+                }
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Join thousands of creators who launched this month. Start free and publish in minutes.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "center"
+              },
+              "design": {
+                "fontSize": 19,
+                "lineHeight": 1.6,
+                "textColor": "rgba(255,255,255,.9)",
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": true,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "justify": "center"
+                },
+                "reveal": "fade-up",
+                "revealDelay": 4
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Get started free",
+                        "url": "/signup",
+                        "variant": "primary",
+                        "size": "lg",
+                        "align": "center"
+                      },
+                      "design": {
+                        "customCss": "selector a{background:#ffffff;color:#111111;border-color:#ffffff}",
+                        "pointerFx": "magnetic"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Book a demo",
+                        "url": "/demo",
+                        "variant": "plain",
+                        "size": "lg",
+                        "align": "center"
+                      },
+                      "design": {
+                        "customCss": "selector a{background:transparent;color:#ffffff;border:2px solid rgba(255,255,255,.7)}"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 80,
+        "paddingBottom": 32,
+        "mobile": {
+          "paddingTop": 48,
+          "paddingBottom": 24
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#f8fafc",
+        "textColor": "#0f172a",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "alignItems": "start",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "About",
+          "width": 3,
+          "layout": {
+            "gap": 16,
+            "vAlign": "top"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-logo",
+              "props": {
+                "width": 140,
+                "alt": ""
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Simple, dependable tools and honest advice for growing teams.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#64748b",
+                "fontSize": 15,
+                "lineHeight": 1.6
+              }
+            }
+          ]
+        },
+        {
+          "label": "Company",
+          "width": 3,
+          "layout": {
+            "gap": 16,
+            "vAlign": "top"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Company",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textTransform": "uppercase",
+                "letterSpacing": 1.5,
+                "fontSize": 13,
+                "fontWeight": 700
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "list",
+              "props": {
+                "items": [
+                  {
+                    "text": "About us",
+                    "href": "/about"
+                  },
+                  {
+                    "text": "Careers",
+                    "href": "/careers"
+                  },
+                  {
+                    "text": "Blog",
+                    "href": "/blog"
+                  },
+                  {
+                    "text": "Contact",
+                    "href": "/contact"
+                  }
+                ],
+                "marker": "none",
+                "gap": 10,
+                "align": "left"
+              },
+              "design": {
+                "fontSize": 15,
+                "textColor": "#64748b"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Product",
+          "width": 3,
+          "layout": {
+            "gap": 16,
+            "vAlign": "top"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Product",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textTransform": "uppercase",
+                "letterSpacing": 1.5,
+                "fontSize": 13,
+                "fontWeight": 700
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "list",
+              "props": {
+                "items": [
+                  {
+                    "text": "Features",
+                    "href": "/features"
+                  },
+                  {
+                    "text": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "text": "Updates",
+                    "href": "/changelog"
+                  },
+                  {
+                    "text": "Status",
+                    "href": "/status"
+                  }
+                ],
+                "marker": "none",
+                "gap": 10,
+                "align": "left"
+              },
+              "design": {
+                "fontSize": 15,
+                "textColor": "#64748b"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Support",
+          "width": 3,
+          "layout": {
+            "gap": 16,
+            "vAlign": "top"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Support",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textTransform": "uppercase",
+                "letterSpacing": 1.5,
+                "fontSize": 13,
+                "fontWeight": 700
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "list",
+              "props": {
+                "items": [
+                  {
+                    "text": "Help centre",
+                    "href": "/help"
+                  },
+                  {
+                    "text": "Guides",
+                    "href": "/guides"
+                  },
+                  {
+                    "text": "Privacy",
+                    "href": "/privacy"
+                  },
+                  {
+                    "text": "Terms",
+                    "href": "/terms"
+                  }
+                ],
+                "marker": "none",
+                "gap": 10,
+                "align": "left"
+              },
+              "design": {
+                "fontSize": 15,
+                "textColor": "#64748b"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 0,
+        "paddingBottom": 32,
+        "mobile": {
+          "paddingTop": 0,
+          "paddingBottom": 32
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#f8fafc",
+        "textColor": "#64748b",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column-reverse"
+          },
+          "gap": {
+            "desktop": 16,
+            "mobile": 16
+          },
+          "alignItems": "center",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "justify": "between"
+        }
+      },
+      "columns": [
+        {
+          "label": "Copyright",
+          "width": 6,
+          "layout": {
+            "gap": 0
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "© 2026 Your Business. All rights reserved.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "fontSize": 14,
+                "textColor": "#64748b",
+                "borderColor": "#e2e8f0"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Social",
+          "width": 6,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "social-icons",
+              "props": {
+                "items": [
+                  {
+                    "network": "instagram",
+                    "address": "https://instagram.com/"
+                  },
+                  {
+                    "network": "facebook",
+                    "address": "https://facebook.com/"
+                  },
+                  {
+                    "network": "linkedin",
+                    "address": "https://linkedin.com/"
+                  },
+                  {
+                    "network": "youtube",
+                    "address": "https://youtube.com/"
+                  }
+                ],
+                "shape": "circle",
+                "size": 18,
+                "align": "right",
+                "mode": "follow"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "pricing-page-saas",
+    "title": "Pricing page",
+    "category": "pricing-page",
+    "description": "Pricing page with three plans, a two-plan comparison band, logo strip, testimonials, FAQ accordion and call to action.",
+    "tags": [
+      "pricing",
+      "plans",
+      "faq",
+      "saas"
+    ],
+    "industry": [
+      "saas",
+      "ai",
+      "devtools"
+    ],
+    "theme": "light",
+    "style": "shine-light",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "sections": [
+      "header-logo-links-cta",
+      "pricing-three-tier",
+      "logos-wordmark-strip",
+      "testimonials-three-cards",
+      "faq-accordion-centered",
+      "cta-gradient-band",
+      "footer-four-column"
+    ],
+    "images": [
+      {
+        "id": "portrait-m1",
+        "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-w1",
+        "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-w2",
+        "url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

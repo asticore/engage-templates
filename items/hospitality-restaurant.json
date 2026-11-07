@@ -1,0 +1,3652 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "page",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#0e0d0b",
+        "textColor": "#f5efe3",
+        "fontFamily": "jost",
+        "paddingTop": 24,
+        "paddingBottom": 16,
+        "mobile": {
+          "paddingTop": 16,
+          "paddingBottom": 12
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1100,
+          "alignItems": "center",
+          "gap": {
+            "desktop": 16,
+            "mobile": 8
+          }
+        },
+        "borderWidth": 1,
+        "borderColor": "#2e2a23",
+        "borderStyle": "solid"
+      },
+      "columns": [
+        {
+          "label": "Logo",
+          "width": 12,
+          "layout": {
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-title",
+              "props": {
+                "tag": "p",
+                "showTagline": true
+              },
+              "design": {
+                "textAlign": "center",
+                "fontFamily": "cormorant",
+                "fontSize": 32,
+                "fontWeight": 600,
+                "letterSpacing": 1,
+                "textColor": "#c8a45d",
+                "mobile": {
+                  "fontSize": 26
+                }
+              }
+            }
+          ]
+        },
+        {
+          "label": "Menu",
+          "width": 12,
+          "layout": {
+            "vAlign": "middle"
+          },
+          "design": {
+            "paddingTop": 12
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "nav-menu",
+              "props": {
+                "layout": "horizontal",
+                "label": "Main menu",
+                "mobileBreakpoint": "768",
+                "mobileStyle": "hamburger-dropdown",
+                "submenuStyle": "dropdown"
+              },
+              "design": {
+                "fontWeight": 600,
+                "fontSize": 13,
+                "textAlign": "center",
+                "textTransform": "uppercase",
+                "letterSpacing": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#0e0d0b",
+        "textColor": "#f5efe3",
+        "fontFamily": "jost",
+        "paddingTop": 112,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 64,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1100,
+          "alignItems": "center",
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          }
+        },
+        "textAlign": "center"
+      },
+      "columns": [
+        {
+          "label": "Copy",
+          "width": 12,
+          "layout": {
+            "gap": 24,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Harbourside residences",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "textColor": "#c8a45d",
+                "textTransform": "uppercase",
+                "letterSpacing": 4,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "A quieter way to live by the sea",
+                "tag": "h1",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 72,
+                "fontWeight": 500,
+                "lineHeight": 1.02,
+                "letterSpacing": -1,
+                "mobile": {
+                  "fontSize": 42
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Twelve private suites, a rooftop garden and a concierge who knows your name before you arrive.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 19,
+                "lineHeight": 1.7,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "justify": "center",
+                  "wrap": true
+                },
+                "reveal": "fade-up",
+                "revealDelay": 3
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Request a viewing",
+                        "url": "/viewings",
+                        "variant": "primary",
+                        "size": "lg",
+                        "align": "center"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "View floor plans",
+                        "url": "#plans",
+                        "variant": "secondary",
+                        "size": "lg",
+                        "align": "center"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Photo",
+          "width": 12,
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=2000&q=80&auto=format&fit=crop",
+                  "alt": "Sunlit hotel lobby with marble and warm lighting"
+                },
+                "alt": "Sunlit hotel lobby with marble and warm lighting",
+                "ratio": "21:9",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "borderRadius": 2,
+                "boxShadow": "lg",
+                "reveal": "zoom"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#0e0d0b",
+        "textColor": "#f5efe3",
+        "fontFamily": "jost",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 72,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center"
+        }
+      },
+      "columns": [
+        {
+          "label": "Story",
+          "width": 6,
+          "layout": {
+            "gap": 20,
+            "vAlign": "middle"
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Our story",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#c8a45d",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Grown slowly, shared generously",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.15,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "It began with a single plot of land and a stubborn belief that good food should taste of where it comes from. We planted what the soil wanted to grow and cooked what the seasons gave us.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Years later the plot is a working farm, the kitchen is full of familiar faces, and the table is still the best place we know to say thank you.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 3
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "quote",
+              "props": {
+                "text": "Feed people the way you would feed family, and the rest looks after itself.",
+                "cite": "Marta Ellison, founder",
+                "style": "bar",
+                "align": "left"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 20,
+                "fontStyle": "italic",
+                "textColor": "#f5efe3",
+                "reveal": "fade-up",
+                "revealDelay": 4
+              }
+            }
+          ]
+        },
+        {
+          "label": "Photo",
+          "width": 6,
+          "layout": {
+            "order": {
+              "mobile": -1
+            }
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1300&q=80&auto=format&fit=crop",
+                  "alt": "Green fields at golden hour"
+                },
+                "alt": "Green fields at golden hour",
+                "ratio": "3:4",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "borderRadius": 2,
+                "boxShadow": "lg",
+                "reveal": "zoom"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#f5efe3",
+        "fontFamily": "jost",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#0e0d0b",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 64,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1100,
+          "wrap": true
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 16
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Services & prices",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#c8a45d",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "The treatment menu",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.1,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Every visit begins with a consultation. Prices include a complimentary tea.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Hair",
+          "width": 6,
+          "layout": {
+            "gap": 14
+          },
+          "design": {
+            "reveal": "fade-up",
+            "revealDelay": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Hair",
+                "tag": "h3",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 15,
+                "textTransform": "uppercase",
+                "letterSpacing": 3,
+                "fontWeight": 600,
+                "textColor": "#e7d5ae"
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Cut and finish",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$65",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Consultation, wash, precision cut, blow-dry.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Colour refresh",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$95",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Root touch-up with gloss and style.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Balayage",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$180",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Hand-painted lightness, toner included.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Deep repair ritual",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$45",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Bond-building mask and scalp massage.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            }
+          ]
+        },
+        {
+          "label": "Skin & hands",
+          "width": 6,
+          "layout": {
+            "gap": 14
+          },
+          "design": {
+            "reveal": "fade-up",
+            "revealDelay": 2
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Skin & hands",
+                "tag": "h3",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 15,
+                "textTransform": "uppercase",
+                "letterSpacing": 3,
+                "fontWeight": 600,
+                "textColor": "#e7d5ae"
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Signature facial",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$85",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Cleanse, exfoliate, mask, 60 minutes.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Gel manicure",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$48",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Shape, cuticle care and lasting colour.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Spa pedicure",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$62",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Soak, scrub and hot-towel finish.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Brow shape and tint",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$35",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Tailored to your natural line.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "fontFamily": "jost",
+        "bgType": "color",
+        "bgColor": "#0e0d0b",
+        "textColor": "#f5efe3",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "alignItems": "stretch",
+          "contentWidth": "boxed",
+          "boxedWidth": 1100
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 12
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Field notes",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#c8a45d",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Places that stay with you",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Slides",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "carousel",
+                  "carouselPerView": 1,
+                  "carouselGap": 24,
+                  "carouselArrows": true,
+                  "contentWidth": "boxed",
+                  "boxedWidth": 1100
+                }
+              },
+              "columns": [
+                {
+                  "label": "Morning light on the ridge",
+                  "width": 12,
+                  "layout": {
+                    "gap": 8
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600&q=80&auto=format&fit=crop",
+                          "alt": "Morning light on the ridge"
+                        },
+                        "alt": "Morning light on the ridge",
+                        "caption": "Morning light on the ridge",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 2,
+                        "boxShadow": "lg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Green valley trail",
+                  "width": 12,
+                  "layout": {
+                    "gap": 8
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80&auto=format&fit=crop",
+                          "alt": "Green valley trail"
+                        },
+                        "alt": "Green valley trail",
+                        "caption": "Green valley trail",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 2,
+                        "boxShadow": "lg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Quiet beach at dusk",
+                  "width": 12,
+                  "layout": {
+                    "gap": 8
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80&auto=format&fit=crop",
+                          "alt": "Quiet beach at dusk"
+                        },
+                        "alt": "Quiet beach at dusk",
+                        "caption": "Quiet beach at dusk",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 2,
+                        "boxShadow": "lg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Lakeside at sunrise",
+                  "width": 12,
+                  "layout": {
+                    "gap": 8
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1600&q=80&auto=format&fit=crop",
+                          "alt": "Lakeside at sunrise"
+                        },
+                        "alt": "Lakeside at sunrise",
+                        "caption": "Lakeside at sunrise",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 2,
+                        "boxShadow": "lg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "The road to the coast",
+                  "width": 12,
+                  "layout": {
+                    "gap": 8
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1600&q=80&auto=format&fit=crop",
+                          "alt": "The road to the coast"
+                        },
+                        "alt": "The road to the coast",
+                        "caption": "The road to the coast",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 2,
+                        "boxShadow": "lg"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#f5efe3",
+        "fontFamily": "jost",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#1a1815",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 16
+          },
+          "design": {
+            "textAlign": "center"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Customer love",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#c8a45d",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Teams that never looked back",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.1,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Real words from people who switched and stayed.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Cards",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "tablet": "column",
+                    "mobile": "column"
+                  },
+                  "gap": {
+                    "desktop": 24,
+                    "mobile": 16
+                  },
+                  "alignItems": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Maya Ellison",
+                  "width": 4,
+                  "layout": {
+                    "gap": 20,
+                    "vAlign": "between"
+                  },
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#0e0d0b",
+                    "borderRadius": 2,
+                    "borderWidth": 1,
+                    "borderStyle": "solid",
+                    "borderColor": "#2e2a23",
+                    "boxShadow": "sm",
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 28,
+                    "paddingRight": 28,
+                    "reveal": "fade-up",
+                    "revealDelay": 0,
+                    "hover": "lift",
+                    "mobile": {
+                      "paddingTop": 24,
+                      "paddingBottom": 24,
+                      "paddingLeft": 20,
+                      "paddingRight": 20
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "star-rating",
+                      "props": {
+                        "rating": 5,
+                        "scale": 5,
+                        "title": "",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#8b5e34"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"We cut our onboarding time in half. The whole team picked it up in an afternoon.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#f5efe3",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    },
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 14
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "widthMobile": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": {
+                                  "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80&auto=format&fit=crop",
+                                  "alt": "Maya Ellison"
+                                },
+                                "alt": "Maya Ellison",
+                                "ratio": "1:1",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "maskShape": "circle"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "layout": {
+                            "gap": 2,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Maya Ellison",
+                                "tag": "h4",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontSize": 16,
+                                "fontWeight": 700,
+                                "fontFamily": "cormorant"
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Operations lead",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#a8a29e",
+                                "fontSize": 14
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Daniel Okafor",
+                  "width": 4,
+                  "layout": {
+                    "gap": 20,
+                    "vAlign": "between"
+                  },
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#0e0d0b",
+                    "borderRadius": 2,
+                    "borderWidth": 1,
+                    "borderStyle": "solid",
+                    "borderColor": "#2e2a23",
+                    "boxShadow": "sm",
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 28,
+                    "paddingRight": 28,
+                    "reveal": "fade-up",
+                    "revealDelay": 2,
+                    "hover": "lift",
+                    "mobile": {
+                      "paddingTop": 24,
+                      "paddingBottom": 24,
+                      "paddingLeft": 20,
+                      "paddingRight": 20
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "star-rating",
+                      "props": {
+                        "rating": 5,
+                        "scale": 5,
+                        "title": "",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#8b5e34"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"Clear, fast and honestly a pleasure to use. Our clients keep asking what we changed.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#f5efe3",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    },
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 14
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "widthMobile": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": {
+                                  "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80&auto=format&fit=crop",
+                                  "alt": "Daniel Okafor"
+                                },
+                                "alt": "Daniel Okafor",
+                                "ratio": "1:1",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "maskShape": "circle"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "layout": {
+                            "gap": 2,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Daniel Okafor",
+                                "tag": "h4",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontSize": 16,
+                                "fontWeight": 700,
+                                "fontFamily": "cormorant"
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Founder, Northlake Studio",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#a8a29e",
+                                "fontSize": 14
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Priya Raman",
+                  "width": 4,
+                  "layout": {
+                    "gap": 20,
+                    "vAlign": "between"
+                  },
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#0e0d0b",
+                    "borderRadius": 2,
+                    "borderWidth": 1,
+                    "borderStyle": "solid",
+                    "borderColor": "#2e2a23",
+                    "boxShadow": "sm",
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 28,
+                    "paddingRight": 28,
+                    "reveal": "fade-up",
+                    "revealDelay": 4,
+                    "hover": "lift",
+                    "mobile": {
+                      "paddingTop": 24,
+                      "paddingBottom": 24,
+                      "paddingLeft": 20,
+                      "paddingRight": 20
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "star-rating",
+                      "props": {
+                        "rating": 5,
+                        "scale": 5,
+                        "title": "",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#8b5e34"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"Support answers in minutes, and every update has made things better. Easy five stars.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#f5efe3",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    },
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 14
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "widthMobile": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": {
+                                  "url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80&auto=format&fit=crop",
+                                  "alt": "Priya Raman"
+                                },
+                                "alt": "Priya Raman",
+                                "ratio": "1:1",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "maskShape": "circle"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "layout": {
+                            "gap": 2,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Priya Raman",
+                                "tag": "h4",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontSize": 16,
+                                "fontWeight": 700,
+                                "fontFamily": "cormorant"
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Head of growth",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#a8a29e",
+                                "fontSize": 14
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "fontFamily": "jost",
+        "bgType": "color",
+        "bgColor": "#1a1815",
+        "textColor": "#f5efe3",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "alignItems": "stretch",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Map",
+          "layout": {
+            "gap": 0,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "map",
+              "props": {
+                "address": "Trafalgar Square, London",
+                "zoom": 14,
+                "height": 440,
+                "title": "Map showing our location"
+              },
+              "design": {
+                "borderRadius": 2,
+                "boxShadow": "md",
+                "reveal": "fade-up"
+              }
+            }
+          ],
+          "widthDesktop": {
+            "value": 7,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        },
+        {
+          "label": "Details",
+          "layout": {
+            "gap": 20,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Visit us",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#c8a45d",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Find us on the corner of Mill Lane",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 38,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "The Old Bakehouse",
+                            "format": 1,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "12 Mill Lane, Riverside",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Free parking at the back.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 17,
+                "lineHeight": 1.6,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "business-hours",
+              "props": {
+                "title": "Opening hours",
+                "rows": [
+                  {
+                    "day": "mon",
+                    "open": "07:00",
+                    "close": "18:00",
+                    "closed": false
+                  },
+                  {
+                    "day": "tue",
+                    "open": "07:00",
+                    "close": "18:00",
+                    "closed": false
+                  },
+                  {
+                    "day": "wed",
+                    "open": "07:00",
+                    "close": "18:00",
+                    "closed": false
+                  },
+                  {
+                    "day": "thu",
+                    "open": "07:00",
+                    "close": "18:00",
+                    "closed": false
+                  },
+                  {
+                    "day": "fri",
+                    "open": "07:00",
+                    "close": "19:00",
+                    "closed": false
+                  },
+                  {
+                    "day": "sat",
+                    "open": "08:00",
+                    "close": "19:00",
+                    "closed": false
+                  },
+                  {
+                    "day": "sun",
+                    "open": "09:00",
+                    "close": "15:00",
+                    "closed": false
+                  }
+                ],
+                "timezone": "",
+                "showStatus": true
+              },
+              "design": {
+                "reveal": "fade-up",
+                "revealDelay": 3
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Get directions",
+                "url": "https://maps.google.com/",
+                "variant": "primary",
+                "size": "lg",
+                "align": "left"
+              },
+              "design": {
+                "pointerFx": "magnetic"
+              }
+            }
+          ],
+          "widthDesktop": {
+            "value": 5,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 112,
+        "paddingBottom": 112,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "fontFamily": "jost",
+        "bgType": "image",
+        "bgImageUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1800&q=80&auto=format&fit=crop",
+        "overlayType": "color",
+        "overlayColor": "#000000",
+        "overlayOpacity": 55,
+        "kenBurns": "zoom-in",
+        "textColor": "#f5efe3",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "alignItems": "center",
+          "contentWidth": "boxed",
+          "boxedWidth": 1100,
+          "justify": "center"
+        }
+      },
+      "columns": [
+        {
+          "label": "Card",
+          "width": 8,
+          "layout": {
+            "gap": 16
+          },
+          "design": {
+            "paddingTop": 48,
+            "paddingBottom": 48,
+            "paddingLeft": 40,
+            "paddingRight": 40,
+            "mobile": {
+              "paddingTop": 28,
+              "paddingBottom": 28,
+              "paddingLeft": 20,
+              "paddingRight": 20
+            },
+            "bgType": "color",
+            "bgColor": "#1a1815",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "#2e2a23",
+            "glass": true,
+            "glassBlur": 16,
+            "boxShadow": "lg",
+            "reveal": "zoom"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Stay in the loop",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#c8a45d",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Seasonal menus and secret tastings, first",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 40,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Join the list and get invitations before the doors open to everyone.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#f5efe3",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "form",
+              "showTitle": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 64,
+        "paddingBottom": 40,
+        "mobile": {
+          "paddingTop": 48,
+          "paddingBottom": 32
+        },
+        "fontFamily": "jost",
+        "bgType": "color",
+        "bgColor": "#1a1815",
+        "textColor": "#f5efe3",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "alignItems": "center",
+          "contentWidth": "boxed",
+          "boxedWidth": 900
+        }
+      },
+      "columns": [
+        {
+          "label": "Footer",
+          "width": 12,
+          "layout": {
+            "gap": 20
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-logo",
+              "props": {
+                "width": 140,
+                "alt": ""
+              },
+              "design": {
+                "selfAlign": "center"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Made with care, shared with joy.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 17
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "social-icons",
+              "props": {
+                "items": [
+                  {
+                    "network": "instagram",
+                    "address": "https://instagram.com/"
+                  },
+                  {
+                    "network": "facebook",
+                    "address": "https://facebook.com/"
+                  },
+                  {
+                    "network": "linkedin",
+                    "address": "https://linkedin.com/"
+                  },
+                  {
+                    "network": "youtube",
+                    "address": "https://youtube.com/"
+                  }
+                ],
+                "shape": "circle",
+                "size": 20,
+                "align": "center",
+                "mode": "follow"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "divider",
+              "props": {
+                "showLine": true,
+                "gap": 8,
+                "style": "solid",
+                "weight": 1,
+                "width": 100,
+                "align": "center"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "© 2026 Your Business. All rights reserved.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "fontSize": 13,
+                "textColor": "#a8a29e"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "hospitality-restaurant",
+    "title": "Restaurant page",
+    "category": "hospitality",
+    "description": "Restaurant or cafe page: elegant serif hero, story, menu price list, gallery, reviews, map with opening hours and newsletter.",
+    "tags": [
+      "restaurant",
+      "menu",
+      "cafe",
+      "dining"
+    ],
+    "industry": [
+      "restaurant",
+      "travel"
+    ],
+    "theme": "dark",
+    "style": "luxe",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "sections": [
+      "header-centered-logo",
+      "hero-luxe-serif",
+      "content-split-story",
+      "pricing-menu-list",
+      "gallery-carousel",
+      "testimonials-three-cards",
+      "contact-map-hours",
+      "newsletter-card-image",
+      "footer-centered-social"
+    ],
+    "images": [
+      {
+        "id": "beach",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "coffee-shop",
+        "url": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "hotel",
+        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "landscape",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "mountains",
+        "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "nature",
+        "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-m1",
+        "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-w1",
+        "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-w2",
+        "url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "travel",
+        "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

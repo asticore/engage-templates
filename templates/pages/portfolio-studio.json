@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "slug": "portfolio-studio",
+    "kind": "page",
+    "title": "Studio portfolio page",
+    "category": "portfolio",
+    "description": "Portfolio for a photographer or studio: full-image hero, photo gallery, carousel, story, testimonials and a minimal dark footer.",
+    "tags": [
+      "portfolio",
+      "gallery",
+      "creative",
+      "photography"
+    ],
+    "industry": [
+      "agency",
+      "media",
+      "personal"
+    ],
+    "style": "mono",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "$section": "header-dark-transparent"
+    },
+    {
+      "$section": "hero-fullscreen-image-overlay"
+    },
+    {
+      "$section": "gallery-grid"
+    },
+    {
+      "$section": "content-split-story"
+    },
+    {
+      "$section": "gallery-carousel"
+    },
+    {
+      "$section": "testimonials-carousel-quote"
+    },
+    {
+      "$section": "cta-split-image"
+    },
+    {
+      "$section": "footer-dark-minimal"
+    }
+  ]
+}

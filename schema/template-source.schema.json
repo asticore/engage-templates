@@ -1,0 +1,181 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/asticore/engage-templates/main/schema/template-source.schema.json",
+  "title": "Engage template source",
+  "description": "Authoring source file under templates/**.json. Compiled by scripts/build.mjs into items/<slug>.json. Shorthands ($section, img:, {{tokens}}) are allowed here. Enums mirror taxonomy/categories.json and taxonomy/styles.json; update both when the taxonomy changes.",
+  "type": "object",
+  "required": ["meta", "tree"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["slug", "kind", "title", "category", "description", "tags", "industry", "style", "frameworks"],
+      "additionalProperties": false,
+      "properties": {
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+          "description": "Unique id; named <category>-<what-makes-it-different>."
+        },
+        "kind": {
+          "enum": ["section", "page"]
+        },
+        "title": {
+          "type": "string",
+          "pattern": "\\S",
+          "maxLength": 120
+        },
+        "category": {
+          "type": "string",
+          "description": "Category id: a section id when kind is section, a page id when kind is page."
+        },
+        "description": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 300
+        },
+        "tags": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9 -]{0,39}$"
+          }
+        },
+        "industry": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": ["saas", "ai", "agency", "ecommerce", "fintech", "devtools", "media", "education", "health", "fitness", "restaurant", "real-estate", "legal", "events", "travel", "nonprofit", "personal", "general"]
+          }
+        },
+        "style": {
+          "enum": ["shine-light", "shine-dark", "ocean", "sunset", "forest", "mono", "luxe", "candy"]
+        },
+        "frameworks": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": ["shine", "effix"]
+          }
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "kind": { "const": "section" } }, "required": ["kind"] },
+          "then": {
+            "properties": {
+              "category": {
+                "enum": ["announcement", "header", "hero", "logos", "features", "content", "stats", "process", "testimonials", "pricing", "team", "faq", "cta", "newsletter", "contact", "gallery", "blog", "commerce", "footer"]
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "kind": { "const": "page" } }, "required": ["kind"] },
+          "then": {
+            "properties": {
+              "category": {
+                "enum": ["landing", "business", "about", "services", "contact-page", "pricing-page", "portfolio", "hospitality", "events", "health", "shop"]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "tree": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/node" }
+    }
+  },
+  "$defs": {
+    "node": {
+      "description": "A section reference (pages), a section, an element, or another builder block.",
+      "oneOf": [
+        { "$ref": "#/$defs/sectionRef" },
+        { "$ref": "#/$defs/section" },
+        { "$ref": "#/$defs/element" },
+        { "$ref": "#/$defs/otherBlock" }
+      ]
+    },
+    "sectionRef": {
+      "type": "object",
+      "required": ["$section"],
+      "additionalProperties": false,
+      "properties": {
+        "$section": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+        }
+      }
+    },
+    "section": {
+      "type": "object",
+      "required": ["blockType", "columns"],
+      "properties": {
+        "blockType": { "const": "section" },
+        "design": { "type": "object" },
+        "columns": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/column" }
+        }
+      }
+    },
+    "column": {
+      "type": "object",
+      "properties": {
+        "label": { "type": "string" },
+        "width": { "enum": [12, 9, 8, 6, 4, 3] },
+        "widthDesktop": { "$ref": "#/$defs/span" },
+        "widthTablet": { "$ref": "#/$defs/span" },
+        "widthMobile": { "$ref": "#/$defs/span" },
+        "layout": { "type": "object" },
+        "design": { "type": "object" },
+        "blocks": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/node" }
+        }
+      }
+    },
+    "span": {
+      "type": "object",
+      "required": ["value", "unit"],
+      "additionalProperties": false,
+      "properties": {
+        "value": { "type": "number" },
+        "unit": { "enum": ["fraction", "percent", "px", "auto", "fill"] }
+      }
+    },
+    "element": {
+      "type": "object",
+      "required": ["blockType", "elementType"],
+      "properties": {
+        "blockType": { "const": "element" },
+        "elementType": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "props": { "type": "object" },
+        "design": { "type": "object" }
+      }
+    },
+    "otherBlock": {
+      "type": "object",
+      "required": ["blockType"],
+      "properties": {
+        "blockType": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "not": { "enum": ["section", "element"] }
+        }
+      }
+    }
+  }
+}

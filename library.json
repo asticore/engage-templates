@@ -753,6 +753,188 @@
       ],
       "preview": "previews/footer-four-column.png",
       "file": "items/footer-four-column.json"
+    },
+    {
+      "slug": "landing-dark-tech",
+      "kind": "page",
+      "title": "Dark tech landing page",
+      "category": "Landing pages",
+      "tags": [
+        "landing",
+        "dark",
+        "tech",
+        "animated"
+      ],
+      "preview": "previews/landing-dark-tech.png",
+      "file": "items/landing-dark-tech.json"
+    },
+    {
+      "slug": "landing-app-launch",
+      "kind": "page",
+      "title": "Mobile app launch page",
+      "category": "Landing pages",
+      "tags": [
+        "landing",
+        "app",
+        "mobile",
+        "launch"
+      ],
+      "preview": "previews/landing-app-launch.png",
+      "file": "items/landing-app-launch.json"
+    },
+    {
+      "slug": "landing-saas-product",
+      "kind": "page",
+      "title": "SaaS product landing page",
+      "category": "Landing pages",
+      "tags": [
+        "landing",
+        "saas",
+        "product",
+        "pricing"
+      ],
+      "preview": "previews/landing-saas-product.png",
+      "file": "items/landing-saas-product.json"
+    },
+    {
+      "slug": "business-agency-home",
+      "kind": "page",
+      "title": "Agency home page",
+      "category": "Business pages",
+      "tags": [
+        "home",
+        "agency",
+        "studio",
+        "portfolio"
+      ],
+      "preview": "previews/business-agency-home.png",
+      "file": "items/business-agency-home.json"
+    },
+    {
+      "slug": "about-company-story",
+      "kind": "page",
+      "title": "Company about page",
+      "category": "About pages",
+      "tags": [
+        "about",
+        "story",
+        "team",
+        "values"
+      ],
+      "preview": "previews/about-company-story.png",
+      "file": "items/about-company-story.json"
+    },
+    {
+      "slug": "services-consulting",
+      "kind": "page",
+      "title": "Consulting services page",
+      "category": "Services pages",
+      "tags": [
+        "services",
+        "consulting",
+        "process",
+        "professional"
+      ],
+      "preview": "previews/services-consulting.png",
+      "file": "items/services-consulting.json"
+    },
+    {
+      "slug": "contact-page-standard",
+      "kind": "page",
+      "title": "Contact page",
+      "category": "Contact pages",
+      "tags": [
+        "contact",
+        "map",
+        "form",
+        "hours"
+      ],
+      "preview": "previews/contact-page-standard.png",
+      "file": "items/contact-page-standard.json"
+    },
+    {
+      "slug": "pricing-page-saas",
+      "kind": "page",
+      "title": "Pricing page",
+      "category": "Pricing pages",
+      "tags": [
+        "pricing",
+        "plans",
+        "faq",
+        "saas"
+      ],
+      "preview": "previews/pricing-page-saas.png",
+      "file": "items/pricing-page-saas.json"
+    },
+    {
+      "slug": "portfolio-studio",
+      "kind": "page",
+      "title": "Studio portfolio page",
+      "category": "Portfolio pages",
+      "tags": [
+        "portfolio",
+        "gallery",
+        "creative",
+        "photography"
+      ],
+      "preview": "previews/portfolio-studio.png",
+      "file": "items/portfolio-studio.json"
+    },
+    {
+      "slug": "hospitality-restaurant",
+      "kind": "page",
+      "title": "Restaurant page",
+      "category": "Hospitality pages",
+      "tags": [
+        "restaurant",
+        "menu",
+        "cafe",
+        "dining"
+      ],
+      "preview": "previews/hospitality-restaurant.png",
+      "file": "items/hospitality-restaurant.json"
+    },
+    {
+      "slug": "events-conference",
+      "kind": "page",
+      "title": "Conference event page",
+      "category": "Event pages",
+      "tags": [
+        "event",
+        "conference",
+        "speakers",
+        "tickets"
+      ],
+      "preview": "previews/events-conference.png",
+      "file": "items/events-conference.json"
+    },
+    {
+      "slug": "health-wellness-studio",
+      "kind": "page",
+      "title": "Wellness studio page",
+      "category": "Health & wellness pages",
+      "tags": [
+        "wellness",
+        "yoga",
+        "fitness",
+        "clinic"
+      ],
+      "preview": "previews/health-wellness-studio.png",
+      "file": "items/health-wellness-studio.json"
+    },
+    {
+      "slug": "shop-store-front",
+      "kind": "page",
+      "title": "Store front page",
+      "category": "Shop pages",
+      "tags": [
+        "shop",
+        "store",
+        "products",
+        "ecommerce"
+      ],
+      "preview": "previews/shop-store-front.png",
+      "file": "items/shop-store-front.json"
     }
   ]
 }

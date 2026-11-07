@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "slug": "shop-store-front",
+    "kind": "page",
+    "title": "Store front page",
+    "category": "shop",
+    "description": "Online shop home: offer bar, collection banner, product cards, feature icons, reviews, blog cards and newsletter.",
+    "tags": [
+      "shop",
+      "store",
+      "products",
+      "ecommerce"
+    ],
+    "industry": [
+      "ecommerce"
+    ],
+    "style": "mono",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "$section": "announcement-bar-offer"
+    },
+    {
+      "$section": "header-logo-links-cta"
+    },
+    {
+      "$section": "commerce-collection-banner"
+    },
+    {
+      "$section": "commerce-product-cards"
+    },
+    {
+      "$section": "features-icon-grid"
+    },
+    {
+      "$section": "testimonials-three-cards"
+    },
+    {
+      "$section": "blog-three-cards"
+    },
+    {
+      "$section": "newsletter-inline-band"
+    },
+    {
+      "$section": "footer-four-column"
+    }
+  ]
+}

@@ -1,0 +1,3189 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "page",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#fff7ed",
+        "textColor": "#1c1917",
+        "fontFamily": "inter",
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "mobile": {
+          "paddingTop": 12,
+          "paddingBottom": 12
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "row"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center",
+          "justify": "between",
+          "gap": {
+            "desktop": 24,
+            "mobile": 12
+          },
+          "wrap": false
+        },
+        "borderWidth": 1,
+        "borderColor": "#fed7aa",
+        "borderStyle": "solid",
+        "boxShadow": "sm"
+      },
+      "columns": [
+        {
+          "label": "Logo",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "layout": {
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-logo",
+              "props": {
+                "width": 140
+              }
+            }
+          ]
+        },
+        {
+          "label": "Menu",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "fill"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "layout": {
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "nav-menu",
+              "props": {
+                "layout": "horizontal",
+                "label": "Main menu",
+                "mobileBreakpoint": "768",
+                "mobileStyle": "offcanvas",
+                "submenuStyle": "dropdown",
+                "sticky": true
+              },
+              "design": {
+                "fontWeight": 500,
+                "fontSize": 15,
+                "textAlign": "center"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Action",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "layout": {
+            "vAlign": "middle"
+          },
+          "design": {
+            "hideOnMobile": true
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Get a quote",
+                "url": "/contact",
+                "variant": "primary",
+                "size": "md",
+                "align": "right"
+              },
+              "design": {
+                "pointerFx": "magnetic"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "gradient",
+        "bgGradientFrom": "#e11d48",
+        "bgGradientTo": "#f97316",
+        "bgGradientAngle": 135,
+        "bgEffect": "aurora",
+        "bgEffectColor": "#facc15",
+        "bgEffectColor2": "#ffe4e6",
+        "bgEffectIntensity": 55,
+        "textColor": "#ffffff",
+        "fontFamily": "inter",
+        "textAlign": "center",
+        "paddingTop": 128,
+        "paddingBottom": 160,
+        "mobile": {
+          "paddingTop": 72,
+          "paddingBottom": 96
+        },
+        "dividerBottom": "wave",
+        "dividerBottomColor": "#fff7ed",
+        "dividerBottomHeight": 90,
+        "dividerBottomAnim": "drift",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 960,
+          "alignItems": "center"
+        }
+      },
+      "columns": [
+        {
+          "label": "Copy",
+          "width": 12,
+          "layout": {
+            "gap": 24,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Open studio weekends",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "textColor": "#ffffff",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "opacity": 90,
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Make every weekend feel like a festival",
+                "tag": "h1",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "textColor": "#ffffff",
+                "fontSize": 64,
+                "fontWeight": 700,
+                "lineHeight": 1.05,
+                "letterSpacing": -1,
+                "mobile": {
+                  "fontSize": 38
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Pop-up markets, live sets and long tables, planned end to end by a crew that loves the details.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#ffffff",
+                "fontSize": 19,
+                "lineHeight": 1.6,
+                "opacity": 92,
+                "reveal": "fade-up",
+                "revealDelay": 2,
+                "mobile": {
+                  "fontSize": 17
+                }
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "justify": "center",
+                  "wrap": true
+                },
+                "reveal": "fade-up",
+                "revealDelay": 3
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Plan your event",
+                        "url": "/contact",
+                        "variant": "primary",
+                        "size": "lg",
+                        "align": "center"
+                      },
+                      "design": {
+                        "pointerFx": "magnetic"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "See past events",
+                        "url": "#gallery",
+                        "variant": "secondary",
+                        "size": "lg",
+                        "align": "center"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#1c1917",
+        "fontFamily": "inter",
+        "paddingTop": 80,
+        "paddingBottom": 80,
+        "mobile": {
+          "paddingTop": 48,
+          "paddingBottom": 48
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1100,
+          "alignItems": "stretch",
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          }
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "As seen in",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "textColor": "#e11d48",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Mentions",
+          "width": 12,
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 4,
+                  "gridColumnsTablet": 2,
+                  "gridColumnsMobile": 1,
+                  "gridGap": 32,
+                  "gridGapMobile": 28,
+                  "gridAlign": "start"
+                }
+              },
+              "columns": [
+                {
+                  "label": "The Daily Ledger",
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "paddingTop": 8,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "The Daily Ledger",
+                        "tag": "h4",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "textColor": "#1c1917",
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "center",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"A rare product that feels as good as it looks.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#78716c",
+                        "fontSize": 15,
+                        "lineHeight": 1.6,
+                        "fontStyle": "italic",
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Form Weekly",
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "paddingTop": 8,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Form Weekly",
+                        "tag": "h4",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "textColor": "#1c1917",
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "center",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"Quietly reshaping how small teams work.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#78716c",
+                        "fontSize": 15,
+                        "lineHeight": 1.6,
+                        "fontStyle": "italic",
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Metro Review",
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "paddingTop": 8,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Metro Review",
+                        "tag": "h4",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "textColor": "#1c1917",
+                        "reveal": "fade-up",
+                        "revealDelay": 4
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "center",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"Our pick of the year for simple, honest tools.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#78716c",
+                        "fontSize": 15,
+                        "lineHeight": 1.6,
+                        "fontStyle": "italic",
+                        "reveal": "fade-up",
+                        "revealDelay": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Hearth Journal",
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "paddingTop": 8,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Hearth Journal",
+                        "tag": "h4",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "textColor": "#1c1917",
+                        "reveal": "fade-up",
+                        "revealDelay": 6
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "center",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"Thoughtful design, and a team that listens.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#78716c",
+                        "fontSize": 15,
+                        "lineHeight": 1.6,
+                        "fontStyle": "italic",
+                        "reveal": "fade-up",
+                        "revealDelay": 6
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#fff7ed",
+        "textColor": "#1c1917",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 72,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center"
+        }
+      },
+      "columns": [
+        {
+          "label": "Story",
+          "width": 6,
+          "layout": {
+            "gap": 20,
+            "vAlign": "middle"
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Our story",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#e11d48",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Grown slowly, shared generously",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.15,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "It began with a single plot of land and a stubborn belief that good food should taste of where it comes from. We planted what the soil wanted to grow and cooked what the seasons gave us.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#78716c",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Years later the plot is a working farm, the kitchen is full of familiar faces, and the table is still the best place we know to say thank you.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#78716c",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 3
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "quote",
+              "props": {
+                "text": "Feed people the way you would feed family, and the rest looks after itself.",
+                "cite": "Marta Ellison, founder",
+                "style": "bar",
+                "align": "left"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 20,
+                "fontStyle": "italic",
+                "textColor": "#1c1917",
+                "reveal": "fade-up",
+                "revealDelay": 4
+              }
+            }
+          ]
+        },
+        {
+          "label": "Photo",
+          "width": 6,
+          "layout": {
+            "order": {
+              "mobile": -1
+            }
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1300&q=80&auto=format&fit=crop",
+                  "alt": "Green fields at golden hour"
+                },
+                "alt": "Green fields at golden hour",
+                "ratio": "3:4",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "borderRadius": 16,
+                "boxShadow": "lg",
+                "reveal": "zoom"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#fff7ed",
+        "textColor": "#1c1917",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Intro and tabs",
+          "width": 12,
+          "layout": {
+            "gap": 20
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "How it works",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#e11d48",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "One journey, three simple stages",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.15,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "tabs",
+                  "tabsAlign": "center",
+                  "tabsColor": "#e11d48",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "column"
+                  }
+                }
+              },
+              "columns": [
+                {
+                  "label": "Discover",
+                  "width": 12,
+                  "design": {
+                    "paddingTop": 32
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "column"
+                          },
+                          "gap": {
+                            "desktop": 48,
+                            "mobile": 24
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "label": "Image",
+                          "width": 6,
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": {
+                                  "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1100&q=80&auto=format&fit=crop",
+                                  "alt": "Discover step photo"
+                                },
+                                "alt": "Discover step photo",
+                                "ratio": "4:3",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "borderRadius": 16,
+                                "boxShadow": "lg"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Text",
+                          "width": 6,
+                          "layout": {
+                            "gap": 16,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Find the right fit",
+                                "tag": "h3",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontFamily": "jost",
+                                "fontSize": 30,
+                                "fontWeight": 700,
+                                "lineHeight": 1.25,
+                                "mobile": {
+                                  "fontSize": 22
+                                }
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "align": "left",
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Browse curated options and compare them side by side before you commit.",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              "design": {
+                                "textColor": "#78716c",
+                                "fontSize": 17,
+                                "lineHeight": 1.65
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "list",
+                              "props": {
+                                "items": [
+                                  {
+                                    "text": "Short, honest descriptions"
+                                  },
+                                  {
+                                    "text": "Filters that make sense"
+                                  },
+                                  {
+                                    "text": "Save favourites for later"
+                                  }
+                                ],
+                                "marker": "check",
+                                "iconColour": "#e11d48",
+                                "gap": 10,
+                                "align": "left"
+                              },
+                              "design": {
+                                "fontSize": 16
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Decide",
+                  "width": 12,
+                  "design": {
+                    "paddingTop": 32
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "column"
+                          },
+                          "gap": {
+                            "desktop": 48,
+                            "mobile": 24
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "label": "Image",
+                          "width": 6,
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": {
+                                  "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1100&q=80&auto=format&fit=crop",
+                                  "alt": "Decide step photo"
+                                },
+                                "alt": "Decide step photo",
+                                "ratio": "4:3",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "borderRadius": 16,
+                                "boxShadow": "lg"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Text",
+                          "width": 6,
+                          "layout": {
+                            "gap": 16,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Book with confidence",
+                                "tag": "h3",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontFamily": "jost",
+                                "fontSize": 30,
+                                "fontWeight": 700,
+                                "lineHeight": 1.25,
+                                "mobile": {
+                                  "fontSize": 22
+                                }
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "align": "left",
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Clear pricing, flexible dates and a real person on hand if plans change.",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              "design": {
+                                "textColor": "#78716c",
+                                "fontSize": 17,
+                                "lineHeight": 1.65
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "list",
+                              "props": {
+                                "items": [
+                                  {
+                                    "text": "No hidden fees"
+                                  },
+                                  {
+                                    "text": "Free changes up to 48 hours"
+                                  },
+                                  {
+                                    "text": "Friendly local support"
+                                  }
+                                ],
+                                "marker": "check",
+                                "iconColour": "#e11d48",
+                                "gap": 10,
+                                "align": "left"
+                              },
+                              "design": {
+                                "fontSize": 16
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Enjoy",
+                  "width": 12,
+                  "design": {
+                    "paddingTop": 32
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "column"
+                          },
+                          "gap": {
+                            "desktop": 48,
+                            "mobile": 24
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "label": "Image",
+                          "width": 6,
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": {
+                                  "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1100&q=80&auto=format&fit=crop",
+                                  "alt": "Enjoy step photo"
+                                },
+                                "alt": "Enjoy step photo",
+                                "ratio": "4:3",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "borderRadius": 16,
+                                "boxShadow": "lg"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Text",
+                          "width": 6,
+                          "layout": {
+                            "gap": 16,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Everything taken care of",
+                                "tag": "h3",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontFamily": "jost",
+                                "fontSize": 30,
+                                "fontWeight": 700,
+                                "lineHeight": 1.25,
+                                "mobile": {
+                                  "fontSize": 22
+                                }
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "align": "left",
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Arrive to a prepared welcome and tips from people who know the area.",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              "design": {
+                                "textColor": "#78716c",
+                                "fontSize": 17,
+                                "lineHeight": 1.65
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "list",
+                              "props": {
+                                "items": [
+                                  {
+                                    "text": "Local recommendations"
+                                  },
+                                  {
+                                    "text": "Easy check-in"
+                                  },
+                                  {
+                                    "text": "Help any time of day"
+                                  }
+                                ],
+                                "marker": "check",
+                                "iconColour": "#e11d48",
+                                "gap": 10,
+                                "align": "left"
+                              },
+                              "design": {
+                                "fontSize": 16
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#1c1917",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#fff7ed",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 16
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "The team",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#e11d48",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Small team, big heart",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.1,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "The people you will actually talk to.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#78716c",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Grid",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 4,
+                  "gridColumnsTablet": 2,
+                  "gridColumnsMobile": 1,
+                  "gridGap": 24,
+                  "gridGapMobile": 32
+                }
+              },
+              "columns": [
+                {
+                  "label": "Lena Ortiz",
+                  "width": 3,
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 0,
+                    "pointerFx": "none"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=700&q=80&auto=format&fit=crop",
+                          "alt": "Lena Ortiz"
+                        },
+                        "alt": "Lena Ortiz",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 16
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Lena Ortiz",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Founder and creative director",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#e11d48",
+                        "fontSize": 14,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Leads every project from first sketch to launch day.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#78716c",
+                        "fontSize": 15,
+                        "lineHeight": 1.55
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Marcus Bell",
+                  "width": 3,
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 2,
+                    "pointerFx": "none"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=700&q=80&auto=format&fit=crop",
+                          "alt": "Marcus Bell"
+                        },
+                        "alt": "Marcus Bell",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 16
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Marcus Bell",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Head of engineering",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#e11d48",
+                        "fontSize": 14,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Turns bold ideas into fast, dependable sites.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#78716c",
+                        "fontSize": 15,
+                        "lineHeight": 1.55
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Sofia Lindqvist",
+                  "width": 3,
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 4,
+                    "pointerFx": "none"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700&q=80&auto=format&fit=crop",
+                          "alt": "Sofia Lindqvist"
+                        },
+                        "alt": "Sofia Lindqvist",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 16
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Sofia Lindqvist",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Brand strategist",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#e11d48",
+                        "fontSize": 14,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Finds the story that makes people care.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#78716c",
+                        "fontSize": 15,
+                        "lineHeight": 1.55
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Ravi Menon",
+                  "width": 3,
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 6,
+                    "pointerFx": "none"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=700&q=80&auto=format&fit=crop",
+                          "alt": "Ravi Menon"
+                        },
+                        "alt": "Ravi Menon",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 16
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Ravi Menon",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Client partner",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#e11d48",
+                        "fontSize": 14,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Keeps timelines honest and clients happy.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#78716c",
+                        "fontSize": 15,
+                        "lineHeight": 1.55
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#fff7ed",
+        "textColor": "#1c1917",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "alignItems": "stretch",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 12
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Gallery",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#1c1917",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "A look around",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Moments from the studio, the shop floor and the corners we love.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#78716c",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Photos",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 3,
+                  "gridColumnsTablet": 2,
+                  "gridColumnsMobile": 1,
+                  "gridGap": 16,
+                  "gridGapMobile": 20,
+                  "contentWidth": "boxed",
+                  "boxedWidth": 1200
+                }
+              },
+              "columns": [
+                {
+                  "label": "Boutique shopfront",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Boutique shopfront"
+                        },
+                        "alt": "Boutique shopfront",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 16,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Fresh coffee on the counter",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Fresh coffee on the counter"
+                        },
+                        "alt": "Fresh coffee on the counter",
+                        "ratio": "3:4",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 16,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Light-filled interior",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Light-filled interior"
+                        },
+                        "alt": "Light-filled interior",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 16,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Green corner by the window",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Green corner by the window"
+                        },
+                        "alt": "Green corner by the window",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 16,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "A tidy workspace",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=900&q=80&auto=format&fit=crop",
+                          "alt": "A tidy workspace"
+                        },
+                        "alt": "A tidy workspace",
+                        "ratio": "3:4",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 16,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Architectural detail",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Architectural detail"
+                        },
+                        "alt": "Architectural detail",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 16,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#1c1917",
+        "fontFamily": "inter",
+        "paddingTop": 80,
+        "paddingBottom": 80,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#fff7ed",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 32,
+            "mobile": 24
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Card",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "bgType": "color",
+                "bgColor": "#ffe4e6",
+                "borderRadius": 16,
+                "boxShadow": "md",
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "column-reverse"
+                  },
+                  "gap": {
+                    "desktop": 0,
+                    "mobile": 0
+                  },
+                  "alignItems": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Copy",
+                  "width": 6,
+                  "layout": {
+                    "gap": 20,
+                    "vAlign": "middle"
+                  },
+                  "design": {
+                    "paddingTop": 56,
+                    "paddingBottom": 56,
+                    "paddingLeft": 56,
+                    "paddingRight": 56,
+                    "mobile": {
+                      "paddingTop": 32,
+                      "paddingBottom": 32,
+                      "paddingLeft": 24,
+                      "paddingRight": 24
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Visit us",
+                        "tag": "h6",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "textColor": "#e11d48",
+                        "textTransform": "uppercase",
+                        "letterSpacing": 2,
+                        "fontWeight": 700,
+                        "fontSize": 13
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Find the home that fits your life",
+                        "tag": "h2",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 38,
+                        "fontWeight": 700,
+                        "lineHeight": 1.1,
+                        "letterSpacing": -0.5,
+                        "mobile": {
+                          "fontSize": 28
+                        },
+                        "reveal": "fade-up"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Tell us what matters most and we will line up viewings that are worth your weekend.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#78716c",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Book a viewing",
+                        "url": "/viewing",
+                        "variant": "primary",
+                        "size": "lg",
+                        "align": "left"
+                      },
+                      "design": {
+                        "pointerFx": "magnetic"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Photo",
+                  "width": 6,
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "design": {
+                    "paddingTop": 16,
+                    "paddingBottom": 16,
+                    "paddingLeft": 16,
+                    "paddingRight": 16
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80&auto=format&fit=crop",
+                          "alt": "Bright modern home with large windows"
+                        },
+                        "alt": "Bright modern home with large windows",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 16,
+                        "reveal": "zoom"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 80,
+        "paddingBottom": 32,
+        "mobile": {
+          "paddingTop": 48,
+          "paddingBottom": 24
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#1c1917",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "alignItems": "start",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "About",
+          "width": 3,
+          "layout": {
+            "gap": 16,
+            "vAlign": "top"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-logo",
+              "props": {
+                "width": 140,
+                "alt": ""
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Simple, dependable tools and honest advice for growing teams.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#78716c",
+                "fontSize": 15,
+                "lineHeight": 1.6
+              }
+            }
+          ]
+        },
+        {
+          "label": "Company",
+          "width": 3,
+          "layout": {
+            "gap": 16,
+            "vAlign": "top"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Company",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textTransform": "uppercase",
+                "letterSpacing": 1.5,
+                "fontSize": 13,
+                "fontWeight": 700
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "list",
+              "props": {
+                "items": [
+                  {
+                    "text": "About us",
+                    "href": "/about"
+                  },
+                  {
+                    "text": "Careers",
+                    "href": "/careers"
+                  },
+                  {
+                    "text": "Blog",
+                    "href": "/blog"
+                  },
+                  {
+                    "text": "Contact",
+                    "href": "/contact"
+                  }
+                ],
+                "marker": "none",
+                "gap": 10,
+                "align": "left"
+              },
+              "design": {
+                "fontSize": 15,
+                "textColor": "#78716c"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Product",
+          "width": 3,
+          "layout": {
+            "gap": 16,
+            "vAlign": "top"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Product",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textTransform": "uppercase",
+                "letterSpacing": 1.5,
+                "fontSize": 13,
+                "fontWeight": 700
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "list",
+              "props": {
+                "items": [
+                  {
+                    "text": "Features",
+                    "href": "/features"
+                  },
+                  {
+                    "text": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "text": "Updates",
+                    "href": "/changelog"
+                  },
+                  {
+                    "text": "Status",
+                    "href": "/status"
+                  }
+                ],
+                "marker": "none",
+                "gap": 10,
+                "align": "left"
+              },
+              "design": {
+                "fontSize": 15,
+                "textColor": "#78716c"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Support",
+          "width": 3,
+          "layout": {
+            "gap": 16,
+            "vAlign": "top"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Support",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textTransform": "uppercase",
+                "letterSpacing": 1.5,
+                "fontSize": 13,
+                "fontWeight": 700
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "list",
+              "props": {
+                "items": [
+                  {
+                    "text": "Help centre",
+                    "href": "/help"
+                  },
+                  {
+                    "text": "Guides",
+                    "href": "/guides"
+                  },
+                  {
+                    "text": "Privacy",
+                    "href": "/privacy"
+                  },
+                  {
+                    "text": "Terms",
+                    "href": "/terms"
+                  }
+                ],
+                "marker": "none",
+                "gap": 10,
+                "align": "left"
+              },
+              "design": {
+                "fontSize": 15,
+                "textColor": "#78716c"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 0,
+        "paddingBottom": 32,
+        "mobile": {
+          "paddingTop": 0,
+          "paddingBottom": 32
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#78716c",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column-reverse"
+          },
+          "gap": {
+            "desktop": 16,
+            "mobile": 16
+          },
+          "alignItems": "center",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "justify": "between"
+        }
+      },
+      "columns": [
+        {
+          "label": "Copyright",
+          "width": 6,
+          "layout": {
+            "gap": 0
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "© 2026 Your Business. All rights reserved.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "fontSize": 14,
+                "textColor": "#78716c",
+                "borderColor": "#fed7aa"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Social",
+          "width": 6,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "social-icons",
+              "props": {
+                "items": [
+                  {
+                    "network": "instagram",
+                    "address": "https://instagram.com/"
+                  },
+                  {
+                    "network": "facebook",
+                    "address": "https://facebook.com/"
+                  },
+                  {
+                    "network": "linkedin",
+                    "address": "https://linkedin.com/"
+                  },
+                  {
+                    "network": "youtube",
+                    "address": "https://youtube.com/"
+                  }
+                ],
+                "shape": "circle",
+                "size": 18,
+                "align": "right",
+                "mode": "follow"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "business-agency-home",
+    "title": "Agency home page",
+    "category": "business",
+    "description": "Home page for a creative or digital agency: gradient hero, press mentions, story split, tabbed services, team grid, gallery and contact call to action.",
+    "tags": [
+      "home",
+      "agency",
+      "studio",
+      "portfolio"
+    ],
+    "industry": [
+      "agency",
+      "media"
+    ],
+    "theme": "mixed",
+    "style": "sunset",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "sections": [
+      "header-logo-links-cta",
+      "hero-centered-gradient",
+      "logos-press-mentions",
+      "content-split-story",
+      "features-tabs",
+      "team-four-grid",
+      "gallery-grid",
+      "cta-split-image",
+      "footer-four-column"
+    ],
+    "images": [
+      {
+        "id": "architecture",
+        "url": "https://images.unsplash.com/photo-1487958449943-2429e8be8625",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "coffee",
+        "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "desk",
+        "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "hotel",
+        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "house",
+        "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "interior",
+        "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "landscape",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "modern-house",
+        "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "plant",
+        "url": "https://images.unsplash.com/photo-1485955900006-10f4d324d411",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-m1",
+        "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-m3",
+        "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-w1",
+        "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-w3",
+        "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "store",
+        "url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "travel",
+        "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

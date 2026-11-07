@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "slug": "landing-app-launch",
+    "kind": "page",
+    "title": "Mobile app launch page",
+    "category": "landing",
+    "description": "Launch page for a mobile app: app showcase hero, bento feature cards, numbered steps, quote carousel, newsletter sign-up and a centered footer.",
+    "tags": [
+      "landing",
+      "app",
+      "mobile",
+      "launch"
+    ],
+    "industry": [
+      "saas",
+      "general"
+    ],
+    "style": "candy",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "$section": "announcement-bar-offer"
+    },
+    {
+      "$section": "header-logo-links-cta"
+    },
+    {
+      "$section": "hero-app-showcase"
+    },
+    {
+      "$section": "features-bento-cards"
+    },
+    {
+      "$section": "process-numbered-steps"
+    },
+    {
+      "$section": "testimonials-carousel-quote"
+    },
+    {
+      "$section": "newsletter-inline-band"
+    },
+    {
+      "$section": "footer-centered-social"
+    }
+  ]
+}

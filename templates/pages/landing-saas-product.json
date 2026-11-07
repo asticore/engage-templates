@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "slug": "landing-saas-product",
+    "kind": "page",
+    "title": "SaaS product landing page",
+    "category": "landing",
+    "description": "Full product landing page: header, split hero, logo strip, icon feature grid, alternating feature rows, stats, testimonials, three-tier pricing, FAQ and a gradient call to action.",
+    "tags": [
+      "landing",
+      "saas",
+      "product",
+      "pricing"
+    ],
+    "industry": [
+      "saas",
+      "ai",
+      "devtools"
+    ],
+    "style": "shine-light",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "$section": "header-logo-links-cta"
+    },
+    {
+      "$section": "hero-split-photo"
+    },
+    {
+      "$section": "logos-wordmark-strip"
+    },
+    {
+      "$section": "features-icon-grid"
+    },
+    {
+      "$section": "features-alternating-rows"
+    },
+    {
+      "$section": "stats-four-counters"
+    },
+    {
+      "$section": "testimonials-three-cards"
+    },
+    {
+      "$section": "pricing-three-tier"
+    },
+    {
+      "$section": "faq-accordion-centered"
+    },
+    {
+      "$section": "cta-gradient-band"
+    },
+    {
+      "$section": "footer-four-column"
+    }
+  ]
+}

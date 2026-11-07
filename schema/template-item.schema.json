@@ -1,0 +1,198 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/asticore/engage-templates/main/schema/template-item.schema.json",
+  "title": "Engage template item",
+  "description": "Generated items/<slug>.json (format engage-template). Written by scripts/build.mjs: shorthands are already compiled, so the tree holds no $section references. Read by the Engage visual builder.",
+  "type": "object",
+  "required": ["format", "schemaVersion", "kind", "tree", "assets", "requires", "meta"],
+  "additionalProperties": false,
+  "properties": {
+    "format": { "const": "engage-template" },
+    "schemaVersion": { "const": 1 },
+    "kind": { "enum": ["section", "page"] },
+    "tree": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/node" }
+    },
+    "assets": {
+      "type": "array",
+      "maxItems": 20,
+      "items": { "$ref": "#/$defs/asset" }
+    },
+    "requires": {
+      "type": "object"
+    },
+    "meta": {
+      "type": "object",
+      "required": ["slug", "title", "category", "description", "tags", "industry", "theme", "style", "frameworks", "images", "version"],
+      "properties": {
+        "slug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,63}$" },
+        "title": { "type": "string", "pattern": "\\S", "maxLength": 120 },
+        "category": { "type": "string" },
+        "description": { "type": "string", "minLength": 10, "maxLength": 300 },
+        "tags": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10,
+          "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9 -]{0,39}$" }
+        },
+        "industry": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": ["saas", "ai", "agency", "ecommerce", "fintech", "devtools", "media", "education", "health", "fitness", "restaurant", "real-estate", "legal", "events", "travel", "nonprofit", "personal", "general"]
+          }
+        },
+        "theme": { "enum": ["light", "dark", "mixed"] },
+        "style": { "enum": ["shine-light", "shine-dark", "ocean", "sunset", "forest", "mono", "luxe", "candy"] },
+        "frameworks": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "enum": ["shine", "effix"] }
+        },
+        "sections": {
+          "type": "array",
+          "description": "Slugs of the sections a page was built from (pages only).",
+          "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,63}$" }
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "url", "source", "license"],
+            "properties": {
+              "id": { "type": "string", "minLength": 1 },
+              "url": { "type": "string", "pattern": "^https://" },
+              "source": { "type": "string" },
+              "license": { "type": "string" }
+            }
+          }
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "kind": { "const": "section" } }, "required": ["kind"] },
+      "then": {
+        "properties": {
+          "meta": {
+            "type": "object",
+            "properties": {
+              "category": {
+                "enum": ["announcement", "header", "hero", "logos", "features", "content", "stats", "process", "testimonials", "pricing", "team", "faq", "cta", "newsletter", "contact", "gallery", "blog", "commerce", "footer"]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "kind": { "const": "page" } }, "required": ["kind"] },
+      "then": {
+        "properties": {
+          "meta": {
+            "type": "object",
+            "properties": {
+              "category": {
+                "enum": ["landing", "business", "about", "services", "contact-page", "pricing-page", "portfolio", "hospitality", "events", "health", "shop"]
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "node": {
+      "description": "A section, an element, or another builder block (no $section references).",
+      "oneOf": [
+        { "$ref": "#/$defs/section" },
+        { "$ref": "#/$defs/element" },
+        { "$ref": "#/$defs/otherBlock" }
+      ]
+    },
+    "section": {
+      "type": "object",
+      "required": ["blockType", "columns"],
+      "properties": {
+        "blockType": { "const": "section" },
+        "design": { "type": "object" },
+        "columns": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/column" }
+        }
+      }
+    },
+    "column": {
+      "type": "object",
+      "properties": {
+        "label": { "type": "string" },
+        "width": { "enum": [12, 9, 8, 6, 4, 3] },
+        "widthDesktop": { "$ref": "#/$defs/span" },
+        "widthTablet": { "$ref": "#/$defs/span" },
+        "widthMobile": { "$ref": "#/$defs/span" },
+        "layout": { "type": "object" },
+        "design": { "type": "object" },
+        "blocks": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/node" }
+        }
+      }
+    },
+    "span": {
+      "type": "object",
+      "required": ["value", "unit"],
+      "additionalProperties": false,
+      "properties": {
+        "value": { "type": "number" },
+        "unit": { "enum": ["fraction", "percent", "px", "auto", "fill"] }
+      }
+    },
+    "element": {
+      "type": "object",
+      "required": ["blockType", "elementType"],
+      "properties": {
+        "blockType": { "const": "element" },
+        "elementType": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "props": { "type": "object" },
+        "design": { "type": "object" }
+      }
+    },
+    "otherBlock": {
+      "type": "object",
+      "required": ["blockType"],
+      "properties": {
+        "blockType": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80,
+          "not": { "enum": ["section", "element"] }
+        }
+      }
+    },
+    "asset": {
+      "type": "object",
+      "required": ["id", "path"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[0-9]+$" },
+        "path": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*\\\\)(?!.*%)(?!(.*/)?\\.\\.(/|$))[^\\u0000]+$"
+        },
+        "alt": { "type": "string" },
+        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "url": { "type": "string", "pattern": "^https://" }
+      },
+      "additionalProperties": { "type": "string" }
+    }
+  }
+}

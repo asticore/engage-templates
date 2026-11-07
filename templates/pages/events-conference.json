@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "slug": "events-conference",
+    "kind": "page",
+    "title": "Conference event page",
+    "category": "events",
+    "description": "Event page: gradient hero, numbered schedule steps, speakers grid, stats, ticket pricing, FAQ and venue map.",
+    "tags": [
+      "event",
+      "conference",
+      "speakers",
+      "tickets"
+    ],
+    "industry": [
+      "events",
+      "education"
+    ],
+    "style": "sunset",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "$section": "announcement-bar-offer"
+    },
+    {
+      "$section": "header-logo-links-cta"
+    },
+    {
+      "$section": "hero-centered-gradient"
+    },
+    {
+      "$section": "stats-four-counters"
+    },
+    {
+      "$section": "process-numbered-steps"
+    },
+    {
+      "$section": "team-four-grid"
+    },
+    {
+      "$section": "pricing-three-tier"
+    },
+    {
+      "$section": "faq-accordion-centered"
+    },
+    {
+      "$section": "contact-map-hours"
+    },
+    {
+      "$section": "footer-four-column"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "slug": "contact-page-standard",
+    "kind": "page",
+    "title": "Contact page",
+    "category": "contact-page",
+    "description": "Contact page with a slim hero band, contact details and form, map with opening hours, FAQ and footer.",
+    "tags": [
+      "contact",
+      "map",
+      "form",
+      "hours"
+    ],
+    "industry": [
+      "general"
+    ],
+    "style": "shine-light",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "$section": "header-logo-links-cta"
+    },
+    {
+      "$section": "cta-dark-centered"
+    },
+    {
+      "$section": "contact-split-details-form"
+    },
+    {
+      "$section": "contact-map-hours"
+    },
+    {
+      "$section": "faq-two-column"
+    },
+    {
+      "$section": "footer-four-column"
+    }
+  ]
+}

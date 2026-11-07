@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "slug": "health-wellness-studio",
+    "kind": "page",
+    "title": "Wellness studio page",
+    "category": "health",
+    "description": "Yoga, fitness or clinic page: image hero, alternating benefit rows, instructors, class pricing, testimonials and booking call to action.",
+    "tags": [
+      "wellness",
+      "yoga",
+      "fitness",
+      "clinic"
+    ],
+    "industry": [
+      "health",
+      "fitness"
+    ],
+    "style": "forest",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "$section": "header-centered-logo"
+    },
+    {
+      "$section": "hero-fullscreen-image-overlay"
+    },
+    {
+      "$section": "features-alternating-rows"
+    },
+    {
+      "$section": "team-four-grid"
+    },
+    {
+      "$section": "pricing-menu-list"
+    },
+    {
+      "$section": "testimonials-photo-split"
+    },
+    {
+      "$section": "cta-split-image"
+    },
+    {
+      "$section": "contact-map-hours"
+    },
+    {
+      "$section": "footer-centered-social"
+    }
+  ]
+}

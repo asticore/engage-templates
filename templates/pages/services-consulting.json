@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "slug": "services-consulting",
+    "kind": "page",
+    "title": "Consulting services page",
+    "category": "services",
+    "description": "Services page for consultants and firms: split hero, icon service grid, sticky process steps, client quotes, FAQ and contact.",
+    "tags": [
+      "services",
+      "consulting",
+      "process",
+      "professional"
+    ],
+    "industry": [
+      "legal",
+      "fintech",
+      "general"
+    ],
+    "style": "ocean",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "$section": "header-logo-links-cta"
+    },
+    {
+      "$section": "hero-split-photo"
+    },
+    {
+      "$section": "features-icon-grid"
+    },
+    {
+      "$section": "process-sticky-steps"
+    },
+    {
+      "$section": "testimonials-three-cards"
+    },
+    {
+      "$section": "faq-two-column"
+    },
+    {
+      "$section": "contact-split-details-form"
+    },
+    {
+      "$section": "footer-four-column"
+    }
+  ]
+}

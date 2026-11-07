@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "slug": "hospitality-restaurant",
+    "kind": "page",
+    "title": "Restaurant page",
+    "category": "hospitality",
+    "description": "Restaurant or cafe page: elegant serif hero, story, menu price list, gallery, reviews, map with opening hours and newsletter.",
+    "tags": [
+      "restaurant",
+      "menu",
+      "cafe",
+      "dining"
+    ],
+    "industry": [
+      "restaurant",
+      "travel"
+    ],
+    "style": "luxe",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "$section": "header-centered-logo"
+    },
+    {
+      "$section": "hero-luxe-serif"
+    },
+    {
+      "$section": "content-split-story"
+    },
+    {
+      "$section": "pricing-menu-list"
+    },
+    {
+      "$section": "gallery-carousel"
+    },
+    {
+      "$section": "testimonials-three-cards"
+    },
+    {
+      "$section": "contact-map-hours"
+    },
+    {
+      "$section": "newsletter-card-image"
+    },
+    {
+      "$section": "footer-centered-social"
+    }
+  ]
+}

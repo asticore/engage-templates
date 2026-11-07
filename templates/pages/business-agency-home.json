@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "slug": "business-agency-home",
+    "kind": "page",
+    "title": "Agency home page",
+    "category": "business",
+    "description": "Home page for a creative or digital agency: gradient hero, press mentions, story split, tabbed services, team grid, gallery and contact call to action.",
+    "tags": [
+      "home",
+      "agency",
+      "studio",
+      "portfolio"
+    ],
+    "industry": [
+      "agency",
+      "media"
+    ],
+    "style": "sunset",
+    "frameworks": [
+      "shine",
+      "effix"
+    ]
+  },
+  "tree": [
+    {
+      "$section": "header-logo-links-cta"
+    },
+    {
+      "$section": "hero-centered-gradient"
+    },
+    {
+      "$section": "logos-press-mentions"
+    },
+    {
+      "$section": "content-split-story"
+    },
+    {
+      "$section": "features-tabs"
+    },
+    {
+      "$section": "team-four-grid"
+    },
+    {
+      "$section": "gallery-grid"
+    },
+    {
+      "$section": "cta-split-image"
+    },
+    {
+      "$section": "footer-four-column"
+    }
+  ]
+}
