@@ -1,0 +1,205 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 64,
+        "paddingBottom": 40,
+        "mobile": {
+          "paddingTop": 48,
+          "paddingBottom": 32
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#faf5ff",
+        "textColor": "#1e1033",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "alignItems": "center",
+          "contentWidth": "boxed",
+          "boxedWidth": 900
+        }
+      },
+      "columns": [
+        {
+          "label": "Footer",
+          "width": 12,
+          "layout": {
+            "gap": 20
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-logo",
+              "props": {
+                "width": 140,
+                "alt": ""
+              },
+              "design": {
+                "selfAlign": "center"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Made with care, shared with joy.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#6b5b7b",
+                "fontSize": 17
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "social-icons",
+              "props": {
+                "items": [
+                  {
+                    "network": "instagram",
+                    "address": "https://instagram.com/"
+                  },
+                  {
+                    "network": "facebook",
+                    "address": "https://facebook.com/"
+                  },
+                  {
+                    "network": "linkedin",
+                    "address": "https://linkedin.com/"
+                  },
+                  {
+                    "network": "youtube",
+                    "address": "https://youtube.com/"
+                  }
+                ],
+                "shape": "circle",
+                "size": 20,
+                "align": "center",
+                "mode": "follow"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "divider",
+              "props": {
+                "showLine": true,
+                "gap": 8,
+                "style": "solid",
+                "weight": 1,
+                "width": 100,
+                "align": "center"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "© 2026 Your Business. All rights reserved.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "fontSize": 13,
+                "textColor": "#6b5b7b"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "footer-centered-social",
+    "title": "Centered footer with social icons",
+    "category": "footer",
+    "description": "Centered logo, one-line tagline, round social icons and a small copyright line on a soft tinted background. Works unchanged on mobile.",
+    "tags": [
+      "footer",
+      "centered",
+      "social",
+      "logo"
+    ],
+    "industry": [
+      "general",
+      "personal",
+      "events"
+    ],
+    "theme": "light",
+    "style": "candy",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

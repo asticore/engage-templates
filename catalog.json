@@ -1,0 +1,1937 @@
+{
+  "name": "Engage Templates (Shine + Effix)",
+  "schemaVersion": 1,
+  "frameworks": {
+    "shine": {
+      "css": "https://cdn.jsdelivr.net/gh/asticore/shine@main/dist/shine.min.css",
+      "repo": "https://github.com/asticore/shine"
+    },
+    "effix": {
+      "css": "https://cdn.jsdelivr.net/gh/asticore/effix@main/dist/effix.min.css",
+      "js": "https://cdn.jsdelivr.net/gh/asticore/effix@main/dist/effix.min.js",
+      "repo": "https://github.com/asticore/effix"
+    }
+  },
+  "categories": {
+    "sections": [
+      {
+        "id": "announcement",
+        "label": "Announcement",
+        "description": "Thin full-width strip above the header for news or offers.",
+        "keywords": [
+          "banner",
+          "notice",
+          "promo",
+          "strip"
+        ],
+        "count": 2
+      },
+      {
+        "id": "header",
+        "label": "Header",
+        "description": "Site header / navigation bar with logo, menu and call to action.",
+        "keywords": [
+          "navbar",
+          "nav",
+          "menu",
+          "navigation"
+        ],
+        "count": 3
+      },
+      {
+        "id": "hero",
+        "label": "Hero",
+        "description": "First screen of a page: headline, supporting text, buttons, picture or background.",
+        "keywords": [
+          "intro",
+          "banner",
+          "above the fold",
+          "landing"
+        ],
+        "count": 6
+      },
+      {
+        "id": "logos",
+        "label": "Logos",
+        "description": "Client, partner or press logo strips.",
+        "keywords": [
+          "clients",
+          "partners",
+          "press",
+          "featured in",
+          "trust"
+        ],
+        "count": 2
+      },
+      {
+        "id": "features",
+        "label": "Features",
+        "description": "Grids and lists of features, benefits or services.",
+        "keywords": [
+          "benefits",
+          "services",
+          "icons",
+          "grid",
+          "bento"
+        ],
+        "count": 5
+      },
+      {
+        "id": "content",
+        "label": "Content",
+        "description": "Text and picture split panels, story blocks, long-form content.",
+        "keywords": [
+          "about",
+          "split",
+          "image text",
+          "story"
+        ],
+        "count": 2
+      },
+      {
+        "id": "stats",
+        "label": "Stats",
+        "description": "Numbers, counters and key metrics.",
+        "keywords": [
+          "numbers",
+          "metrics",
+          "counters",
+          "kpi"
+        ],
+        "count": 2
+      },
+      {
+        "id": "process",
+        "label": "Process",
+        "description": "Steps, timelines and how-it-works sections.",
+        "keywords": [
+          "steps",
+          "how it works",
+          "timeline",
+          "workflow"
+        ],
+        "count": 2
+      },
+      {
+        "id": "testimonials",
+        "label": "Testimonials",
+        "description": "Customer quotes, reviews and ratings.",
+        "keywords": [
+          "reviews",
+          "quotes",
+          "social proof",
+          "ratings"
+        ],
+        "count": 3
+      },
+      {
+        "id": "pricing",
+        "label": "Pricing",
+        "description": "Plans, price tables and comparison.",
+        "keywords": [
+          "plans",
+          "price",
+          "tiers",
+          "subscription"
+        ],
+        "count": 3
+      },
+      {
+        "id": "team",
+        "label": "Team",
+        "description": "People, staff and author profiles.",
+        "keywords": [
+          "people",
+          "staff",
+          "about us",
+          "members"
+        ],
+        "count": 2
+      },
+      {
+        "id": "faq",
+        "label": "FAQ",
+        "description": "Frequently asked questions in accordions or lists.",
+        "keywords": [
+          "questions",
+          "accordion",
+          "help"
+        ],
+        "count": 2
+      },
+      {
+        "id": "cta",
+        "label": "Call to action",
+        "description": "Conversion bands that ask the visitor to act.",
+        "keywords": [
+          "cta",
+          "signup",
+          "conversion",
+          "banner"
+        ],
+        "count": 3
+      },
+      {
+        "id": "newsletter",
+        "label": "Newsletter",
+        "description": "Email sign-up blocks.",
+        "keywords": [
+          "subscribe",
+          "email",
+          "signup"
+        ],
+        "count": 2
+      },
+      {
+        "id": "contact",
+        "label": "Contact",
+        "description": "Contact details, maps, hours and forms.",
+        "keywords": [
+          "map",
+          "address",
+          "hours",
+          "form",
+          "location"
+        ],
+        "count": 2
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "description": "Picture galleries, carousels and portfolio grids.",
+        "keywords": [
+          "images",
+          "portfolio",
+          "photos",
+          "carousel"
+        ],
+        "count": 2
+      },
+      {
+        "id": "blog",
+        "label": "Blog",
+        "description": "Post lists, article cards and news grids.",
+        "keywords": [
+          "posts",
+          "articles",
+          "news"
+        ],
+        "count": 2
+      },
+      {
+        "id": "commerce",
+        "label": "Commerce",
+        "description": "Product highlights, collections and shop promos.",
+        "keywords": [
+          "shop",
+          "products",
+          "store",
+          "ecommerce"
+        ],
+        "count": 2
+      },
+      {
+        "id": "footer",
+        "label": "Footer",
+        "description": "Site footers with links, contact and social icons.",
+        "keywords": [
+          "sitemap",
+          "bottom",
+          "links",
+          "social"
+        ],
+        "count": 3
+      }
+    ],
+    "pages": [
+      {
+        "id": "landing",
+        "label": "Landing pages",
+        "description": "Single-page product or campaign landing pages.",
+        "keywords": [
+          "saas",
+          "product",
+          "campaign"
+        ],
+        "count": 0
+      },
+      {
+        "id": "business",
+        "label": "Business pages",
+        "description": "Home pages for agencies, firms and local businesses.",
+        "keywords": [
+          "agency",
+          "company",
+          "corporate",
+          "local"
+        ],
+        "count": 0
+      },
+      {
+        "id": "about",
+        "label": "About pages",
+        "description": "Company story, values and team.",
+        "keywords": [
+          "story",
+          "team",
+          "mission"
+        ],
+        "count": 0
+      },
+      {
+        "id": "services",
+        "label": "Services pages",
+        "description": "Service lists with process and pricing.",
+        "keywords": [
+          "offer",
+          "services"
+        ],
+        "count": 0
+      },
+      {
+        "id": "contact-page",
+        "label": "Contact pages",
+        "description": "Full contact page with details, map and form.",
+        "keywords": [
+          "contact",
+          "location"
+        ],
+        "count": 0
+      },
+      {
+        "id": "pricing-page",
+        "label": "Pricing pages",
+        "description": "Plans with FAQ and comparison.",
+        "keywords": [
+          "plans",
+          "pricing"
+        ],
+        "count": 0
+      },
+      {
+        "id": "portfolio",
+        "label": "Portfolio pages",
+        "description": "Showcase for creatives and studios.",
+        "keywords": [
+          "work",
+          "case studies",
+          "creative"
+        ],
+        "count": 0
+      },
+      {
+        "id": "hospitality",
+        "label": "Hospitality pages",
+        "description": "Restaurants, cafes and hotels.",
+        "keywords": [
+          "restaurant",
+          "menu",
+          "cafe",
+          "hotel"
+        ],
+        "count": 0
+      },
+      {
+        "id": "events",
+        "label": "Event pages",
+        "description": "Conferences, launches and weddings.",
+        "keywords": [
+          "conference",
+          "speakers",
+          "schedule"
+        ],
+        "count": 0
+      },
+      {
+        "id": "health",
+        "label": "Health & wellness pages",
+        "description": "Clinics, gyms, studios and salons.",
+        "keywords": [
+          "clinic",
+          "fitness",
+          "yoga",
+          "salon"
+        ],
+        "count": 0
+      },
+      {
+        "id": "shop",
+        "label": "Shop pages",
+        "description": "Store front and product launch pages.",
+        "keywords": [
+          "store",
+          "product",
+          "ecommerce"
+        ],
+        "count": 0
+      }
+    ]
+  },
+  "styles": [
+    {
+      "id": "shine-light",
+      "label": "Shine Light",
+      "theme": "light",
+      "colors": {
+        "primary": "#4f46e5",
+        "onPrimary": "#ffffff",
+        "secondary": "#0ea5e9",
+        "accent": "#f59e0b",
+        "bg": "#ffffff",
+        "surface": "#f8fafc",
+        "surface2": "#eef2ff",
+        "text": "#0f172a",
+        "muted": "#64748b",
+        "border": "#e2e8f0"
+      },
+      "fonts": {
+        "heading": "inter",
+        "body": "inter"
+      }
+    },
+    {
+      "id": "shine-dark",
+      "label": "Shine Dark",
+      "theme": "dark",
+      "colors": {
+        "primary": "#818cf8",
+        "onPrimary": "#0b1020",
+        "secondary": "#22d3ee",
+        "accent": "#f472b6",
+        "bg": "#0b1020",
+        "surface": "#111827",
+        "surface2": "#1e1b4b",
+        "text": "#f8fafc",
+        "muted": "#94a3b8",
+        "border": "#1f2937"
+      },
+      "fonts": {
+        "heading": "inter",
+        "body": "inter"
+      }
+    },
+    {
+      "id": "ocean",
+      "label": "Ocean",
+      "theme": "light",
+      "colors": {
+        "primary": "#0369a1",
+        "onPrimary": "#ffffff",
+        "secondary": "#14b8a6",
+        "accent": "#f97316",
+        "bg": "#ffffff",
+        "surface": "#f0f9ff",
+        "surface2": "#e0f2fe",
+        "text": "#0c1a2b",
+        "muted": "#475569",
+        "border": "#dbeafe"
+      },
+      "fonts": {
+        "heading": "montserrat",
+        "body": "inter"
+      }
+    },
+    {
+      "id": "sunset",
+      "label": "Sunset",
+      "theme": "mixed",
+      "colors": {
+        "primary": "#e11d48",
+        "onPrimary": "#ffffff",
+        "secondary": "#f97316",
+        "accent": "#facc15",
+        "bg": "#fff7ed",
+        "surface": "#ffffff",
+        "surface2": "#ffe4e6",
+        "text": "#1c1917",
+        "muted": "#78716c",
+        "border": "#fed7aa",
+        "dark": "#1c1917"
+      },
+      "fonts": {
+        "heading": "jost",
+        "body": "inter"
+      }
+    },
+    {
+      "id": "forest",
+      "label": "Forest",
+      "theme": "light",
+      "colors": {
+        "primary": "#166534",
+        "onPrimary": "#ffffff",
+        "secondary": "#65a30d",
+        "accent": "#ca8a04",
+        "bg": "#fbfaf5",
+        "surface": "#f3f1e7",
+        "surface2": "#dcfce7",
+        "text": "#1a2e1f",
+        "muted": "#57534e",
+        "border": "#e7e5d8"
+      },
+      "fonts": {
+        "heading": "playfair",
+        "body": "inter"
+      }
+    },
+    {
+      "id": "mono",
+      "label": "Mono",
+      "theme": "light",
+      "colors": {
+        "primary": "#111111",
+        "onPrimary": "#ffffff",
+        "secondary": "#525252",
+        "accent": "#ef4444",
+        "bg": "#ffffff",
+        "surface": "#f5f5f5",
+        "surface2": "#e5e5e5",
+        "text": "#0a0a0a",
+        "muted": "#737373",
+        "border": "#e5e5e5"
+      },
+      "fonts": {
+        "heading": "jost",
+        "body": "inter"
+      }
+    },
+    {
+      "id": "luxe",
+      "label": "Luxe",
+      "theme": "dark",
+      "colors": {
+        "primary": "#c8a45d",
+        "onPrimary": "#111111",
+        "secondary": "#e7d5ae",
+        "accent": "#8b5e34",
+        "bg": "#0e0d0b",
+        "surface": "#1a1815",
+        "surface2": "#26221c",
+        "text": "#f5efe3",
+        "muted": "#a8a29e",
+        "border": "#2e2a23"
+      },
+      "fonts": {
+        "heading": "cormorant",
+        "body": "jost"
+      }
+    },
+    {
+      "id": "candy",
+      "label": "Candy",
+      "theme": "light",
+      "colors": {
+        "primary": "#9333ea",
+        "onPrimary": "#ffffff",
+        "secondary": "#ec4899",
+        "accent": "#06b6d4",
+        "bg": "#ffffff",
+        "surface": "#faf5ff",
+        "surface2": "#fce7f3",
+        "text": "#1e1033",
+        "muted": "#6b5b7b",
+        "border": "#f3e8ff"
+      },
+      "fonts": {
+        "heading": "montserrat",
+        "body": "inter"
+      }
+    }
+  ],
+  "items": [
+    {
+      "slug": "announcement-bar-offer",
+      "kind": "section",
+      "title": "Centered offer strip with link",
+      "category": "announcement",
+      "categoryLabel": "Announcement",
+      "description": "Slim primary-colored strip with one centered line of offer text and a small link button. Wraps and stays centered on mobile.",
+      "tags": [
+        "announcement",
+        "strip",
+        "centered",
+        "offer"
+      ],
+      "industry": [
+        "ecommerce",
+        "general"
+      ],
+      "theme": "light",
+      "style": "shine-light",
+      "frameworks": [
+        "shine"
+      ],
+      "preview": "previews/announcement-bar-offer.png",
+      "file": "items/announcement-bar-offer.json"
+    },
+    {
+      "slug": "announcement-bar-dark-link",
+      "kind": "section",
+      "title": "Dark strip with text left and link right",
+      "category": "announcement",
+      "categoryLabel": "Announcement",
+      "description": "Dark slim bar with an update on the left and a Read more link on the right. Stacks into two tight lines on mobile.",
+      "tags": [
+        "announcement",
+        "dark",
+        "strip",
+        "link"
+      ],
+      "industry": [
+        "saas",
+        "devtools",
+        "general"
+      ],
+      "theme": "dark",
+      "style": "shine-dark",
+      "frameworks": [
+        "shine"
+      ],
+      "preview": "previews/announcement-bar-dark-link.png",
+      "file": "items/announcement-bar-dark-link.json"
+    },
+    {
+      "slug": "header-centered-logo",
+      "kind": "section",
+      "title": "Centered logo above menu row",
+      "category": "header",
+      "categoryLabel": "Header",
+      "description": "Elegant header with the logo centered on top and a centered navigation row beneath a fine rule. Collapses to logo plus hamburger on mobile.",
+      "tags": [
+        "header",
+        "centered",
+        "elegant",
+        "logo",
+        "serif"
+      ],
+      "industry": [
+        "restaurant",
+        "real-estate",
+        "personal",
+        "general"
+      ],
+      "theme": "light",
+      "style": "forest",
+      "frameworks": [
+        "shine"
+      ],
+      "preview": "previews/header-centered-logo.png",
+      "file": "items/header-centered-logo.json"
+    },
+    {
+      "slug": "header-dark-transparent",
+      "kind": "section",
+      "title": "Dark header for dark heroes",
+      "category": "header",
+      "categoryLabel": "Header",
+      "description": "Dark bar with logo left, menu centered and a glowing outline button right. Blends into a dark hero; hamburger and logo only on mobile.",
+      "tags": [
+        "header",
+        "dark",
+        "navbar",
+        "logo",
+        "blend"
+      ],
+      "industry": [
+        "saas",
+        "ai",
+        "devtools"
+      ],
+      "theme": "dark",
+      "style": "shine-dark",
+      "frameworks": [
+        "shine"
+      ],
+      "preview": "previews/header-dark-transparent.png",
+      "file": "items/header-dark-transparent.json"
+    },
+    {
+      "slug": "header-logo-links-cta",
+      "kind": "section",
+      "title": "Header with logo, centered menu and button",
+      "category": "header",
+      "categoryLabel": "Header",
+      "description": "Logo on the left, navigation in the middle and a primary button on the right. On mobile only the logo and a hamburger menu remain.",
+      "tags": [
+        "header",
+        "navbar",
+        "logo",
+        "cta",
+        "sticky"
+      ],
+      "industry": [
+        "general",
+        "saas",
+        "agency"
+      ],
+      "theme": "light",
+      "style": "ocean",
+      "frameworks": [
+        "shine"
+      ],
+      "preview": "previews/header-logo-links-cta.png",
+      "file": "items/header-logo-links-cta.json"
+    },
+    {
+      "slug": "hero-app-showcase",
+      "kind": "section",
+      "title": "App hero with copy, checklist and phone photo",
+      "category": "hero",
+      "categoryLabel": "Hero",
+      "description": "Headline, three check points and download buttons on the left with a phone mockup photo on the right. Stacks with the photo below on mobile.",
+      "tags": [
+        "hero",
+        "app",
+        "split",
+        "photo",
+        "checklist",
+        "two buttons"
+      ],
+      "industry": [
+        "saas",
+        "fitness",
+        "health",
+        "fintech"
+      ],
+      "theme": "light",
+      "style": "candy",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/hero-app-showcase.png",
+      "file": "items/hero-app-showcase.json"
+    },
+    {
+      "slug": "hero-centered-gradient",
+      "kind": "section",
+      "title": "Centered hero on aurora gradient with wave",
+      "category": "hero",
+      "categoryLabel": "Hero",
+      "description": "Centered eyebrow, headline, text and two buttons on a warm gradient with an aurora glow and a wave divider. Everything stacks and scales down on mobile.",
+      "tags": [
+        "hero",
+        "centered",
+        "gradient",
+        "aurora",
+        "wave",
+        "two buttons"
+      ],
+      "industry": [
+        "agency",
+        "events",
+        "general"
+      ],
+      "theme": "mixed",
+      "style": "sunset",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/hero-centered-gradient.png",
+      "file": "items/hero-centered-gradient.json"
+    },
+    {
+      "slug": "hero-dark-particles",
+      "kind": "section",
+      "title": "Dark hero with particles and stats row",
+      "category": "hero",
+      "categoryLabel": "Hero",
+      "description": "Centered copy on a deep dark background with interactive particles, two buttons and a compact row of animated stats. Stats wrap and center on mobile.",
+      "tags": [
+        "hero",
+        "dark",
+        "particles",
+        "centered",
+        "stats",
+        "animated"
+      ],
+      "industry": [
+        "ai",
+        "devtools",
+        "saas",
+        "fintech"
+      ],
+      "theme": "dark",
+      "style": "shine-dark",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/hero-dark-particles.png",
+      "file": "items/hero-dark-particles.json"
+    },
+    {
+      "slug": "hero-fullscreen-image-overlay",
+      "kind": "section",
+      "title": "Fullscreen photo hero with overlay and left copy",
+      "category": "hero",
+      "categoryLabel": "Hero",
+      "description": "Tall hero over a slowly zooming mountain photo with a dark overlay and left-aligned copy and buttons. Text stays readable and buttons wrap on mobile.",
+      "tags": [
+        "hero",
+        "fullscreen",
+        "photo",
+        "overlay",
+        "ken burns",
+        "left"
+      ],
+      "industry": [
+        "travel",
+        "nonprofit",
+        "events"
+      ],
+      "theme": "light",
+      "style": "forest",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/hero-fullscreen-image-overlay.png",
+      "file": "items/hero-fullscreen-image-overlay.json"
+    },
+    {
+      "slug": "hero-luxe-serif",
+      "kind": "section",
+      "title": "Luxe serif hero with wide photo below",
+      "category": "hero",
+      "categoryLabel": "Hero",
+      "description": "Centered serif headline and two buttons on a dark gold-accent canvas, with a wide rounded photo beneath. Photo and text scale cleanly on mobile.",
+      "tags": [
+        "hero",
+        "luxe",
+        "serif",
+        "centered",
+        "photo",
+        "elegant"
+      ],
+      "industry": [
+        "travel",
+        "real-estate",
+        "restaurant"
+      ],
+      "theme": "dark",
+      "style": "luxe",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/hero-luxe-serif.png",
+      "file": "items/hero-luxe-serif.json"
+    },
+    {
+      "slug": "hero-split-photo",
+      "kind": "section",
+      "title": "Split hero with photo",
+      "category": "hero",
+      "categoryLabel": "Hero",
+      "description": "Headline, supporting text and two buttons on the left; a large rounded photo on the right. Stacks on mobile.",
+      "tags": [
+        "hero",
+        "split",
+        "photo",
+        "two buttons"
+      ],
+      "industry": [
+        "saas",
+        "agency",
+        "general"
+      ],
+      "theme": "light",
+      "style": "shine-light",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/hero-split-photo.png",
+      "file": "items/hero-split-photo.json"
+    },
+    {
+      "slug": "logos-press-mentions",
+      "kind": "section",
+      "title": "As seen in row with quote snippets",
+      "category": "logos",
+      "categoryLabel": "Logos",
+      "description": "An As seen in label over four fictional publication names, each with a one-line quote. Four across on desktop, two on tablet, one column on mobile.",
+      "tags": [
+        "logos",
+        "press",
+        "quotes",
+        "grid",
+        "as seen in"
+      ],
+      "industry": [
+        "general",
+        "ecommerce",
+        "restaurant",
+        "media"
+      ],
+      "theme": "light",
+      "style": "forest",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/logos-press-mentions.png",
+      "file": "items/logos-press-mentions.json"
+    },
+    {
+      "slug": "logos-wordmark-strip",
+      "kind": "section",
+      "title": "Trusted by heading with six wordmark grid",
+      "category": "logos",
+      "categoryLabel": "Logos",
+      "description": "Small Trusted by heading above a six-up grid of muted fictional wordmarks. Three per row on tablet and two per row on mobile.",
+      "tags": [
+        "logos",
+        "grid",
+        "trust",
+        "wordmarks",
+        "minimal"
+      ],
+      "industry": [
+        "saas",
+        "agency",
+        "general"
+      ],
+      "theme": "light",
+      "style": "mono",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/logos-wordmark-strip.png",
+      "file": "items/logos-wordmark-strip.json"
+    },
+    {
+      "slug": "features-bento-cards",
+      "kind": "section",
+      "title": "Bento grid of mixed-width feature cards",
+      "category": "features",
+      "categoryLabel": "Features",
+      "description": "Two rows of colourful feature tiles in 8/4 and 4/8 proportions with a centered heading; tiles stack full width on phones.",
+      "tags": [
+        "features",
+        "bento",
+        "cards",
+        "grid",
+        "colorful"
+      ],
+      "industry": [
+        "ecommerce",
+        "restaurant",
+        "general"
+      ],
+      "theme": "mixed",
+      "style": "sunset",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/features-bento-cards.png",
+      "file": "items/features-bento-cards.json"
+    },
+    {
+      "slug": "features-icon-grid",
+      "kind": "section",
+      "title": "Centered heading with six-card icon grid",
+      "category": "features",
+      "categoryLabel": "Features",
+      "description": "Centered heading above a grid of six icon cards that reveal in sequence; 3 columns on desktop, 2 on tablet and 1 on phones.",
+      "tags": [
+        "features",
+        "grid",
+        "icons",
+        "centered",
+        "animated"
+      ],
+      "industry": [
+        "saas",
+        "agency",
+        "general"
+      ],
+      "theme": "light",
+      "style": "shine-light",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/features-icon-grid.png",
+      "file": "items/features-icon-grid.json"
+    },
+    {
+      "slug": "features-dark-cards-glow",
+      "kind": "section",
+      "title": "Dark trio of glowing spotlight cards",
+      "category": "features",
+      "categoryLabel": "Features",
+      "description": "Dark band with a centered heading and three cards that glow at the edge and follow the pointer; cards stack on phones.",
+      "tags": [
+        "features",
+        "dark",
+        "cards",
+        "glow",
+        "spotlight",
+        "animated"
+      ],
+      "industry": [
+        "saas",
+        "ai",
+        "devtools"
+      ],
+      "theme": "dark",
+      "style": "shine-dark",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/features-dark-cards-glow.png",
+      "file": "items/features-dark-cards-glow.json"
+    },
+    {
+      "slug": "features-tabs",
+      "kind": "section",
+      "title": "Tabbed feature panels with image and text",
+      "category": "features",
+      "categoryLabel": "Features",
+      "description": "Centered heading above three tabs; each panel pairs a photo with text and a checklist, and panels stack on mobile.",
+      "tags": [
+        "features",
+        "tabs",
+        "photo",
+        "interactive",
+        "centered"
+      ],
+      "industry": [
+        "travel",
+        "general",
+        "real-estate"
+      ],
+      "theme": "light",
+      "style": "candy",
+      "frameworks": [
+        "shine"
+      ],
+      "preview": "previews/features-tabs.png",
+      "file": "items/features-tabs.json"
+    },
+    {
+      "slug": "features-alternating-rows",
+      "kind": "section",
+      "title": "Three alternating image and text rows",
+      "category": "features",
+      "categoryLabel": "Features",
+      "description": "Three feature rows with a photo and a checklist, alternating sides; each row stacks image-under-text on mobile.",
+      "tags": [
+        "features",
+        "alternating",
+        "photo",
+        "checklist",
+        "split"
+      ],
+      "industry": [
+        "saas",
+        "agency",
+        "general"
+      ],
+      "theme": "light",
+      "style": "ocean",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/features-alternating-rows.png",
+      "file": "items/features-alternating-rows.json"
+    },
+    {
+      "slug": "content-image-text-stats",
+      "kind": "section",
+      "title": "Large photo beside text with three counters",
+      "category": "content",
+      "categoryLabel": "Content",
+      "description": "Big photo on the left; headline, paragraph and three animated stats on the right. Stacks with the photo on top on mobile.",
+      "tags": [
+        "content",
+        "split",
+        "photo",
+        "stats",
+        "counters",
+        "animated"
+      ],
+      "industry": [
+        "legal",
+        "health",
+        "general"
+      ],
+      "theme": "light",
+      "style": "mono",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/content-image-text-stats.png",
+      "file": "items/content-image-text-stats.json"
+    },
+    {
+      "slug": "content-split-story",
+      "kind": "section",
+      "title": "Our story split with photo and quote",
+      "category": "content",
+      "categoryLabel": "Content",
+      "description": "Eyebrow, headline, two paragraphs and a signed quote on the left with a tall photo on the right; stacks with photo first on phones.",
+      "tags": [
+        "story",
+        "about",
+        "split",
+        "photo",
+        "quote"
+      ],
+      "industry": [
+        "restaurant",
+        "personal",
+        "general"
+      ],
+      "theme": "light",
+      "style": "forest",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/content-split-story.png",
+      "file": "items/content-split-story.json"
+    },
+    {
+      "slug": "stats-dark-band",
+      "kind": "section",
+      "title": "Dark band with heading and three stats",
+      "category": "stats",
+      "categoryLabel": "Stats",
+      "description": "Dark band with an eyebrow and headline on the left and three animated metrics on the right; stacks on phones.",
+      "tags": [
+        "stats",
+        "dark",
+        "band",
+        "counters",
+        "split",
+        "animated"
+      ],
+      "industry": [
+        "saas",
+        "devtools",
+        "fintech"
+      ],
+      "theme": "dark",
+      "style": "luxe",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/stats-dark-band.png",
+      "file": "items/stats-dark-band.json"
+    },
+    {
+      "slug": "stats-four-counters",
+      "kind": "section",
+      "title": "Four animated counters on a surface band",
+      "category": "stats",
+      "categoryLabel": "Stats",
+      "description": "Four count-up numbers in a row on a soft surface band with wave dividers; 2 by 2 on phones.",
+      "tags": [
+        "stats",
+        "counters",
+        "animated",
+        "band",
+        "four columns"
+      ],
+      "industry": [
+        "ecommerce",
+        "restaurant",
+        "general"
+      ],
+      "theme": "light",
+      "style": "ocean",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/stats-four-counters.png",
+      "file": "items/stats-four-counters.json"
+    },
+    {
+      "slug": "process-numbered-steps",
+      "kind": "section",
+      "title": "Four numbered steps in a grid",
+      "category": "process",
+      "categoryLabel": "Process",
+      "description": "Centered heading above four steps with oversized numbers 01 to 04 and short descriptions; 4 columns, then 2, then 1 on phones.",
+      "tags": [
+        "process",
+        "steps",
+        "numbered",
+        "grid",
+        "centered"
+      ],
+      "industry": [
+        "real-estate",
+        "general",
+        "agency"
+      ],
+      "theme": "mixed",
+      "style": "sunset",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/process-numbered-steps.png",
+      "file": "items/process-numbered-steps.json"
+    },
+    {
+      "slug": "process-sticky-steps",
+      "kind": "section",
+      "title": "Sticky step titles with scrolling panels",
+      "category": "process",
+      "categoryLabel": "Process",
+      "description": "Four steps whose titles stay pinned while image-and-text panels scroll past; collapses to a simple stacked list on phones.",
+      "tags": [
+        "process",
+        "steps",
+        "sticky",
+        "photo",
+        "scroll"
+      ],
+      "industry": [
+        "agency",
+        "devtools",
+        "general"
+      ],
+      "theme": "light",
+      "style": "shine-light",
+      "frameworks": [
+        "shine"
+      ],
+      "preview": "previews/process-sticky-steps.png",
+      "file": "items/process-sticky-steps.json"
+    },
+    {
+      "slug": "testimonials-carousel-quote",
+      "kind": "section",
+      "title": "Quote carousel",
+      "category": "testimonials",
+      "categoryLabel": "Testimonials",
+      "description": "One large centered quote per slide with a round portrait and stars; arrows move between three slides.",
+      "tags": [
+        "testimonials",
+        "carousel",
+        "quote",
+        "centered",
+        "animated"
+      ],
+      "industry": [
+        "restaurant",
+        "health",
+        "general"
+      ],
+      "theme": "light",
+      "style": "forest",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/testimonials-carousel-quote.png",
+      "file": "items/testimonials-carousel-quote.json"
+    },
+    {
+      "slug": "testimonials-photo-split",
+      "kind": "section",
+      "title": "Testimonial with large portrait",
+      "category": "testimonials",
+      "categoryLabel": "Testimonials",
+      "description": "Large portrait on the left, big quote with rating, name and role on the right; stacks with the photo on top on mobile.",
+      "tags": [
+        "testimonials",
+        "split",
+        "photo",
+        "rating"
+      ],
+      "industry": [
+        "health",
+        "fitness",
+        "personal"
+      ],
+      "theme": "mixed",
+      "style": "sunset",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/testimonials-photo-split.png",
+      "file": "items/testimonials-photo-split.json"
+    },
+    {
+      "slug": "testimonials-three-cards",
+      "kind": "section",
+      "title": "Three testimonial cards",
+      "category": "testimonials",
+      "categoryLabel": "Testimonials",
+      "description": "Three review cards with star ratings, quote and a round portrait; lift on hover and stack to one column on mobile.",
+      "tags": [
+        "testimonials",
+        "cards",
+        "grid",
+        "photo",
+        "stars"
+      ],
+      "industry": [
+        "saas",
+        "agency",
+        "general"
+      ],
+      "theme": "light",
+      "style": "shine-light",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/testimonials-three-cards.png",
+      "file": "items/testimonials-three-cards.json"
+    },
+    {
+      "slug": "pricing-three-tier",
+      "kind": "section",
+      "title": "Three-tier pricing cards",
+      "category": "pricing",
+      "categoryLabel": "Pricing",
+      "description": "Three plan cards with monthly prices and check lists; the middle plan is highlighted with a badge and strong border. Stack on mobile.",
+      "tags": [
+        "pricing",
+        "three plans",
+        "cards",
+        "highlight",
+        "badge"
+      ],
+      "industry": [
+        "saas",
+        "devtools",
+        "agency"
+      ],
+      "theme": "light",
+      "style": "ocean",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/pricing-three-tier.png",
+      "file": "items/pricing-three-tier.json"
+    },
+    {
+      "slug": "pricing-two-plan-dark",
+      "kind": "section",
+      "title": "Two plans on dark",
+      "category": "pricing",
+      "categoryLabel": "Pricing",
+      "description": "Two plan cards side by side on a dark background with a glowing featured plan and a shared \"all plans include\" check list below.",
+      "tags": [
+        "pricing",
+        "two plans",
+        "dark",
+        "glow",
+        "checklist"
+      ],
+      "industry": [
+        "saas",
+        "ai",
+        "fintech"
+      ],
+      "theme": "dark",
+      "style": "shine-dark",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/pricing-two-plan-dark.png",
+      "file": "items/pricing-two-plan-dark.json"
+    },
+    {
+      "slug": "pricing-menu-list",
+      "kind": "section",
+      "title": "Two-column price list",
+      "category": "pricing",
+      "categoryLabel": "Pricing",
+      "description": "A salon or restaurant price list in two columns: item name, dotted leader and price with a short note per row. Stacks to one column on mobile.",
+      "tags": [
+        "pricing",
+        "price list",
+        "menu",
+        "two columns",
+        "dark",
+        "salon"
+      ],
+      "industry": [
+        "restaurant",
+        "health",
+        "general"
+      ],
+      "theme": "dark",
+      "style": "luxe",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/pricing-menu-list.png",
+      "file": "items/pricing-menu-list.json"
+    },
+    {
+      "slug": "team-four-grid",
+      "kind": "section",
+      "title": "Four-person team grid",
+      "category": "team",
+      "categoryLabel": "Team",
+      "description": "Four team cards in a responsive grid: square portrait, name, role and a one-line bio. Four across on desktop, two on tablet, one on phones.",
+      "tags": [
+        "team",
+        "grid",
+        "photo",
+        "portraits"
+      ],
+      "industry": [
+        "agency",
+        "general",
+        "media"
+      ],
+      "theme": "light",
+      "style": "candy",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/team-four-grid.png",
+      "file": "items/team-four-grid.json"
+    },
+    {
+      "slug": "team-leadership-split",
+      "kind": "section",
+      "title": "Leadership split",
+      "category": "team",
+      "categoryLabel": "Team",
+      "description": "Heading and intro on the left; two leader cards stacked on the right, each with portrait, name, role and bio. Stacks on mobile.",
+      "tags": [
+        "team",
+        "leadership",
+        "split",
+        "photo",
+        "bio"
+      ],
+      "industry": [
+        "legal",
+        "fintech",
+        "general"
+      ],
+      "theme": "light",
+      "style": "mono",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/team-leadership-split.png",
+      "file": "items/team-leadership-split.json"
+    },
+    {
+      "slug": "faq-accordion-centered",
+      "kind": "section",
+      "title": "Centered FAQ accordion",
+      "category": "faq",
+      "categoryLabel": "FAQ",
+      "description": "Centered heading above a five-panel accordion of questions and answers; panels open one at a time and work well on phones.",
+      "tags": [
+        "faq",
+        "accordion",
+        "centered",
+        "questions"
+      ],
+      "industry": [
+        "general",
+        "saas",
+        "education"
+      ],
+      "theme": "light",
+      "style": "shine-light",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/faq-accordion-centered.png",
+      "file": "items/faq-accordion-centered.json"
+    },
+    {
+      "slug": "faq-two-column",
+      "kind": "section",
+      "title": "FAQ two columns with contact",
+      "category": "faq",
+      "categoryLabel": "FAQ",
+      "description": "Heading, intro and a contact button on the left; six question-and-answer pairs on the right. Stacks on mobile.",
+      "tags": [
+        "faq",
+        "two column",
+        "split",
+        "contact"
+      ],
+      "industry": [
+        "saas",
+        "agency",
+        "general"
+      ],
+      "theme": "light",
+      "style": "ocean",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/faq-two-column.png",
+      "file": "items/faq-two-column.json"
+    },
+    {
+      "slug": "cta-split-image",
+      "kind": "section",
+      "title": "CTA card with photo",
+      "category": "cta",
+      "categoryLabel": "Call to action",
+      "description": "A rounded surface card holding a headline, text and button on the left and a photo on the right; the photo moves above the text on mobile.",
+      "tags": [
+        "cta",
+        "split",
+        "photo",
+        "card"
+      ],
+      "industry": [
+        "real-estate",
+        "general",
+        "travel"
+      ],
+      "theme": "mixed",
+      "style": "sunset",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/cta-split-image.png",
+      "file": "items/cta-split-image.json"
+    },
+    {
+      "slug": "cta-dark-centered",
+      "kind": "section",
+      "title": "Dark centered call-to-action",
+      "category": "cta",
+      "categoryLabel": "Call to action",
+      "description": "A dark band with a curved top edge, a big headline and one magnetic button, all centered; spacing tightens on mobile.",
+      "tags": [
+        "cta",
+        "dark",
+        "centered",
+        "divider",
+        "magnetic"
+      ],
+      "industry": [
+        "saas",
+        "ai",
+        "devtools"
+      ],
+      "theme": "dark",
+      "style": "shine-dark",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/cta-dark-centered.png",
+      "file": "items/cta-dark-centered.json"
+    },
+    {
+      "slug": "cta-gradient-band",
+      "kind": "section",
+      "title": "Gradient call-to-action band",
+      "category": "cta",
+      "categoryLabel": "Call to action",
+      "description": "A full-width gradient band with floating particles, a centered headline, supporting text and two buttons that stack on mobile.",
+      "tags": [
+        "cta",
+        "gradient",
+        "centered",
+        "particles",
+        "two buttons"
+      ],
+      "industry": [
+        "general",
+        "saas",
+        "events"
+      ],
+      "theme": "light",
+      "style": "candy",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/cta-gradient-band.png",
+      "file": "items/cta-gradient-band.json"
+    },
+    {
+      "slug": "newsletter-inline-band",
+      "kind": "section",
+      "title": "Inline newsletter band with sign-up form",
+      "category": "newsletter",
+      "categoryLabel": "Newsletter",
+      "description": "Heading and short pitch on the left, the site email sign-up form on the right, on a soft tinted band. Pick your form in the right column after inserting; stacks on mobile.",
+      "tags": [
+        "newsletter",
+        "band",
+        "split",
+        "form",
+        "email"
+      ],
+      "industry": [
+        "general",
+        "media",
+        "ecommerce"
+      ],
+      "theme": "light",
+      "style": "shine-light",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/newsletter-inline-band.png",
+      "file": "items/newsletter-inline-band.json"
+    },
+    {
+      "slug": "newsletter-card-image",
+      "kind": "section",
+      "title": "Newsletter card over a photo background",
+      "category": "newsletter",
+      "categoryLabel": "Newsletter",
+      "description": "A centred card on a darkened photo with a heading, short pitch and the site sign-up form. Choose your form inside the card after inserting; padding tightens on mobile.",
+      "tags": [
+        "newsletter",
+        "card",
+        "photo",
+        "overlay",
+        "form",
+        "dark"
+      ],
+      "industry": [
+        "restaurant",
+        "travel",
+        "general"
+      ],
+      "theme": "dark",
+      "style": "luxe",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/newsletter-card-image.png",
+      "file": "items/newsletter-card-image.json"
+    },
+    {
+      "slug": "contact-split-details-form",
+      "kind": "section",
+      "title": "Contact details beside a form",
+      "category": "contact",
+      "categoryLabel": "Contact",
+      "description": "Phone, email and address with opening hours on the left; the site contact form on the right in a card. Choose your form after inserting; stacks on mobile.",
+      "tags": [
+        "contact",
+        "split",
+        "form",
+        "hours",
+        "icons"
+      ],
+      "industry": [
+        "general",
+        "legal",
+        "health"
+      ],
+      "theme": "light",
+      "style": "ocean",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/contact-split-details-form.png",
+      "file": "items/contact-split-details-form.json"
+    },
+    {
+      "slug": "contact-map-hours",
+      "kind": "section",
+      "title": "Map with address and opening hours",
+      "category": "contact",
+      "categoryLabel": "Contact",
+      "description": "A wide map beside the address, opening hours and a directions button. The map uses an address with no API key; it stacks under the details on mobile.",
+      "tags": [
+        "contact",
+        "map",
+        "hours",
+        "address",
+        "split"
+      ],
+      "industry": [
+        "restaurant",
+        "general",
+        "health"
+      ],
+      "theme": "light",
+      "style": "forest",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/contact-map-hours.png",
+      "file": "items/contact-map-hours.json"
+    },
+    {
+      "slug": "gallery-carousel",
+      "kind": "section",
+      "title": "Photo carousel with captions",
+      "category": "gallery",
+      "categoryLabel": "Gallery",
+      "description": "A swipeable carousel of five landscape photos, each with its caption and arrows. Shows one photo at a time on mobile.",
+      "tags": [
+        "gallery",
+        "carousel",
+        "captions",
+        "photos",
+        "animated"
+      ],
+      "industry": [
+        "travel",
+        "general",
+        "media"
+      ],
+      "theme": "mixed",
+      "style": "sunset",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/gallery-carousel.png",
+      "file": "items/gallery-carousel.json"
+    },
+    {
+      "slug": "gallery-grid",
+      "kind": "section",
+      "title": "Six-photo grid with hover zoom",
+      "category": "gallery",
+      "categoryLabel": "Gallery",
+      "description": "Heading above a three-by-two photo grid. Photos zoom gently on hover and open larger on click; two columns on tablet, one on mobile.",
+      "tags": [
+        "gallery",
+        "grid",
+        "photos",
+        "hover",
+        "lightbox"
+      ],
+      "industry": [
+        "general",
+        "agency",
+        "personal"
+      ],
+      "theme": "light",
+      "style": "mono",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/gallery-grid.png",
+      "file": "items/gallery-grid.json"
+    },
+    {
+      "slug": "blog-latest-posts",
+      "kind": "section",
+      "title": "Latest posts from the blog (dynamic)",
+      "category": "blog",
+      "categoryLabel": "Blog",
+      "description": "Heading plus the site's three newest published posts in a grid with image, date and excerpt, pulled live from the blog. Shows nothing until the blog has posts.",
+      "tags": [
+        "blog",
+        "dynamic",
+        "posts",
+        "grid",
+        "dark"
+      ],
+      "industry": [
+        "media",
+        "saas",
+        "general"
+      ],
+      "theme": "dark",
+      "style": "shine-dark",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/blog-latest-posts.png",
+      "file": "items/blog-latest-posts.json"
+    },
+    {
+      "slug": "blog-three-cards",
+      "kind": "section",
+      "title": "Three article cards with view-all button",
+      "category": "blog",
+      "categoryLabel": "Blog",
+      "description": "Heading with three image cards (photo, title, teaser, read link) and a View all button below. Cards lift on hover; they stack on mobile.",
+      "tags": [
+        "blog",
+        "cards",
+        "articles",
+        "grid",
+        "photo"
+      ],
+      "industry": [
+        "media",
+        "agency",
+        "general"
+      ],
+      "theme": "light",
+      "style": "candy",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/blog-three-cards.png",
+      "file": "items/blog-three-cards.json"
+    },
+    {
+      "slug": "commerce-product-cards",
+      "kind": "section",
+      "title": "Four product cards with price and buttons",
+      "category": "commerce",
+      "categoryLabel": "Commerce",
+      "description": "Four product photo cards, each with name, price and an Add to cart button linking to the product page. Four across on desktop, two on tablet, one on mobile.",
+      "tags": [
+        "commerce",
+        "products",
+        "cards",
+        "grid",
+        "price"
+      ],
+      "industry": [
+        "ecommerce"
+      ],
+      "theme": "light",
+      "style": "shine-light",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/commerce-product-cards.png",
+      "file": "items/commerce-product-cards.json"
+    },
+    {
+      "slug": "commerce-collection-banner",
+      "kind": "section",
+      "title": "Wide collection banner with shop button",
+      "category": "commerce",
+      "categoryLabel": "Commerce",
+      "description": "Full-width photo banner with a dark overlay, collection title, one line of copy and a Shop the collection button. Left aligned on desktop, tighter padding on mobile.",
+      "tags": [
+        "commerce",
+        "banner",
+        "collection",
+        "photo",
+        "overlay",
+        "dark"
+      ],
+      "industry": [
+        "ecommerce",
+        "general"
+      ],
+      "theme": "dark",
+      "style": "luxe",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/commerce-collection-banner.png",
+      "file": "items/commerce-collection-banner.json"
+    },
+    {
+      "slug": "footer-centered-social",
+      "kind": "section",
+      "title": "Centered footer with social icons",
+      "category": "footer",
+      "categoryLabel": "Footer",
+      "description": "Centered logo, one-line tagline, round social icons and a small copyright line on a soft tinted background. Works unchanged on mobile.",
+      "tags": [
+        "footer",
+        "centered",
+        "social",
+        "logo"
+      ],
+      "industry": [
+        "general",
+        "personal",
+        "events"
+      ],
+      "theme": "light",
+      "style": "candy",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/footer-centered-social.png",
+      "file": "items/footer-centered-social.json"
+    },
+    {
+      "slug": "footer-dark-minimal",
+      "kind": "section",
+      "title": "Dark single-row footer",
+      "category": "footer",
+      "categoryLabel": "Footer",
+      "description": "One slim dark row: site title on the left, small links in the middle, social icons on the right. Stacks and centres on mobile.",
+      "tags": [
+        "footer",
+        "minimal",
+        "dark",
+        "row",
+        "social"
+      ],
+      "industry": [
+        "saas",
+        "devtools",
+        "general"
+      ],
+      "theme": "dark",
+      "style": "shine-dark",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/footer-dark-minimal.png",
+      "file": "items/footer-dark-minimal.json"
+    },
+    {
+      "slug": "footer-four-column",
+      "kind": "section",
+      "title": "Four-column footer with social bar",
+      "category": "footer",
+      "categoryLabel": "Footer",
+      "description": "Logo and blurb plus three link columns, then a bottom bar with copyright and social icons. Columns stack on mobile.",
+      "tags": [
+        "footer",
+        "columns",
+        "links",
+        "social"
+      ],
+      "industry": [
+        "general",
+        "saas",
+        "agency"
+      ],
+      "theme": "light",
+      "style": "shine-light",
+      "frameworks": [
+        "shine",
+        "effix"
+      ],
+      "preview": "previews/footer-four-column.png",
+      "file": "items/footer-four-column.json"
+    }
+  ]
+}

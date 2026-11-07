@@ -1,0 +1,627 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#fff7ed",
+        "textColor": "#1c1917",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Intro and tiles",
+          "width": 12,
+          "layout": {
+            "gap": 20
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Loyalty, simplified",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#e11d48",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Small touches that bring people back",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.15,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "column"
+                  },
+                  "gap": {
+                    "desktop": 20,
+                    "mobile": 16
+                  },
+                  "alignItems": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Points that feel like a thank-you",
+                  "width": 6,
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#e11d48",
+                    "borderRadius": 16,
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 32,
+                    "paddingRight": 32,
+                    "mobile": {
+                      "paddingTop": 24,
+                      "paddingBottom": 24,
+                      "paddingLeft": 24,
+                      "paddingRight": 24
+                    },
+                    "boxShadow": "sm",
+                    "reveal": "fade-up",
+                    "revealDelay": 0
+                  },
+                  "layout": {
+                    "gap": 12,
+                    "vAlign": "between"
+                  },
+                  "widthDesktop": {
+                    "value": 8,
+                    "unit": "fraction"
+                  },
+                  "widthTablet": {
+                    "value": 12,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 12,
+                    "unit": "fraction"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Rewards",
+                        "tag": "h6",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "textColor": "#facc15",
+                        "textTransform": "uppercase",
+                        "letterSpacing": 2,
+                        "fontWeight": 700,
+                        "fontSize": 13
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Points that feel like a thank-you",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 28,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        },
+                        "textColor": "#ffffff"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Customers earn on every visit and spend them on what they actually want.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#ffffff",
+                        "fontSize": 17,
+                        "lineHeight": 1.65,
+                        "opacity": 90
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Give a little joy",
+                  "width": 6,
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#ffe4e6",
+                    "borderRadius": 16,
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 32,
+                    "paddingRight": 32,
+                    "mobile": {
+                      "paddingTop": 24,
+                      "paddingBottom": 24,
+                      "paddingLeft": 24,
+                      "paddingRight": 24
+                    },
+                    "boxShadow": "sm",
+                    "reveal": "fade-up",
+                    "revealDelay": 2
+                  },
+                  "layout": {
+                    "gap": 12,
+                    "vAlign": "between"
+                  },
+                  "widthDesktop": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "widthTablet": {
+                    "value": 12,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 12,
+                    "unit": "fraction"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Gift cards",
+                        "tag": "h6",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "textColor": "#e11d48",
+                        "textTransform": "uppercase",
+                        "letterSpacing": 2,
+                        "fontWeight": 700,
+                        "fontSize": 13
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Give a little joy",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 28,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        },
+                        "textColor": "#1c1917"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Digital cards in under a minute.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#78716c",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "column"
+                  },
+                  "gap": {
+                    "desktop": 20,
+                    "mobile": 16
+                  },
+                  "alignItems": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Know your regulars",
+                  "width": 6,
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#ffffff",
+                    "borderRadius": 16,
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 32,
+                    "paddingRight": 32,
+                    "mobile": {
+                      "paddingTop": 24,
+                      "paddingBottom": 24,
+                      "paddingLeft": 24,
+                      "paddingRight": 24
+                    },
+                    "boxShadow": "sm",
+                    "reveal": "fade-up",
+                    "revealDelay": 0
+                  },
+                  "layout": {
+                    "gap": 12,
+                    "vAlign": "between"
+                  },
+                  "widthDesktop": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "widthTablet": {
+                    "value": 12,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 12,
+                    "unit": "fraction"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Insights",
+                        "tag": "h6",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "textColor": "#e11d48",
+                        "textTransform": "uppercase",
+                        "letterSpacing": 2,
+                        "fontWeight": 700,
+                        "fontSize": 13
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Know your regulars",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 28,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        },
+                        "textColor": "#1c1917"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "See who comes back, and when.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#78716c",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Offers that send themselves",
+                  "width": 6,
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#f97316",
+                    "borderRadius": 16,
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 32,
+                    "paddingRight": 32,
+                    "mobile": {
+                      "paddingTop": 24,
+                      "paddingBottom": 24,
+                      "paddingLeft": 24,
+                      "paddingRight": 24
+                    },
+                    "boxShadow": "sm",
+                    "reveal": "fade-up",
+                    "revealDelay": 2
+                  },
+                  "layout": {
+                    "gap": 12,
+                    "vAlign": "between"
+                  },
+                  "widthDesktop": {
+                    "value": 8,
+                    "unit": "fraction"
+                  },
+                  "widthTablet": {
+                    "value": 12,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 12,
+                    "unit": "fraction"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Campaigns",
+                        "tag": "h6",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "textColor": "#facc15",
+                        "textTransform": "uppercase",
+                        "letterSpacing": 2,
+                        "fontWeight": 700,
+                        "fontSize": 13
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Offers that send themselves",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 28,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        },
+                        "textColor": "#ffffff"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Birthday treats, quiet-day deals and win-back notes run on autopilot once you set them.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#ffffff",
+                        "fontSize": 17,
+                        "lineHeight": 1.65,
+                        "opacity": 90
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "features-bento-cards",
+    "title": "Bento grid of mixed-width feature cards",
+    "category": "features",
+    "description": "Two rows of colourful feature tiles in 8/4 and 4/8 proportions with a centered heading; tiles stack full width on phones.",
+    "tags": [
+      "features",
+      "bento",
+      "cards",
+      "grid",
+      "colorful"
+    ],
+    "industry": [
+      "ecommerce",
+      "restaurant",
+      "general"
+    ],
+    "theme": "mixed",
+    "style": "sunset",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

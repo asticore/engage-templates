@@ -1,0 +1,596 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#0a0a0a",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#ffffff",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 64,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center"
+        }
+      },
+      "columns": [
+        {
+          "label": "Intro",
+          "layout": {
+            "gap": 20,
+            "vAlign": "middle"
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Leadership",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#111111",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Counsel you can rely on",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.1,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Our partners have spent decades guiding families and businesses through the moments that matter. They still take the first call themselves.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#737373",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Meet the full firm",
+                "url": "/team",
+                "variant": "secondary",
+                "size": "lg",
+                "align": "left"
+              }
+            }
+          ],
+          "widthDesktop": {
+            "value": 5,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        },
+        {
+          "label": "Leaders",
+          "layout": {
+            "gap": 20
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "bgType": "color",
+                "bgColor": "#f5f5f5",
+                "borderWidth": 1,
+                "borderStyle": "solid",
+                "borderColor": "#e5e5e5",
+                "borderRadius": 0,
+                "paddingTop": 20,
+                "paddingBottom": 20,
+                "paddingLeft": 20,
+                "paddingRight": 20,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              },
+              "columns": [
+                {
+                  "label": "Alistair Crane",
+                  "width": 12,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 24
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 160,
+                            "unit": "px"
+                          },
+                          "widthMobile": {
+                            "value": 160,
+                            "unit": "px"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": {
+                                  "url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&q=80&auto=format&fit=crop",
+                                  "alt": "Alistair Crane"
+                                },
+                                "alt": "Alistair Crane",
+                                "ratio": "3:4",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "borderRadius": 0
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "layout": {
+                            "gap": 8,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Alistair Crane",
+                                "tag": "h3",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontFamily": "jost",
+                                "fontSize": 24,
+                                "fontWeight": 700
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Managing partner",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#111111",
+                                "fontSize": 13,
+                                "fontWeight": 700,
+                                "textTransform": "uppercase",
+                                "letterSpacing": 1.5
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Thirty years in commercial and property law. Alistair leads the firm with a plain-spoken, no-surprises approach.",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#737373",
+                                "fontSize": 15,
+                                "lineHeight": 1.6
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "bgType": "color",
+                "bgColor": "#f5f5f5",
+                "borderWidth": 1,
+                "borderStyle": "solid",
+                "borderColor": "#e5e5e5",
+                "borderRadius": 0,
+                "paddingTop": 20,
+                "paddingBottom": 20,
+                "paddingLeft": 20,
+                "paddingRight": 20,
+                "reveal": "fade-up",
+                "revealDelay": 4
+              },
+              "columns": [
+                {
+                  "label": "Dr. Naomi Hale",
+                  "width": 12,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 24
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 160,
+                            "unit": "px"
+                          },
+                          "widthMobile": {
+                            "value": 160,
+                            "unit": "px"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": {
+                                  "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&q=80&auto=format&fit=crop",
+                                  "alt": "Dr. Naomi Hale"
+                                },
+                                "alt": "Dr. Naomi Hale",
+                                "ratio": "3:4",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "borderRadius": 0
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "layout": {
+                            "gap": 8,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Dr. Naomi Hale",
+                                "tag": "h3",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontFamily": "jost",
+                                "fontSize": 24,
+                                "fontWeight": 700
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Senior partner, family law",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#111111",
+                                "fontSize": 13,
+                                "fontWeight": 700,
+                                "textTransform": "uppercase",
+                                "letterSpacing": 1.5
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Naomi pairs rigorous preparation with real empathy, helping clients reach calm, durable agreements.",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#737373",
+                                "fontSize": 15,
+                                "lineHeight": 1.6
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "widthDesktop": {
+            "value": 7,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "team-leadership-split",
+    "title": "Leadership split",
+    "category": "team",
+    "description": "Heading and intro on the left; two leader cards stacked on the right, each with portrait, name, role and bio. Stacks on mobile.",
+    "tags": [
+      "team",
+      "leadership",
+      "split",
+      "photo",
+      "bio"
+    ],
+    "industry": [
+      "legal",
+      "fintech",
+      "general"
+    ],
+    "theme": "light",
+    "style": "mono",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [
+      {
+        "id": "portrait-m4",
+        "url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-w5",
+        "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

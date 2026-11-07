@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "slug": "hero-fullscreen-image-overlay",
+    "kind": "section",
+    "title": "Fullscreen photo hero with overlay and left copy",
+    "category": "hero",
+    "description": "Tall hero over a slowly zooming mountain photo with a dark overlay and left-aligned copy and buttons. Text stays readable and buttons wrap on mobile.",
+    "tags": [
+      "hero",
+      "fullscreen",
+      "photo",
+      "overlay",
+      "ken burns",
+      "left"
+    ],
+    "industry": [
+      "travel",
+      "nonprofit",
+      "events"
+    ],
+    "style": "forest",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "image",
+        "bgImageUrl": "img:mountains@2000",
+        "kenBurns": "zoom-in",
+        "kenBurnsDuration": 24,
+        "overlayType": "color",
+        "overlayColor": "#0b1a10",
+        "overlayOpacity": 55,
+        "minHeight": 90,
+        "minHeightUnit": "vh",
+        "textColor": "#ffffff",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 112,
+        "paddingBottom": 112,
+        "mobile": {
+          "paddingTop": 72,
+          "paddingBottom": 72,
+          "minHeight": 80,
+          "minHeightUnit": "vh"
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center",
+          "verticalAlign": "middle"
+        }
+      },
+      "columns": [
+        {
+          "label": "Copy",
+          "width": 8,
+          "layout": {
+            "gap": 24,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Guided alpine treks",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.body}}",
+                "textColor": "{{color.secondary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Walk where the maps run out",
+                "tag": "h1",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "textColor": "#ffffff",
+                "fontSize": 64,
+                "fontWeight": 600,
+                "lineHeight": 1.08,
+                "mobile": {
+                  "fontSize": 38
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": "Small groups, local guides and quiet ridgelines. Six-day routes for every pace, with huts booked and bags carried."
+              },
+              "design": {
+                "textColor": "#f1f5ee",
+                "fontSize": 19,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2,
+                "mobile": {
+                  "fontSize": 17
+                }
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "justify": "start",
+                  "wrap": true
+                },
+                "reveal": "fade-up",
+                "revealDelay": 3
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Browse treks",
+                        "url": "/treks",
+                        "variant": "primary",
+                        "size": "lg",
+                        "align": "left"
+                      },
+                      "design": {
+                        "pointerFx": "magnetic"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Talk to a guide",
+                        "url": "/contact",
+                        "variant": "secondary",
+                        "size": "lg",
+                        "align": "left"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

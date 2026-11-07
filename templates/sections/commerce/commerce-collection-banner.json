@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "slug": "commerce-collection-banner",
+    "kind": "section",
+    "category": "commerce",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0",
+    "title": "Wide collection banner with shop button",
+    "description": "Full-width photo banner with a dark overlay, collection title, one line of copy and a Shop the collection button. Left aligned on desktop, tighter padding on mobile.",
+    "tags": [
+      "commerce",
+      "banner",
+      "collection",
+      "photo",
+      "overlay",
+      "dark"
+    ],
+    "industry": [
+      "ecommerce",
+      "general"
+    ],
+    "style": "luxe"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 144,
+        "paddingBottom": 144,
+        "mobile": {
+          "paddingTop": 80,
+          "paddingBottom": 80
+        },
+        "fontFamily": "{{font.body}}",
+        "bgType": "image",
+        "bgImageUrl": "img:fashion@2000",
+        "overlayType": "gradient",
+        "overlayColor": "#000000",
+        "overlayColor2": "#000000",
+        "overlayAngle": 90,
+        "overlayOpacity": 62,
+        "parallax": "background",
+        "textColor": "{{color.text}}",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "alignItems": "center",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "justify": "start"
+        }
+      },
+      "columns": [
+        {
+          "label": "Banner copy",
+          "width": 6,
+          "layout": {
+            "gap": 20,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "New collection",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "{{color.primary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "The Autumn Edit",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 60,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 38
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": "Layered textures and quiet colour, made to be worn on repeat."
+              },
+              "design": {
+                "textColor": "{{color.text}}",
+                "fontSize": 18,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Shop the collection",
+                "url": "/shop/autumn",
+                "variant": "primary",
+                "size": "lg",
+                "align": "left"
+              },
+              "design": {
+                "pointerFx": "magnetic",
+                "reveal": "fade-up",
+                "revealDelay": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

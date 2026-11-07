@@ -1,0 +1,355 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#0b1020",
+        "bgEffect": "particles",
+        "bgEffectColor": "#818cf8",
+        "bgEffectIntensity": 55,
+        "particlesCount": 70,
+        "particlesInteract": "connect",
+        "particlesLinks": true,
+        "textColor": "#f8fafc",
+        "fontFamily": "inter",
+        "textAlign": "center",
+        "paddingTop": 128,
+        "paddingBottom": 112,
+        "mobile": {
+          "paddingTop": 72,
+          "paddingBottom": 64
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1000,
+          "alignItems": "center"
+        }
+      },
+      "columns": [
+        {
+          "label": "Copy",
+          "width": 12,
+          "layout": {
+            "gap": 24,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Now in public beta",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "textColor": "#22d3ee",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Ship models, not infrastructure",
+                "tag": "h1",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "fontSize": 60,
+                "fontWeight": 800,
+                "lineHeight": 1.05,
+                "letterSpacing": -1.5,
+                "mobile": {
+                  "fontSize": 36
+                },
+                "textFx": "gradient",
+                "textFxColor": "#f8fafc",
+                "textFxColor2": "#818cf8",
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Deploy, monitor and scale inference from one calm dashboard. Pay only for the milliseconds you use.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#94a3b8",
+                "fontSize": 19,
+                "lineHeight": 1.6,
+                "reveal": "fade-up",
+                "revealDelay": 2,
+                "mobile": {
+                  "fontSize": 17
+                }
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "justify": "center",
+                  "wrap": true
+                },
+                "reveal": "fade-up",
+                "revealDelay": 3
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Deploy a model",
+                        "url": "/signup",
+                        "variant": "primary",
+                        "size": "lg",
+                        "align": "center"
+                      },
+                      "design": {
+                        "pointerFx": "magnetic"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Read the docs",
+                        "url": "/docs",
+                        "variant": "secondary",
+                        "size": "lg",
+                        "align": "center"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "paddingTop": 32,
+                "marginTop": 16,
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "gap": {
+                    "desktop": 56,
+                    "mobile": 28
+                  },
+                  "justify": "center",
+                  "wrap": true
+                },
+                "reveal": "fade-up",
+                "revealDelay": 4
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 12,
+                        "suffix": "ms",
+                        "title": "Median latency",
+                        "animate": true,
+                        "align": "center",
+                        "separator": false
+                      },
+                      "design": {
+                        "textColor": "#f8fafc",
+                        "fontSize": 32,
+                        "fontFamily": "inter",
+                        "fontWeight": 700
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 99.9,
+                        "suffix": "%",
+                        "title": "Uptime",
+                        "animate": true,
+                        "align": "center",
+                        "separator": false
+                      },
+                      "design": {
+                        "textColor": "#f8fafc",
+                        "fontSize": 32,
+                        "fontFamily": "inter",
+                        "fontWeight": 700
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 4,
+                        "suffix": "k+",
+                        "title": "Teams onboard",
+                        "animate": true,
+                        "align": "center",
+                        "separator": false
+                      },
+                      "design": {
+                        "textColor": "#f8fafc",
+                        "fontSize": 32,
+                        "fontFamily": "inter",
+                        "fontWeight": 700
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "hero-dark-particles",
+    "title": "Dark hero with particles and stats row",
+    "category": "hero",
+    "description": "Centered copy on a deep dark background with interactive particles, two buttons and a compact row of animated stats. Stats wrap and center on mobile.",
+    "tags": [
+      "hero",
+      "dark",
+      "particles",
+      "centered",
+      "stats",
+      "animated"
+    ],
+    "industry": [
+      "ai",
+      "devtools",
+      "saas",
+      "fintech"
+    ],
+    "theme": "dark",
+    "style": "shine-dark",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

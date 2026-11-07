@@ -1,0 +1,303 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#f3f1e7",
+        "textColor": "#1a2e1f",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "alignItems": "stretch",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Map",
+          "layout": {
+            "gap": 0,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "map",
+              "props": {
+                "address": "Trafalgar Square, London",
+                "zoom": 14,
+                "height": 440,
+                "title": "Map showing our location"
+              },
+              "design": {
+                "borderRadius": 6,
+                "boxShadow": "md",
+                "reveal": "fade-up"
+              }
+            }
+          ],
+          "widthDesktop": {
+            "value": 7,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        },
+        {
+          "label": "Details",
+          "layout": {
+            "gap": 20,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Visit us",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#166534",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Find us on the corner of Mill Lane",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "playfair",
+                "fontSize": 38,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "The Old Bakehouse",
+                            "format": 1,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "12 Mill Lane, Riverside",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Free parking at the back.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#57534e",
+                "fontSize": 17,
+                "lineHeight": 1.6,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "business-hours",
+              "props": {
+                "title": "Opening hours",
+                "rows": [
+                  {
+                    "day": "mon",
+                    "open": "07:00",
+                    "close": "18:00",
+                    "closed": false
+                  },
+                  {
+                    "day": "tue",
+                    "open": "07:00",
+                    "close": "18:00",
+                    "closed": false
+                  },
+                  {
+                    "day": "wed",
+                    "open": "07:00",
+                    "close": "18:00",
+                    "closed": false
+                  },
+                  {
+                    "day": "thu",
+                    "open": "07:00",
+                    "close": "18:00",
+                    "closed": false
+                  },
+                  {
+                    "day": "fri",
+                    "open": "07:00",
+                    "close": "19:00",
+                    "closed": false
+                  },
+                  {
+                    "day": "sat",
+                    "open": "08:00",
+                    "close": "19:00",
+                    "closed": false
+                  },
+                  {
+                    "day": "sun",
+                    "open": "09:00",
+                    "close": "15:00",
+                    "closed": false
+                  }
+                ],
+                "timezone": "",
+                "showStatus": true
+              },
+              "design": {
+                "reveal": "fade-up",
+                "revealDelay": 3
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Get directions",
+                "url": "https://maps.google.com/",
+                "variant": "primary",
+                "size": "lg",
+                "align": "left"
+              },
+              "design": {
+                "pointerFx": "magnetic"
+              }
+            }
+          ],
+          "widthDesktop": {
+            "value": 5,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "contact-map-hours",
+    "title": "Map with address and opening hours",
+    "category": "contact",
+    "description": "A wide map beside the address, opening hours and a directions button. The map uses an address with no API key; it stacks under the details on mobile.",
+    "tags": [
+      "contact",
+      "map",
+      "hours",
+      "address",
+      "split"
+    ],
+    "industry": [
+      "restaurant",
+      "general",
+      "health"
+    ],
+    "theme": "light",
+    "style": "forest",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

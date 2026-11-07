@@ -1,0 +1,1436 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#f5efe3",
+        "fontFamily": "jost",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#0e0d0b",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 64,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1100,
+          "wrap": true
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 16
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Services & prices",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#c8a45d",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "The treatment menu",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.1,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Every visit begins with a consultation. Prices include a complimentary tea.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Hair",
+          "width": 6,
+          "layout": {
+            "gap": 14
+          },
+          "design": {
+            "reveal": "fade-up",
+            "revealDelay": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Hair",
+                "tag": "h3",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 15,
+                "textTransform": "uppercase",
+                "letterSpacing": 3,
+                "fontWeight": 600,
+                "textColor": "#e7d5ae"
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Cut and finish",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$65",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Consultation, wash, precision cut, blow-dry.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Colour refresh",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$95",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Root touch-up with gloss and style.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Balayage",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$180",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Hand-painted lightness, toner included.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Deep repair ritual",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$45",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Bond-building mask and scalp massage.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            }
+          ]
+        },
+        {
+          "label": "Skin & hands",
+          "width": 6,
+          "layout": {
+            "gap": 14
+          },
+          "design": {
+            "reveal": "fade-up",
+            "revealDelay": 2
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Skin & hands",
+                "tag": "h3",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 15,
+                "textTransform": "uppercase",
+                "letterSpacing": 3,
+                "fontWeight": 600,
+                "textColor": "#e7d5ae"
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Signature facial",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$85",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Cleanse, exfoliate, mask, 60 minutes.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Gel manicure",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$48",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Shape, cuticle care and lasting colour.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Spa pedicure",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$62",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Soak, scrub and hot-towel finish.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": false,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Brow shape and tint",
+                        "tag": "h4",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "fill"
+                  },
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "divider",
+                      "props": {
+                        "showLine": true,
+                        "gap": 0,
+                        "style": "dotted",
+                        "weight": 2,
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "opacity": 40
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$35",
+                        "tag": "h4",
+                        "align": "right",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "cormorant",
+                        "fontSize": 22,
+                        "fontWeight": 600,
+                        "textColor": "#c8a45d"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Tailored to your natural line.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 14,
+                "lineHeight": 1.5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "pricing-menu-list",
+    "title": "Two-column price list",
+    "category": "pricing",
+    "description": "A salon or restaurant price list in two columns: item name, dotted leader and price with a short note per row. Stacks to one column on mobile.",
+    "tags": [
+      "pricing",
+      "price list",
+      "menu",
+      "two columns",
+      "dark",
+      "salon"
+    ],
+    "industry": [
+      "restaurant",
+      "health",
+      "general"
+    ],
+    "theme": "dark",
+    "style": "luxe",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

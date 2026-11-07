@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "slug": "testimonials-photo-split",
+    "kind": "section",
+    "category": "testimonials",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0",
+    "title": "Testimonial with large portrait",
+    "description": "Large portrait on the left, big quote with rating, name and role on the right; stacks with the photo on top on mobile.",
+    "tags": [
+      "testimonials",
+      "split",
+      "photo",
+      "rating"
+    ],
+    "industry": [
+      "health",
+      "fitness",
+      "personal"
+    ],
+    "style": "sunset"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "{{color.bg}}",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 64,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center"
+        }
+      },
+      "columns": [
+        {
+          "label": "Portrait",
+          "layout": {
+            "gap": 16
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": "img:portrait-w5@1000|Client smiling after her programme",
+                "alt": "Client smiling after her programme",
+                "ratio": "3:4",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "borderRadius": "{{radius}}",
+                "boxShadow": "lg",
+                "reveal": "zoom"
+              }
+            }
+          ],
+          "widthDesktop": {
+            "value": 5,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        },
+        {
+          "label": "Quote",
+          "layout": {
+            "gap": 18,
+            "vAlign": "middle"
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Client story",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "{{color.primary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "star-rating",
+              "props": {
+                "rating": 5,
+                "scale": 5,
+                "title": "",
+                "align": "left"
+              },
+              "design": {
+                "textColor": "{{color.accent}}"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "quote",
+              "props": {
+                "text": "I came in unable to climb stairs without stopping. Six months later I ran my first 5K, and I did it smiling.",
+                "cite": "",
+                "style": "plain",
+                "align": "left"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 32,
+                "lineHeight": 1.3,
+                "fontWeight": 600,
+                "textColor": "{{color.text}}",
+                "mobile": {
+                  "fontSize": 24
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Amara Whitfield",
+                "tag": "h4",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 18,
+                "fontWeight": 700
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": "Member since 2024, 5K finisher",
+                "align": "left"
+              },
+              "design": {
+                "textColor": "{{color.muted}}",
+                "fontSize": 15,
+                "lineHeight": 1.65
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Read more stories",
+                "url": "/stories",
+                "variant": "secondary",
+                "size": "lg",
+                "align": "left"
+              }
+            }
+          ],
+          "widthDesktop": {
+            "value": 7,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        }
+      ]
+    }
+  ]
+}

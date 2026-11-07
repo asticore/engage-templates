@@ -1,0 +1,426 @@
+{
+  "meta": {
+    "slug": "team-four-grid",
+    "kind": "section",
+    "category": "team",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0",
+    "title": "Four-person team grid",
+    "description": "Four team cards in a responsive grid: square portrait, name, role and a one-line bio. Four across on desktop, two on tablet, one on phones.",
+    "tags": [
+      "team",
+      "grid",
+      "photo",
+      "portraits"
+    ],
+    "industry": [
+      "agency",
+      "general",
+      "media"
+    ],
+    "style": "candy"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "{{color.bg}}",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 16
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "The team",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "{{color.primary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Small team, big heart",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.1,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": "The people you will actually talk to.",
+                "align": "center"
+              },
+              "design": {
+                "textColor": "{{color.muted}}",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Grid",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 4,
+                  "gridColumnsTablet": 2,
+                  "gridColumnsMobile": 1,
+                  "gridGap": 24,
+                  "gridGapMobile": 32
+                }
+              },
+              "columns": [
+                {
+                  "label": "Lena Ortiz",
+                  "width": 3,
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 0,
+                    "pointerFx": "none"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": "img:portrait-w1@700|Lena Ortiz",
+                        "alt": "Lena Ortiz",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": "{{radius}}"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Lena Ortiz",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": "Founder and creative director",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "{{color.primary}}",
+                        "fontSize": 14,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": "Leads every project from first sketch to launch day.",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "{{color.muted}}",
+                        "fontSize": 15,
+                        "lineHeight": 1.55
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Marcus Bell",
+                  "width": 3,
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 2,
+                    "pointerFx": "none"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": "img:portrait-m1@700|Marcus Bell",
+                        "alt": "Marcus Bell",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": "{{radius}}"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Marcus Bell",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": "Head of engineering",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "{{color.primary}}",
+                        "fontSize": 14,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": "Turns bold ideas into fast, dependable sites.",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "{{color.muted}}",
+                        "fontSize": 15,
+                        "lineHeight": 1.55
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Sofia Lindqvist",
+                  "width": 3,
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 4,
+                    "pointerFx": "none"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": "img:portrait-w3@700|Sofia Lindqvist",
+                        "alt": "Sofia Lindqvist",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": "{{radius}}"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Sofia Lindqvist",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": "Brand strategist",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "{{color.primary}}",
+                        "fontSize": 14,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": "Finds the story that makes people care.",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "{{color.muted}}",
+                        "fontSize": 15,
+                        "lineHeight": 1.55
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Ravi Menon",
+                  "width": 3,
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 6,
+                    "pointerFx": "none"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": "img:portrait-m3@700|Ravi Menon",
+                        "alt": "Ravi Menon",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": "{{radius}}"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Ravi Menon",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": "Client partner",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "{{color.primary}}",
+                        "fontSize": 14,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": "Keeps timelines honest and clients happy.",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "{{color.muted}}",
+                        "fontSize": 15,
+                        "lineHeight": 1.55
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 40,
+        "paddingBottom": 40,
+        "mobile": {
+          "paddingTop": 32,
+          "paddingBottom": 32,
+          "textAlign": "center"
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#0b1020",
+        "textColor": "#94a3b8",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 24,
+            "mobile": 20
+          },
+          "alignItems": "center",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "justify": "between"
+        }
+      },
+      "columns": [
+        {
+          "label": "Site title",
+          "width": 4,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-title",
+              "props": {
+                "tag": "p",
+                "showTagline": false
+              },
+              "design": {
+                "fontFamily": "inter",
+                "fontSize": 20,
+                "fontWeight": 700,
+                "textColor": "#f8fafc"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Links",
+          "width": 4,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "list",
+              "props": {
+                "items": [
+                  {
+                    "text": "Privacy",
+                    "href": "/privacy"
+                  },
+                  {
+                    "text": "Terms",
+                    "href": "/terms"
+                  },
+                  {
+                    "text": "Contact",
+                    "href": "/contact"
+                  }
+                ],
+                "marker": "none",
+                "gap": 8,
+                "align": "center"
+              },
+              "design": {
+                "fontSize": 14,
+                "textColor": "#94a3b8"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Social",
+          "width": 4,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "social-icons",
+              "props": {
+                "items": [
+                  {
+                    "network": "instagram",
+                    "address": "https://instagram.com/"
+                  },
+                  {
+                    "network": "facebook",
+                    "address": "https://facebook.com/"
+                  },
+                  {
+                    "network": "linkedin",
+                    "address": "https://linkedin.com/"
+                  }
+                ],
+                "shape": "plain",
+                "size": 18,
+                "align": "right",
+                "mode": "follow"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "footer-dark-minimal",
+    "title": "Dark single-row footer",
+    "category": "footer",
+    "description": "One slim dark row: site title on the left, small links in the middle, social icons on the right. Stacks and centres on mobile.",
+    "tags": [
+      "footer",
+      "minimal",
+      "dark",
+      "row",
+      "social"
+    ],
+    "industry": [
+      "saas",
+      "devtools",
+      "general"
+    ],
+    "theme": "dark",
+    "style": "shine-dark",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

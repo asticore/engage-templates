@@ -1,0 +1,834 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#0f172a",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#f8fafc",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 16
+          },
+          "design": {
+            "textAlign": "center"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Customer love",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#4f46e5",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Teams that never looked back",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.1,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Real words from people who switched and stayed.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#64748b",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Cards",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "tablet": "column",
+                    "mobile": "column"
+                  },
+                  "gap": {
+                    "desktop": 24,
+                    "mobile": 16
+                  },
+                  "alignItems": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Maya Ellison",
+                  "width": 4,
+                  "layout": {
+                    "gap": 20,
+                    "vAlign": "between"
+                  },
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#ffffff",
+                    "borderRadius": 12,
+                    "borderWidth": 1,
+                    "borderStyle": "solid",
+                    "borderColor": "#e2e8f0",
+                    "boxShadow": "sm",
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 28,
+                    "paddingRight": 28,
+                    "reveal": "fade-up",
+                    "revealDelay": 0,
+                    "hover": "lift",
+                    "mobile": {
+                      "paddingTop": 24,
+                      "paddingBottom": 24,
+                      "paddingLeft": 20,
+                      "paddingRight": 20
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "star-rating",
+                      "props": {
+                        "rating": 5,
+                        "scale": 5,
+                        "title": "",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#f59e0b"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"We cut our onboarding time in half. The whole team picked it up in an afternoon.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#0f172a",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    },
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 14
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "widthMobile": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": {
+                                  "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80&auto=format&fit=crop",
+                                  "alt": "Maya Ellison"
+                                },
+                                "alt": "Maya Ellison",
+                                "ratio": "1:1",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "maskShape": "circle"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "layout": {
+                            "gap": 2,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Maya Ellison",
+                                "tag": "h4",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontSize": 16,
+                                "fontWeight": 700,
+                                "fontFamily": "inter"
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Operations lead",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#64748b",
+                                "fontSize": 14
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Daniel Okafor",
+                  "width": 4,
+                  "layout": {
+                    "gap": 20,
+                    "vAlign": "between"
+                  },
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#ffffff",
+                    "borderRadius": 12,
+                    "borderWidth": 1,
+                    "borderStyle": "solid",
+                    "borderColor": "#e2e8f0",
+                    "boxShadow": "sm",
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 28,
+                    "paddingRight": 28,
+                    "reveal": "fade-up",
+                    "revealDelay": 2,
+                    "hover": "lift",
+                    "mobile": {
+                      "paddingTop": 24,
+                      "paddingBottom": 24,
+                      "paddingLeft": 20,
+                      "paddingRight": 20
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "star-rating",
+                      "props": {
+                        "rating": 5,
+                        "scale": 5,
+                        "title": "",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#f59e0b"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"Clear, fast and honestly a pleasure to use. Our clients keep asking what we changed.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#0f172a",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    },
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 14
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "widthMobile": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": {
+                                  "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80&auto=format&fit=crop",
+                                  "alt": "Daniel Okafor"
+                                },
+                                "alt": "Daniel Okafor",
+                                "ratio": "1:1",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "maskShape": "circle"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "layout": {
+                            "gap": 2,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Daniel Okafor",
+                                "tag": "h4",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontSize": 16,
+                                "fontWeight": 700,
+                                "fontFamily": "inter"
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Founder, Northlake Studio",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#64748b",
+                                "fontSize": 14
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Priya Raman",
+                  "width": 4,
+                  "layout": {
+                    "gap": 20,
+                    "vAlign": "between"
+                  },
+                  "design": {
+                    "bgType": "color",
+                    "bgColor": "#ffffff",
+                    "borderRadius": 12,
+                    "borderWidth": 1,
+                    "borderStyle": "solid",
+                    "borderColor": "#e2e8f0",
+                    "boxShadow": "sm",
+                    "paddingTop": 32,
+                    "paddingBottom": 32,
+                    "paddingLeft": 28,
+                    "paddingRight": 28,
+                    "reveal": "fade-up",
+                    "revealDelay": 4,
+                    "hover": "lift",
+                    "mobile": {
+                      "paddingTop": 24,
+                      "paddingBottom": 24,
+                      "paddingLeft": 20,
+                      "paddingRight": 20
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "star-rating",
+                      "props": {
+                        "rating": 5,
+                        "scale": 5,
+                        "title": "",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#f59e0b"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"Support answers in minutes, and every update has made things better. Easy five stars.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#0f172a",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    },
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 14
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "widthMobile": {
+                            "value": 56,
+                            "unit": "px"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": {
+                                  "url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80&auto=format&fit=crop",
+                                  "alt": "Priya Raman"
+                                },
+                                "alt": "Priya Raman",
+                                "ratio": "1:1",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "maskShape": "circle"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "layout": {
+                            "gap": 2,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Priya Raman",
+                                "tag": "h4",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontSize": 16,
+                                "fontWeight": 700,
+                                "fontFamily": "inter"
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": {
+                                  "root": {
+                                    "type": "root",
+                                    "version": 1,
+                                    "direction": "ltr",
+                                    "format": "",
+                                    "indent": 0,
+                                    "children": [
+                                      {
+                                        "type": "paragraph",
+                                        "version": 1,
+                                        "direction": "ltr",
+                                        "format": "",
+                                        "indent": 0,
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "version": 1,
+                                            "text": "Head of growth",
+                                            "format": 0,
+                                            "style": "",
+                                            "mode": "normal",
+                                            "detail": 0
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                },
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "#64748b",
+                                "fontSize": 14
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "testimonials-three-cards",
+    "title": "Three testimonial cards",
+    "category": "testimonials",
+    "description": "Three review cards with star ratings, quote and a round portrait; lift on hover and stack to one column on mobile.",
+    "tags": [
+      "testimonials",
+      "cards",
+      "grid",
+      "photo",
+      "stars"
+    ],
+    "industry": [
+      "saas",
+      "agency",
+      "general"
+    ],
+    "theme": "light",
+    "style": "shine-light",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [
+      {
+        "id": "portrait-m1",
+        "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-w1",
+        "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-w2",
+        "url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

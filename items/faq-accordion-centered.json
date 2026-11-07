@@ -1,0 +1,406 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#0f172a",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#ffffff",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 32,
+            "mobile": 24
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 820
+        }
+      },
+      "columns": [
+        {
+          "label": "FAQ",
+          "width": 12,
+          "layout": {
+            "gap": 16
+          },
+          "design": {
+            "textAlign": "center"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "FAQ",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#4f46e5",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Questions, answered",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.1,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Can't find what you need? Our team is a message away.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#64748b",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "marginTop": 24,
+                "reveal": "fade-up",
+                "revealDelay": 3,
+                "layout": {
+                  "display": "accordion",
+                  "tabsColor": "#4f46e5"
+                }
+              },
+              "columns": [
+                {
+                  "label": "How long does setup take?",
+                  "width": 12,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Most customers are live within a day. We import your content, check the details and walk you through the first week.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 16,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Can I change plans later?",
+                  "width": 12,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Yes. Upgrade or downgrade whenever you like and we will prorate the difference on your next invoice.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 16,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Do you offer refunds?",
+                  "width": 12,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "If it is not right for you, tell us within 30 days and we will refund you in full, no forms and no fuss.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 16,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Is my data safe?",
+                  "width": 12,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Everything is encrypted in transit and at rest, backed up every night and stored in the region you choose.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 16,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Who do I contact for help?",
+                  "width": 12,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Our support team answers by chat and email, usually within a few hours on weekdays.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 16,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "faq-accordion-centered",
+    "title": "Centered FAQ accordion",
+    "category": "faq",
+    "description": "Centered heading above a five-panel accordion of questions and answers; panels open one at a time and work well on phones.",
+    "tags": [
+      "faq",
+      "accordion",
+      "centered",
+      "questions"
+    ],
+    "industry": [
+      "general",
+      "saas",
+      "education"
+    ],
+    "theme": "light",
+    "style": "shine-light",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

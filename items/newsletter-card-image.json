@@ -1,0 +1,195 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 112,
+        "paddingBottom": 112,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "fontFamily": "jost",
+        "bgType": "image",
+        "bgImageUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1800&q=80&auto=format&fit=crop",
+        "overlayType": "color",
+        "overlayColor": "#000000",
+        "overlayOpacity": 55,
+        "kenBurns": "zoom-in",
+        "textColor": "#f5efe3",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "alignItems": "center",
+          "contentWidth": "boxed",
+          "boxedWidth": 1100,
+          "justify": "center"
+        }
+      },
+      "columns": [
+        {
+          "label": "Card",
+          "width": 8,
+          "layout": {
+            "gap": 16
+          },
+          "design": {
+            "paddingTop": 48,
+            "paddingBottom": 48,
+            "paddingLeft": 40,
+            "paddingRight": 40,
+            "mobile": {
+              "paddingTop": 28,
+              "paddingBottom": 28,
+              "paddingLeft": 20,
+              "paddingRight": 20
+            },
+            "bgType": "color",
+            "bgColor": "#1a1815",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "#2e2a23",
+            "glass": true,
+            "glassBlur": 16,
+            "boxShadow": "lg",
+            "reveal": "zoom"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Stay in the loop",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#c8a45d",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Seasonal menus and secret tastings, first",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 40,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Join the list and get invitations before the doors open to everyone.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#f5efe3",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "form",
+              "showTitle": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "newsletter-card-image",
+    "title": "Newsletter card over a photo background",
+    "category": "newsletter",
+    "description": "A centred card on a darkened photo with a heading, short pitch and the site sign-up form. Choose your form inside the card after inserting; padding tightens on mobile.",
+    "tags": [
+      "newsletter",
+      "card",
+      "photo",
+      "overlay",
+      "form",
+      "dark"
+    ],
+    "industry": [
+      "restaurant",
+      "travel",
+      "general"
+    ],
+    "theme": "dark",
+    "style": "luxe",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [
+      {
+        "id": "coffee-shop",
+        "url": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

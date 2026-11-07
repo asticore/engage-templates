@@ -1,0 +1,597 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#0c1a2b",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#f0f9ff",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 64,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "start"
+        }
+      },
+      "columns": [
+        {
+          "label": "Intro",
+          "width": 4,
+          "layout": {
+            "gap": 20
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Support",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#0369a1",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Frequently asked questions",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "montserrat",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.1,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Quick answers to the things people ask us most. Still stuck? We are happy to help.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#475569",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Contact us",
+                "url": "/contact",
+                "variant": "primary",
+                "size": "lg",
+                "align": "left"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Questions",
+          "width": 8,
+          "layout": {
+            "gap": 12
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "What is included in the free trial?",
+                "tag": "h4",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "montserrat",
+                "fontSize": 19,
+                "fontWeight": 700,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Full access to every feature for 14 days. No card needed and nothing to cancel.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#475569",
+                "fontSize": 16,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "divider",
+              "props": {
+                "showLine": true,
+                "gap": 4,
+                "style": "solid",
+                "weight": 1,
+                "width": 100,
+                "align": "center"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Can my team share one account?",
+                "tag": "h4",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "montserrat",
+                "fontSize": 19,
+                "fontWeight": 700,
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Yes, add as many teammates as you like and set who can view, edit or publish.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#475569",
+                "fontSize": 16,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "divider",
+              "props": {
+                "showLine": true,
+                "gap": 4,
+                "style": "solid",
+                "weight": 1,
+                "width": 100,
+                "align": "center"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "How do I move from another tool?",
+                "tag": "h4",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "montserrat",
+                "fontSize": 19,
+                "fontWeight": 700,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Send us an export and we will migrate your content for free, usually within two working days.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#475569",
+                "fontSize": 16,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "divider",
+              "props": {
+                "showLine": true,
+                "gap": 4,
+                "style": "solid",
+                "weight": 1,
+                "width": 100,
+                "align": "center"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Do you work with small budgets?",
+                "tag": "h4",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "montserrat",
+                "fontSize": 19,
+                "fontWeight": 700,
+                "reveal": "fade-up",
+                "revealDelay": 3
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Absolutely. Our starter plan was designed for solo founders and tiny teams.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#475569",
+                "fontSize": 16,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 3
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "divider",
+              "props": {
+                "showLine": true,
+                "gap": 4,
+                "style": "solid",
+                "weight": 1,
+                "width": 100,
+                "align": "center"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "What happens if I cancel?",
+                "tag": "h4",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "montserrat",
+                "fontSize": 19,
+                "fontWeight": 700,
+                "reveal": "fade-up",
+                "revealDelay": 4
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "You keep access until the end of your billing period and can download all your data.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#475569",
+                "fontSize": 16,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 4
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "divider",
+              "props": {
+                "showLine": true,
+                "gap": 4,
+                "style": "solid",
+                "weight": 1,
+                "width": 100,
+                "align": "center"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Do you offer training?",
+                "tag": "h4",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "montserrat",
+                "fontSize": 19,
+                "fontWeight": 700,
+                "reveal": "fade-up",
+                "revealDelay": 4
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Every plan includes live onboarding, and recorded sessions are always available.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "left"
+              },
+              "design": {
+                "textColor": "#475569",
+                "fontSize": 16,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "faq-two-column",
+    "title": "FAQ two columns with contact",
+    "category": "faq",
+    "description": "Heading, intro and a contact button on the left; six question-and-answer pairs on the right. Stacks on mobile.",
+    "tags": [
+      "faq",
+      "two column",
+      "split",
+      "contact"
+    ],
+    "industry": [
+      "saas",
+      "agency",
+      "general"
+    ],
+    "theme": "light",
+    "style": "ocean",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#fff7ed",
+        "textColor": "#1c1917",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "alignItems": "stretch",
+          "contentWidth": "boxed",
+          "boxedWidth": 1100
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 12
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Field notes",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#e11d48",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Places that stay with you",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Slides",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "carousel",
+                  "carouselPerView": 1,
+                  "carouselGap": 24,
+                  "carouselArrows": true,
+                  "contentWidth": "boxed",
+                  "boxedWidth": 1100
+                }
+              },
+              "columns": [
+                {
+                  "label": "Morning light on the ridge",
+                  "width": 12,
+                  "layout": {
+                    "gap": 8
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600&q=80&auto=format&fit=crop",
+                          "alt": "Morning light on the ridge"
+                        },
+                        "alt": "Morning light on the ridge",
+                        "caption": "Morning light on the ridge",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 16,
+                        "boxShadow": "lg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Green valley trail",
+                  "width": 12,
+                  "layout": {
+                    "gap": 8
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80&auto=format&fit=crop",
+                          "alt": "Green valley trail"
+                        },
+                        "alt": "Green valley trail",
+                        "caption": "Green valley trail",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 16,
+                        "boxShadow": "lg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Quiet beach at dusk",
+                  "width": 12,
+                  "layout": {
+                    "gap": 8
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80&auto=format&fit=crop",
+                          "alt": "Quiet beach at dusk"
+                        },
+                        "alt": "Quiet beach at dusk",
+                        "caption": "Quiet beach at dusk",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 16,
+                        "boxShadow": "lg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Lakeside at sunrise",
+                  "width": 12,
+                  "layout": {
+                    "gap": 8
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1600&q=80&auto=format&fit=crop",
+                          "alt": "Lakeside at sunrise"
+                        },
+                        "alt": "Lakeside at sunrise",
+                        "caption": "Lakeside at sunrise",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 16,
+                        "boxShadow": "lg"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "The road to the coast",
+                  "width": 12,
+                  "layout": {
+                    "gap": 8
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1600&q=80&auto=format&fit=crop",
+                          "alt": "The road to the coast"
+                        },
+                        "alt": "The road to the coast",
+                        "caption": "The road to the coast",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 16,
+                        "boxShadow": "lg"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "gallery-carousel",
+    "title": "Photo carousel with captions",
+    "category": "gallery",
+    "description": "A swipeable carousel of five landscape photos, each with its caption and arrows. Shows one photo at a time on mobile.",
+    "tags": [
+      "gallery",
+      "carousel",
+      "captions",
+      "photos",
+      "animated"
+    ],
+    "industry": [
+      "travel",
+      "general",
+      "media"
+    ],
+    "theme": "mixed",
+    "style": "sunset",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [
+      {
+        "id": "beach",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "landscape",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "mountains",
+        "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "nature",
+        "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "travel",
+        "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#4f46e5",
+        "textColor": "#ffffff",
+        "fontFamily": "inter",
+        "paddingTop": 12,
+        "paddingBottom": 12,
+        "mobile": {
+          "paddingTop": 10,
+          "paddingBottom": 10
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "row"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "justify": "center",
+          "alignItems": "center",
+          "wrap": true,
+          "gap": {
+            "desktop": 16,
+            "mobile": 8
+          }
+        }
+      },
+      "columns": [
+        {
+          "label": "Offer",
+          "width": 12,
+          "layout": {
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "column"
+                  },
+                  "gap": {
+                    "desktop": 16,
+                    "mobile": 4
+                  },
+                  "justify": "center",
+                  "alignItems": "center",
+                  "wrap": true
+                }
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Spring sale: 20% off every plan until Sunday",
+                        "tag": "h6",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontSize": 15,
+                        "fontWeight": 600,
+                        "textColor": "#ffffff",
+                        "mobile": {
+                          "fontSize": 13
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Shop the offer",
+                        "url": "/offers",
+                        "variant": "plain",
+                        "size": "sm",
+                        "align": "center"
+                      },
+                      "design": {
+                        "textColor": "#ffffff",
+                        "fontWeight": 700,
+                        "textDecoration": "underline"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "announcement-bar-offer",
+    "title": "Centered offer strip with link",
+    "category": "announcement",
+    "description": "Slim primary-colored strip with one centered line of offer text and a small link button. Wraps and stays centered on mobile.",
+    "tags": [
+      "announcement",
+      "strip",
+      "centered",
+      "offer"
+    ],
+    "industry": [
+      "ecommerce",
+      "general"
+    ],
+    "theme": "light",
+    "style": "shine-light",
+    "frameworks": [
+      "shine"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,515 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#1c1917",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 56,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Intro and steps",
+          "width": 12,
+          "layout": {
+            "gap": 56
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "How it works",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#e11d48",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "From first call to finished room",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.15,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 4,
+                  "gridColumnsTablet": 2,
+                  "gridColumnsMobile": 1,
+                  "gridGap": 32,
+                  "gridGapMobile": 24,
+                  "gridAlign": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Say hello",
+                  "width": 3,
+                  "layout": {
+                    "gap": 12
+                  },
+                  "design": {
+                    "paddingTop": 24
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "01",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 64,
+                        "fontWeight": 800,
+                        "lineHeight": 1,
+                        "textColor": "#e11d48",
+                        "opacity": 90,
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Say hello",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 22,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Tell us about your space and what you would like to change in a short call.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#78716c",
+                        "fontSize": 16,
+                        "lineHeight": 1.65,
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Get a plan",
+                  "width": 3,
+                  "layout": {
+                    "gap": 12
+                  },
+                  "design": {
+                    "paddingTop": 24
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "02",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 64,
+                        "fontWeight": 800,
+                        "lineHeight": 1,
+                        "textColor": "#e11d48",
+                        "opacity": 90,
+                        "reveal": "fade-up",
+                        "revealDelay": 1
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Get a plan",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 22,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 1
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Receive a clear proposal with timings, options and a fixed price.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#78716c",
+                        "fontSize": 16,
+                        "lineHeight": 1.65,
+                        "reveal": "fade-up",
+                        "revealDelay": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "We get to work",
+                  "width": 3,
+                  "layout": {
+                    "gap": 12
+                  },
+                  "design": {
+                    "paddingTop": 24
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "03",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 64,
+                        "fontWeight": 800,
+                        "lineHeight": 1,
+                        "textColor": "#e11d48",
+                        "opacity": 90,
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "We get to work",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 22,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "A tidy, friendly crew handles the job and keeps you posted daily.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#78716c",
+                        "fontSize": 16,
+                        "lineHeight": 1.65,
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Enjoy the result",
+                  "width": 3,
+                  "layout": {
+                    "gap": 12
+                  },
+                  "design": {
+                    "paddingTop": 24
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "04",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 64,
+                        "fontWeight": 800,
+                        "lineHeight": 1,
+                        "textColor": "#e11d48",
+                        "opacity": 90,
+                        "reveal": "fade-up",
+                        "revealDelay": 3
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Enjoy the result",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 22,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 3
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "We walk through everything together and stay on hand afterwards.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#78716c",
+                        "fontSize": 16,
+                        "lineHeight": 1.65,
+                        "reveal": "fade-up",
+                        "revealDelay": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "process-numbered-steps",
+    "title": "Four numbered steps in a grid",
+    "category": "process",
+    "description": "Centered heading above four steps with oversized numbers 01 to 04 and short descriptions; 4 columns, then 2, then 1 on phones.",
+    "tags": [
+      "process",
+      "steps",
+      "numbered",
+      "grid",
+      "centered"
+    ],
+    "industry": [
+      "real-estate",
+      "general",
+      "agency"
+    ],
+    "theme": "mixed",
+    "style": "sunset",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

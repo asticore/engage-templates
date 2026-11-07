@@ -1,0 +1,260 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#fbfaf5",
+        "textColor": "#1a2e1f",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 72,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center"
+        }
+      },
+      "columns": [
+        {
+          "label": "Story",
+          "width": 6,
+          "layout": {
+            "gap": 20,
+            "vAlign": "middle"
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Our story",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#166534",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Grown slowly, shared generously",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "playfair",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.15,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "It began with a single plot of land and a stubborn belief that good food should taste of where it comes from. We planted what the soil wanted to grow and cooked what the seasons gave us.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#57534e",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Years later the plot is a working farm, the kitchen is full of familiar faces, and the table is still the best place we know to say thank you.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#57534e",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 3
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "quote",
+              "props": {
+                "text": "Feed people the way you would feed family, and the rest looks after itself.",
+                "cite": "Marta Ellison, founder",
+                "style": "bar",
+                "align": "left"
+              },
+              "design": {
+                "fontFamily": "playfair",
+                "fontSize": 20,
+                "fontStyle": "italic",
+                "textColor": "#1a2e1f",
+                "reveal": "fade-up",
+                "revealDelay": 4
+              }
+            }
+          ]
+        },
+        {
+          "label": "Photo",
+          "width": 6,
+          "layout": {
+            "order": {
+              "mobile": -1
+            }
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1300&q=80&auto=format&fit=crop",
+                  "alt": "Green fields at golden hour"
+                },
+                "alt": "Green fields at golden hour",
+                "ratio": "3:4",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "borderRadius": 6,
+                "boxShadow": "lg",
+                "reveal": "zoom"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "content-split-story",
+    "title": "Our story split with photo and quote",
+    "category": "content",
+    "description": "Eyebrow, headline, two paragraphs and a signed quote on the left with a tall photo on the right; stacks with photo first on phones.",
+    "tags": [
+      "story",
+      "about",
+      "split",
+      "photo",
+      "quote"
+    ],
+    "industry": [
+      "restaurant",
+      "personal",
+      "general"
+    ],
+    "theme": "light",
+    "style": "forest",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [
+      {
+        "id": "landscape",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

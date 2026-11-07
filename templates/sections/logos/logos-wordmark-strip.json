@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "slug": "logos-wordmark-strip",
+    "kind": "section",
+    "title": "Trusted by heading with six wordmark grid",
+    "category": "logos",
+    "description": "Small Trusted by heading above a six-up grid of muted fictional wordmarks. Three per row on tablet and two per row on mobile.",
+    "tags": [
+      "logos",
+      "grid",
+      "trust",
+      "wordmarks",
+      "minimal"
+    ],
+    "industry": [
+      "saas",
+      "agency",
+      "general"
+    ],
+    "style": "mono",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "{{color.bg}}",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 64,
+        "paddingBottom": 64,
+        "mobile": {
+          "paddingTop": 40,
+          "paddingBottom": 40
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1100,
+          "alignItems": "stretch",
+          "gap": {
+            "desktop": 32,
+            "mobile": 24
+          }
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Trusted by teams at",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.body}}",
+                "textColor": "{{color.muted}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Wordmarks",
+          "width": 12,
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 6,
+                  "gridColumnsTablet": 3,
+                  "gridColumnsMobile": 2,
+                  "gridGap": 32,
+                  "gridGapMobile": 20,
+                  "gridAlign": "center",
+                  "gridJustify": "center"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Northwind",
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Northwind",
+                        "tag": "h6",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "letterSpacing": -0.5,
+                        "textColor": "{{color.muted}}",
+                        "opacity": 75,
+                        "mobile": {
+                          "fontSize": 20
+                        },
+                        "reveal": "fade",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Lumora",
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Lumora",
+                        "tag": "h6",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "playfair",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "letterSpacing": -0.5,
+                        "textColor": "{{color.muted}}",
+                        "opacity": 75,
+                        "mobile": {
+                          "fontSize": 20
+                        },
+                        "reveal": "fade",
+                        "revealDelay": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Parcelo",
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Parcelo",
+                        "tag": "h6",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.body}}",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "letterSpacing": -0.5,
+                        "textColor": "{{color.muted}}",
+                        "opacity": 75,
+                        "mobile": {
+                          "fontSize": 20
+                        },
+                        "reveal": "fade",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Kestrel&Co",
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Kestrel&Co",
+                        "tag": "h6",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "letterSpacing": -0.5,
+                        "textColor": "{{color.muted}}",
+                        "opacity": 75,
+                        "mobile": {
+                          "fontSize": 20
+                        },
+                        "reveal": "fade",
+                        "revealDelay": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Brightloop",
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Brightloop",
+                        "tag": "h6",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "playfair",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "letterSpacing": -0.5,
+                        "textColor": "{{color.muted}}",
+                        "opacity": 75,
+                        "mobile": {
+                          "fontSize": 20
+                        },
+                        "reveal": "fade",
+                        "revealDelay": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Oakfield",
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Oakfield",
+                        "tag": "h6",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.body}}",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "letterSpacing": -0.5,
+                        "textColor": "{{color.muted}}",
+                        "opacity": 75,
+                        "mobile": {
+                          "fontSize": 20
+                        },
+                        "reveal": "fade",
+                        "revealDelay": 5
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

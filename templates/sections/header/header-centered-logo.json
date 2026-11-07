@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "slug": "header-centered-logo",
+    "kind": "section",
+    "title": "Centered logo above menu row",
+    "category": "header",
+    "description": "Elegant header with the logo centered on top and a centered navigation row beneath a fine rule. Collapses to logo plus hamburger on mobile.",
+    "tags": [
+      "header",
+      "centered",
+      "elegant",
+      "logo",
+      "serif"
+    ],
+    "industry": [
+      "restaurant",
+      "real-estate",
+      "personal",
+      "general"
+    ],
+    "style": "forest",
+    "frameworks": [
+      "shine"
+    ],
+    "version": "1.0.0"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "{{color.bg}}",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 24,
+        "paddingBottom": 16,
+        "mobile": {
+          "paddingTop": 16,
+          "paddingBottom": 12
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1100,
+          "alignItems": "center",
+          "gap": {
+            "desktop": 16,
+            "mobile": 8
+          }
+        },
+        "borderWidth": 1,
+        "borderColor": "{{color.border}}",
+        "borderStyle": "solid"
+      },
+      "columns": [
+        {
+          "label": "Logo",
+          "width": 12,
+          "layout": {
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-title",
+              "props": {
+                "tag": "p",
+                "showTagline": true
+              },
+              "design": {
+                "textAlign": "center",
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 32,
+                "fontWeight": 600,
+                "letterSpacing": 1,
+                "textColor": "{{color.primary}}",
+                "mobile": {
+                  "fontSize": 26
+                }
+              }
+            }
+          ]
+        },
+        {
+          "label": "Menu",
+          "width": 12,
+          "layout": {
+            "vAlign": "middle"
+          },
+          "design": {
+            "paddingTop": 12
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "nav-menu",
+              "props": {
+                "layout": "horizontal",
+                "label": "Main menu",
+                "mobileBreakpoint": "768",
+                "mobileStyle": "hamburger-dropdown",
+                "submenuStyle": "dropdown"
+              },
+              "design": {
+                "fontWeight": 600,
+                "fontSize": 13,
+                "textAlign": "center",
+                "textTransform": "uppercase",
+                "letterSpacing": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

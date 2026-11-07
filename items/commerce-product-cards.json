@@ -1,0 +1,455 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#0f172a",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "alignItems": "stretch",
+          "contentWidth": "boxed",
+          "boxedWidth": 1240
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 12
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Best sellers",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#4f46e5",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Loved by our customers",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Products",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 4,
+                  "gridColumnsTablet": 2,
+                  "gridColumnsMobile": 1,
+                  "gridGap": 24,
+                  "gridGapMobile": 20,
+                  "contentWidth": "boxed",
+                  "boxedWidth": 1200,
+                  "gridAlign": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Meridian Watch",
+                  "width": 3,
+                  "layout": {
+                    "gap": 12
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=700&q=80&auto=format&fit=crop",
+                          "alt": "Meridian Watch"
+                        },
+                        "alt": "Meridian Watch",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 12,
+                        "hover": "zoom"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Meridian Watch",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "inter",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$189",
+                        "tag": "h6",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "textColor": "#4f46e5",
+                        "fontSize": 18,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Add to cart",
+                        "url": "/shop/meridian-watch",
+                        "variant": "primary",
+                        "size": "md",
+                        "align": "left"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Halo Headphones",
+                  "width": 3,
+                  "layout": {
+                    "gap": 12
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 2
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=700&q=80&auto=format&fit=crop",
+                          "alt": "Halo Headphones"
+                        },
+                        "alt": "Halo Headphones",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 12,
+                        "hover": "zoom"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Halo Headphones",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "inter",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$149",
+                        "tag": "h6",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "textColor": "#4f46e5",
+                        "fontSize": 18,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Add to cart",
+                        "url": "/shop/halo-headphones",
+                        "variant": "primary",
+                        "size": "md",
+                        "align": "left"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Stride Runner",
+                  "width": 3,
+                  "layout": {
+                    "gap": 12
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 4
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700&q=80&auto=format&fit=crop",
+                          "alt": "Stride Runner"
+                        },
+                        "alt": "Stride Runner",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 12,
+                        "hover": "zoom"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Stride Runner",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "inter",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$120",
+                        "tag": "h6",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "textColor": "#4f46e5",
+                        "fontSize": 18,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Add to cart",
+                        "url": "/shop/stride-runner",
+                        "variant": "primary",
+                        "size": "md",
+                        "align": "left"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Frame Instant Camera",
+                  "width": 3,
+                  "layout": {
+                    "gap": 12
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 6
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=700&q=80&auto=format&fit=crop",
+                          "alt": "Frame Instant Camera"
+                        },
+                        "alt": "Frame Instant Camera",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 12,
+                        "hover": "zoom"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Frame Instant Camera",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "inter",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "$95",
+                        "tag": "h6",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "textColor": "#4f46e5",
+                        "fontSize": 18,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Add to cart",
+                        "url": "/shop/frame-camera",
+                        "variant": "primary",
+                        "size": "md",
+                        "align": "left"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "commerce-product-cards",
+    "title": "Four product cards with price and buttons",
+    "category": "commerce",
+    "description": "Four product photo cards, each with name, price and an Add to cart button linking to the product page. Four across on desktop, two on tablet, one on mobile.",
+    "tags": [
+      "commerce",
+      "products",
+      "cards",
+      "grid",
+      "price"
+    ],
+    "industry": [
+      "ecommerce"
+    ],
+    "theme": "light",
+    "style": "shine-light",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [
+      {
+        "id": "camera",
+        "url": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "headphones",
+        "url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "shoe",
+        "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "watch",
+        "url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

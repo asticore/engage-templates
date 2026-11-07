@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "slug": "cta-split-image",
+    "kind": "section",
+    "category": "cta",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0",
+    "title": "CTA card with photo",
+    "description": "A rounded surface card holding a headline, text and button on the left and a photo on the right; the photo moves above the text on mobile.",
+    "tags": [
+      "cta",
+      "split",
+      "photo",
+      "card"
+    ],
+    "industry": [
+      "real-estate",
+      "general",
+      "travel"
+    ],
+    "style": "sunset"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 80,
+        "paddingBottom": 80,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "{{color.bg}}",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 32,
+            "mobile": 24
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Card",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "bgType": "color",
+                "bgColor": "{{color.surface2}}",
+                "borderRadius": "{{radius}}",
+                "boxShadow": "md",
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "column-reverse"
+                  },
+                  "gap": {
+                    "desktop": 0,
+                    "mobile": 0
+                  },
+                  "alignItems": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Copy",
+                  "width": 6,
+                  "layout": {
+                    "gap": 20,
+                    "vAlign": "middle"
+                  },
+                  "design": {
+                    "paddingTop": 56,
+                    "paddingBottom": 56,
+                    "paddingLeft": 56,
+                    "paddingRight": 56,
+                    "mobile": {
+                      "paddingTop": 32,
+                      "paddingBottom": 32,
+                      "paddingLeft": 24,
+                      "paddingRight": 24
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Visit us",
+                        "tag": "h6",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "textColor": "{{color.primary}}",
+                        "textTransform": "uppercase",
+                        "letterSpacing": 2,
+                        "fontWeight": 700,
+                        "fontSize": 13
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Find the home that fits your life",
+                        "tag": "h2",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "{{font.heading}}",
+                        "fontSize": 38,
+                        "fontWeight": 700,
+                        "lineHeight": 1.1,
+                        "letterSpacing": -0.5,
+                        "mobile": {
+                          "fontSize": 28
+                        },
+                        "reveal": "fade-up"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": "Tell us what matters most and we will line up viewings that are worth your weekend.",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "{{color.muted}}",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Book a viewing",
+                        "url": "/viewing",
+                        "variant": "primary",
+                        "size": "lg",
+                        "align": "left"
+                      },
+                      "design": {
+                        "pointerFx": "magnetic"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Photo",
+                  "width": 6,
+                  "layout": {
+                    "gap": 0,
+                    "vAlign": "middle"
+                  },
+                  "design": {
+                    "paddingTop": 16,
+                    "paddingBottom": 16,
+                    "paddingLeft": 16,
+                    "paddingRight": 16
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": "img:modern-house@1200|Bright modern home with large windows",
+                        "alt": "Bright modern home with large windows",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": "{{radius}}",
+                        "reveal": "zoom"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

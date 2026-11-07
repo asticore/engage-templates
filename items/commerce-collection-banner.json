@@ -1,0 +1,187 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 144,
+        "paddingBottom": 144,
+        "mobile": {
+          "paddingTop": 80,
+          "paddingBottom": 80
+        },
+        "fontFamily": "jost",
+        "bgType": "image",
+        "bgImageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=2000&q=80&auto=format&fit=crop",
+        "overlayType": "gradient",
+        "overlayColor": "#000000",
+        "overlayColor2": "#000000",
+        "overlayAngle": 90,
+        "overlayOpacity": 62,
+        "parallax": "background",
+        "textColor": "#f5efe3",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "alignItems": "center",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "justify": "start"
+        }
+      },
+      "columns": [
+        {
+          "label": "Banner copy",
+          "width": 6,
+          "layout": {
+            "gap": 20,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "New collection",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#c8a45d",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "The Autumn Edit",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 60,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 38
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Layered textures and quiet colour, made to be worn on repeat.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#f5efe3",
+                "fontSize": 18,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Shop the collection",
+                "url": "/shop/autumn",
+                "variant": "primary",
+                "size": "lg",
+                "align": "left"
+              },
+              "design": {
+                "pointerFx": "magnetic",
+                "reveal": "fade-up",
+                "revealDelay": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "commerce-collection-banner",
+    "title": "Wide collection banner with shop button",
+    "category": "commerce",
+    "description": "Full-width photo banner with a dark overlay, collection title, one line of copy and a Shop the collection button. Left aligned on desktop, tighter padding on mobile.",
+    "tags": [
+      "commerce",
+      "banner",
+      "collection",
+      "photo",
+      "overlay",
+      "dark"
+    ],
+    "industry": [
+      "ecommerce",
+      "general"
+    ],
+    "theme": "dark",
+    "style": "luxe",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [
+      {
+        "id": "fashion",
+        "url": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

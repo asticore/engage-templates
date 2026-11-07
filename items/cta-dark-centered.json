@@ -1,0 +1,178 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#f8fafc",
+        "fontFamily": "inter",
+        "paddingTop": 140,
+        "paddingBottom": 120,
+        "mobile": {
+          "paddingTop": 96,
+          "paddingBottom": 72
+        },
+        "bgColor": "#111827",
+        "dividerTop": "curve",
+        "dividerTopColor": "#0b1020",
+        "dividerTopHeight": 60,
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 32,
+            "mobile": 24
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 900
+        }
+      },
+      "columns": [
+        {
+          "label": "CTA",
+          "width": 12,
+          "layout": {
+            "gap": 24,
+            "alignSelf": "center"
+          },
+          "design": {
+            "textAlign": "center"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Your move",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#818cf8",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Ship the site you have been picturing",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "fontSize": 60,
+                "fontWeight": 800,
+                "lineHeight": 1.05,
+                "letterSpacing": -1.5,
+                "reveal": "fade-up",
+                "mobile": {
+                  "fontSize": 36
+                }
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Free to start, simple to scale. Your first page can be live before your coffee gets cold.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#94a3b8",
+                "fontSize": 19,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Start building",
+                "url": "/signup",
+                "variant": "primary",
+                "size": "lg",
+                "align": "center"
+              },
+              "design": {
+                "pointerFx": "magnetic",
+                "reveal": "fade-up",
+                "revealDelay": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "cta-dark-centered",
+    "title": "Dark centered call-to-action",
+    "category": "cta",
+    "description": "A dark band with a curved top edge, a big headline and one magnetic button, all centered; spacing tightens on mobile.",
+    "tags": [
+      "cta",
+      "dark",
+      "centered",
+      "divider",
+      "magnetic"
+    ],
+    "industry": [
+      "saas",
+      "ai",
+      "devtools"
+    ],
+    "theme": "dark",
+    "style": "shine-dark",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

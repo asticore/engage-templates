@@ -1,0 +1,313 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#1a2e1f",
+        "fontFamily": "inter",
+        "paddingTop": 112,
+        "paddingBottom": 112,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#f3f1e7",
+        "reveal": "fade",
+        "layout": {
+          "display": "carousel",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 32,
+            "mobile": 24
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1000,
+          "carouselPerView": 1,
+          "carouselGap": 24,
+          "carouselArrows": true
+        }
+      },
+      "columns": [
+        {
+          "label": "Helena Marsh",
+          "width": 12,
+          "layout": {
+            "gap": 20,
+            "alignSelf": "center"
+          },
+          "design": {
+            "textAlign": "center",
+            "paddingLeft": 56,
+            "paddingRight": 56,
+            "mobile": {
+              "paddingLeft": 8,
+              "paddingRight": 8
+            }
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=240&q=80&auto=format&fit=crop",
+                  "alt": "Helena Marsh"
+                },
+                "alt": "Helena Marsh",
+                "ratio": "1:1",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "maskShape": "circle",
+                "selfWidth": "custom",
+                "selfWidthPercent": 12,
+                "selfAlign": "center",
+                "mobile": {
+                  "selfWidthPercent": 28
+                }
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "star-rating",
+              "props": {
+                "rating": 5,
+                "scale": 5,
+                "title": "",
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#ca8a04"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "quote",
+              "props": {
+                "text": "The produce tastes like it was picked this morning, and the staff remember your name. It has become our Friday ritual.",
+                "cite": "Helena Marsh, regular guest",
+                "style": "plain",
+                "align": "center"
+              },
+              "design": {
+                "fontFamily": "playfair",
+                "fontSize": 30,
+                "lineHeight": 1.35,
+                "textColor": "#1a2e1f",
+                "mobile": {
+                  "fontSize": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "label": "Tomas Reyes",
+          "width": 12,
+          "layout": {
+            "gap": 20,
+            "alignSelf": "center"
+          },
+          "design": {
+            "textAlign": "center",
+            "paddingLeft": 56,
+            "paddingRight": 56,
+            "mobile": {
+              "paddingLeft": 8,
+              "paddingRight": 8
+            }
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=240&q=80&auto=format&fit=crop",
+                  "alt": "Tomas Reyes"
+                },
+                "alt": "Tomas Reyes",
+                "ratio": "1:1",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "maskShape": "circle",
+                "selfWidth": "custom",
+                "selfWidthPercent": 12,
+                "selfAlign": "center",
+                "mobile": {
+                  "selfWidthPercent": 28
+                }
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "star-rating",
+              "props": {
+                "rating": 5,
+                "scale": 5,
+                "title": "",
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#ca8a04"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "quote",
+              "props": {
+                "text": "They fed sixty guests at our wedding and not one plate came back unfinished. Calm, kind and wonderfully organised.",
+                "cite": "Tomas Reyes, catering client",
+                "style": "plain",
+                "align": "center"
+              },
+              "design": {
+                "fontFamily": "playfair",
+                "fontSize": 30,
+                "lineHeight": 1.35,
+                "textColor": "#1a2e1f",
+                "mobile": {
+                  "fontSize": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "label": "Ingrid Solheim",
+          "width": 12,
+          "layout": {
+            "gap": 20,
+            "alignSelf": "center"
+          },
+          "design": {
+            "textAlign": "center",
+            "paddingLeft": 56,
+            "paddingRight": 56,
+            "mobile": {
+              "paddingLeft": 8,
+              "paddingRight": 8
+            }
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=240&q=80&auto=format&fit=crop",
+                  "alt": "Ingrid Solheim"
+                },
+                "alt": "Ingrid Solheim",
+                "ratio": "1:1",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "maskShape": "circle",
+                "selfWidth": "custom",
+                "selfWidthPercent": 12,
+                "selfAlign": "center",
+                "mobile": {
+                  "selfWidthPercent": 28
+                }
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "star-rating",
+              "props": {
+                "rating": 5,
+                "scale": 5,
+                "title": "",
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#ca8a04"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "quote",
+              "props": {
+                "text": "A quiet corner of the high street that feels like a friend's kitchen. I bring everyone who visits.",
+                "cite": "Ingrid Solheim, neighbour",
+                "style": "plain",
+                "align": "center"
+              },
+              "design": {
+                "fontFamily": "playfair",
+                "fontSize": 30,
+                "lineHeight": 1.35,
+                "textColor": "#1a2e1f",
+                "mobile": {
+                  "fontSize": 22
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "testimonials-carousel-quote",
+    "title": "Quote carousel",
+    "category": "testimonials",
+    "description": "One large centered quote per slide with a round portrait and stars; arrows move between three slides.",
+    "tags": [
+      "testimonials",
+      "carousel",
+      "quote",
+      "centered",
+      "animated"
+    ],
+    "industry": [
+      "restaurant",
+      "health",
+      "general"
+    ],
+    "theme": "light",
+    "style": "forest",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [
+      {
+        "id": "portrait-m2",
+        "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-w3",
+        "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-w4",
+        "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

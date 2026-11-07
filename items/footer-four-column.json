@@ -1,0 +1,415 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 80,
+        "paddingBottom": 32,
+        "mobile": {
+          "paddingTop": 48,
+          "paddingBottom": 24
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#f8fafc",
+        "textColor": "#0f172a",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "alignItems": "start",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "About",
+          "width": 3,
+          "layout": {
+            "gap": 16,
+            "vAlign": "top"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-logo",
+              "props": {
+                "width": 140,
+                "alt": ""
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Simple, dependable tools and honest advice for growing teams.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#64748b",
+                "fontSize": 15,
+                "lineHeight": 1.6
+              }
+            }
+          ]
+        },
+        {
+          "label": "Company",
+          "width": 3,
+          "layout": {
+            "gap": 16,
+            "vAlign": "top"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Company",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textTransform": "uppercase",
+                "letterSpacing": 1.5,
+                "fontSize": 13,
+                "fontWeight": 700
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "list",
+              "props": {
+                "items": [
+                  {
+                    "text": "About us",
+                    "href": "/about"
+                  },
+                  {
+                    "text": "Careers",
+                    "href": "/careers"
+                  },
+                  {
+                    "text": "Blog",
+                    "href": "/blog"
+                  },
+                  {
+                    "text": "Contact",
+                    "href": "/contact"
+                  }
+                ],
+                "marker": "none",
+                "gap": 10,
+                "align": "left"
+              },
+              "design": {
+                "fontSize": 15,
+                "textColor": "#64748b"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Product",
+          "width": 3,
+          "layout": {
+            "gap": 16,
+            "vAlign": "top"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Product",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textTransform": "uppercase",
+                "letterSpacing": 1.5,
+                "fontSize": 13,
+                "fontWeight": 700
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "list",
+              "props": {
+                "items": [
+                  {
+                    "text": "Features",
+                    "href": "/features"
+                  },
+                  {
+                    "text": "Pricing",
+                    "href": "/pricing"
+                  },
+                  {
+                    "text": "Updates",
+                    "href": "/changelog"
+                  },
+                  {
+                    "text": "Status",
+                    "href": "/status"
+                  }
+                ],
+                "marker": "none",
+                "gap": 10,
+                "align": "left"
+              },
+              "design": {
+                "fontSize": 15,
+                "textColor": "#64748b"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Support",
+          "width": 3,
+          "layout": {
+            "gap": 16,
+            "vAlign": "top"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Support",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textTransform": "uppercase",
+                "letterSpacing": 1.5,
+                "fontSize": 13,
+                "fontWeight": 700
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "list",
+              "props": {
+                "items": [
+                  {
+                    "text": "Help centre",
+                    "href": "/help"
+                  },
+                  {
+                    "text": "Guides",
+                    "href": "/guides"
+                  },
+                  {
+                    "text": "Privacy",
+                    "href": "/privacy"
+                  },
+                  {
+                    "text": "Terms",
+                    "href": "/terms"
+                  }
+                ],
+                "marker": "none",
+                "gap": 10,
+                "align": "left"
+              },
+              "design": {
+                "fontSize": 15,
+                "textColor": "#64748b"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 0,
+        "paddingBottom": 32,
+        "mobile": {
+          "paddingTop": 0,
+          "paddingBottom": 32
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#f8fafc",
+        "textColor": "#64748b",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column-reverse"
+          },
+          "gap": {
+            "desktop": 16,
+            "mobile": 16
+          },
+          "alignItems": "center",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "justify": "between"
+        }
+      },
+      "columns": [
+        {
+          "label": "Copyright",
+          "width": 6,
+          "layout": {
+            "gap": 0
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "© 2026 Your Business. All rights reserved.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "fontSize": 14,
+                "textColor": "#64748b",
+                "borderColor": "#e2e8f0"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Social",
+          "width": 6,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "social-icons",
+              "props": {
+                "items": [
+                  {
+                    "network": "instagram",
+                    "address": "https://instagram.com/"
+                  },
+                  {
+                    "network": "facebook",
+                    "address": "https://facebook.com/"
+                  },
+                  {
+                    "network": "linkedin",
+                    "address": "https://linkedin.com/"
+                  },
+                  {
+                    "network": "youtube",
+                    "address": "https://youtube.com/"
+                  }
+                ],
+                "shape": "circle",
+                "size": 18,
+                "align": "right",
+                "mode": "follow"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "footer-four-column",
+    "title": "Four-column footer with social bar",
+    "category": "footer",
+    "description": "Logo and blurb plus three link columns, then a bottom bar with copyright and social icons. Columns stack on mobile.",
+    "tags": [
+      "footer",
+      "columns",
+      "links",
+      "social"
+    ],
+    "industry": [
+      "general",
+      "saas",
+      "agency"
+    ],
+    "theme": "light",
+    "style": "shine-light",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

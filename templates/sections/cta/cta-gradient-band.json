@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "slug": "cta-gradient-band",
+    "kind": "section",
+    "category": "cta",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0",
+    "title": "Gradient call-to-action band",
+    "description": "A full-width gradient band with floating particles, a centered headline, supporting text and two buttons that stack on mobile.",
+    "tags": [
+      "cta",
+      "gradient",
+      "centered",
+      "particles",
+      "two buttons"
+    ],
+    "industry": [
+      "general",
+      "saas",
+      "events"
+    ],
+    "style": "candy"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "gradient",
+        "textColor": "#ffffff",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgGradientFrom": "{{color.primary}}",
+        "bgGradientTo": "{{color.secondary}}",
+        "bgGradientAngle": 120,
+        "bgEffect": "particles",
+        "bgEffectColor": "#ffffff",
+        "particlesCount": 40,
+        "particlesOpacity": 30,
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 32,
+            "mobile": 24
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 900
+        }
+      },
+      "columns": [
+        {
+          "label": "CTA",
+          "width": 12,
+          "layout": {
+            "gap": 20,
+            "alignSelf": "center"
+          },
+          "design": {
+            "textAlign": "center"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Ready to make something wonderful?",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 46,
+                "fontWeight": 800,
+                "lineHeight": 1.1,
+                "textColor": "#ffffff",
+                "reveal": "fade-up",
+                "mobile": {
+                  "fontSize": 30
+                }
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": "Join thousands of creators who launched this month. Start free and publish in minutes.",
+                "align": "center"
+              },
+              "design": {
+                "fontSize": 19,
+                "lineHeight": 1.6,
+                "textColor": "rgba(255,255,255,.9)",
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": true,
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "justify": "center"
+                },
+                "reveal": "fade-up",
+                "revealDelay": 4
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Get started free",
+                        "url": "/signup",
+                        "variant": "primary",
+                        "size": "lg",
+                        "align": "center"
+                      },
+                      "design": {
+                        "customCss": "selector a{background:#ffffff;color:#111111;border-color:#ffffff}",
+                        "pointerFx": "magnetic"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Book a demo",
+                        "url": "/demo",
+                        "variant": "plain",
+                        "size": "lg",
+                        "align": "center"
+                      },
+                      "design": {
+                        "customCss": "selector a{background:transparent;color:#ffffff;border:2px solid rgba(255,255,255,.7)}"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

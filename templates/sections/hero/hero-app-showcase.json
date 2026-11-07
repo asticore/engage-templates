@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "slug": "hero-app-showcase",
+    "kind": "section",
+    "title": "App hero with copy, checklist and phone photo",
+    "category": "hero",
+    "description": "Headline, three check points and download buttons on the left with a phone mockup photo on the right. Stacks with the photo below on mobile.",
+    "tags": [
+      "hero",
+      "app",
+      "split",
+      "photo",
+      "checklist",
+      "two buttons"
+    ],
+    "industry": [
+      "saas",
+      "fitness",
+      "health",
+      "fintech"
+    ],
+    "style": "candy",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "{{color.surface}}",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center",
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          }
+        }
+      },
+      "columns": [
+        {
+          "label": "Copy",
+          "width": 6,
+          "layout": {
+            "gap": 20,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Free on iOS and Android",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.body}}",
+                "textColor": "{{color.primary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Your daily habits, finally in one place",
+                "tag": "h1",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 56,
+                "fontWeight": 800,
+                "lineHeight": 1.06,
+                "letterSpacing": -1,
+                "mobile": {
+                  "fontSize": 36
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": "Track routines, celebrate streaks and get gentle nudges that fit your day."
+              },
+              "design": {
+                "textColor": "{{color.muted}}",
+                "fontSize": 19,
+                "lineHeight": 1.6,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "list",
+              "props": {
+                "items": [
+                  {
+                    "text": "Set up your first habit in under a minute"
+                  },
+                  {
+                    "text": "Smart reminders that learn your rhythm"
+                  },
+                  {
+                    "text": "Weekly insights that keep you motivated"
+                  }
+                ],
+                "marker": "check",
+                "iconColour": "{{color.primary}}",
+                "size": 20,
+                "gap": 10,
+                "align": "left"
+              },
+              "design": {
+                "fontSize": 17,
+                "reveal": "fade-up",
+                "revealDelay": 3
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "justify": "start",
+                  "wrap": true
+                },
+                "reveal": "fade-up",
+                "revealDelay": 4
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Download the app",
+                        "url": "/download",
+                        "variant": "primary",
+                        "size": "lg",
+                        "align": "left"
+                      },
+                      "design": {
+                        "pointerFx": "magnetic"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Watch the tour",
+                        "url": "#tour",
+                        "variant": "secondary",
+                        "size": "lg",
+                        "align": "left"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Phone",
+          "width": 6,
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": "img:phone-app@1200|Habit tracking app shown on a phone",
+                "alt": "Habit tracking app shown on a phone",
+                "ratio": "4:3",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "borderRadius": "{{radius}}",
+                "boxShadow": "lg",
+                "reveal": "zoom",
+                "parallax": "float-up",
+                "parallaxStrength": 30
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#0c1a2b",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 96,
+            "mobile": 56
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Rows",
+          "width": 12,
+          "layout": {
+            "gap": 96
+          },
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "column"
+                  },
+                  "gap": {
+                    "desktop": 64,
+                    "mobile": 28
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Text",
+                  "width": 6,
+                  "layout": {
+                    "gap": 16,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Plan together",
+                        "tag": "h6",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "textColor": "#0369a1",
+                        "textTransform": "uppercase",
+                        "letterSpacing": 2,
+                        "fontWeight": 700,
+                        "fontSize": 13,
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Keep every project on one page",
+                        "tag": "h2",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "montserrat",
+                        "fontSize": 34,
+                        "fontWeight": 700,
+                        "lineHeight": 1.15,
+                        "letterSpacing": -0.5,
+                        "mobile": {
+                          "fontSize": 28
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 1
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Shared boards show who is doing what, so nobody asks for another status update.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#475569",
+                        "fontSize": 17,
+                        "lineHeight": 1.65,
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "list",
+                      "props": {
+                        "items": [
+                          {
+                            "text": "Drag-and-drop timelines"
+                          },
+                          {
+                            "text": "Comments next to the work"
+                          },
+                          {
+                            "text": "Weekly summary in your inbox"
+                          }
+                        ],
+                        "marker": "check",
+                        "iconColour": "#0369a1",
+                        "gap": 10,
+                        "align": "left"
+                      },
+                      "design": {
+                        "fontSize": 16,
+                        "reveal": "fade-up",
+                        "revealDelay": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Image",
+                  "width": 6,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1200&q=80&auto=format&fit=crop",
+                          "alt": "People planning a project together"
+                        },
+                        "alt": "People planning a project together",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 8,
+                        "boxShadow": "lg",
+                        "reveal": "slide-right"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row-reverse",
+                    "mobile": "column"
+                  },
+                  "gap": {
+                    "desktop": 64,
+                    "mobile": 28
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Text",
+                  "width": 6,
+                  "layout": {
+                    "gap": 16,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Build with confidence",
+                        "tag": "h6",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "textColor": "#0369a1",
+                        "textTransform": "uppercase",
+                        "letterSpacing": 2,
+                        "fontWeight": 700,
+                        "fontSize": 13,
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Reusable pieces, consistent results",
+                        "tag": "h2",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "montserrat",
+                        "fontSize": 34,
+                        "fontWeight": 700,
+                        "lineHeight": 1.15,
+                        "letterSpacing": -0.5,
+                        "mobile": {
+                          "fontSize": 28
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 1
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Save the layouts you love and drop them into new projects without starting over.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#475569",
+                        "fontSize": 17,
+                        "lineHeight": 1.65,
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "list",
+                      "props": {
+                        "items": [
+                          {
+                            "text": "Brand colours applied everywhere"
+                          },
+                          {
+                            "text": "Approved templates for the whole team"
+                          },
+                          {
+                            "text": "One-click duplicate and tweak"
+                          }
+                        ],
+                        "marker": "check",
+                        "iconColour": "#0369a1",
+                        "gap": 10,
+                        "align": "left"
+                      },
+                      "design": {
+                        "fontSize": 16,
+                        "reveal": "fade-up",
+                        "revealDelay": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Image",
+                  "width": 6,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&q=80&auto=format&fit=crop",
+                          "alt": "A tidy workspace with a laptop"
+                        },
+                        "alt": "A tidy workspace with a laptop",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 8,
+                        "boxShadow": "lg",
+                        "reveal": "slide-left"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "column"
+                  },
+                  "gap": {
+                    "desktop": 64,
+                    "mobile": 28
+                  },
+                  "alignItems": "center"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Text",
+                  "width": 6,
+                  "layout": {
+                    "gap": 16,
+                    "vAlign": "middle"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Grow steadily",
+                        "tag": "h6",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "textColor": "#0369a1",
+                        "textTransform": "uppercase",
+                        "letterSpacing": 2,
+                        "fontWeight": 700,
+                        "fontSize": 13,
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "See what is working at a glance",
+                        "tag": "h2",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "montserrat",
+                        "fontSize": 34,
+                        "fontWeight": 700,
+                        "lineHeight": 1.15,
+                        "letterSpacing": -0.5,
+                        "mobile": {
+                          "fontSize": 28
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 1
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Simple reports highlight the pages and campaigns worth doubling down on.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#475569",
+                        "fontSize": 17,
+                        "lineHeight": 1.65,
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "list",
+                      "props": {
+                        "items": [
+                          {
+                            "text": "Clear weekly trends"
+                          },
+                          {
+                            "text": "Goals with friendly reminders"
+                          },
+                          {
+                            "text": "Export for your next review"
+                          }
+                        ],
+                        "marker": "check",
+                        "iconColour": "#0369a1",
+                        "gap": 10,
+                        "align": "left"
+                      },
+                      "design": {
+                        "fontSize": 16,
+                        "reveal": "fade-up",
+                        "revealDelay": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Image",
+                  "width": 6,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80&auto=format&fit=crop",
+                          "alt": "Charts showing steady growth"
+                        },
+                        "alt": "Charts showing steady growth",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 8,
+                        "boxShadow": "lg",
+                        "reveal": "slide-right"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "features-alternating-rows",
+    "title": "Three alternating image and text rows",
+    "category": "features",
+    "description": "Three feature rows with a photo and a checklist, alternating sides; each row stacks image-under-text on mobile.",
+    "tags": [
+      "features",
+      "alternating",
+      "photo",
+      "checklist",
+      "split"
+    ],
+    "industry": [
+      "saas",
+      "agency",
+      "general"
+    ],
+    "theme": "light",
+    "style": "ocean",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [
+      {
+        "id": "analytics",
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "meeting",
+        "url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "workspace",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

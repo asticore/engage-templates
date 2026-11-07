@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "slug": "newsletter-inline-band",
+    "kind": "section",
+    "category": "newsletter",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0",
+    "title": "Inline newsletter band with sign-up form",
+    "description": "Heading and short pitch on the left, the site email sign-up form on the right, on a soft tinted band. Pick your form in the right column after inserting; stacks on mobile.",
+    "tags": [
+      "newsletter",
+      "band",
+      "split",
+      "form",
+      "email"
+    ],
+    "industry": [
+      "general",
+      "media",
+      "ecommerce"
+    ],
+    "style": "shine-light"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 80,
+        "paddingBottom": 80,
+        "mobile": {
+          "paddingTop": 48,
+          "paddingBottom": 48
+        },
+        "fontFamily": "{{font.body}}",
+        "bgType": "color",
+        "bgColor": "{{color.surface2}}",
+        "textColor": "{{color.text}}",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 64,
+            "mobile": 28
+          },
+          "alignItems": "center",
+          "contentWidth": "boxed",
+          "boxedWidth": 1100
+        }
+      },
+      "columns": [
+        {
+          "label": "Copy",
+          "layout": {
+            "gap": 16,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "The Friday letter",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "{{color.primary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "One useful idea in your inbox every week",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": "Short, practical notes from our team. No spam, and you can unsubscribe in one click."
+              },
+              "design": {
+                "textColor": "{{color.muted}}",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            }
+          ],
+          "widthDesktop": {
+            "value": 7,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        },
+        {
+          "label": "Sign-up form (choose a form)",
+          "layout": {
+            "gap": 12,
+            "vAlign": "middle"
+          },
+          "design": {
+            "paddingTop": 24,
+            "paddingBottom": 24,
+            "paddingLeft": 24,
+            "paddingRight": 24,
+            "bgType": "color",
+            "bgColor": "{{color.bg}}",
+            "borderRadius": "{{radius}}",
+            "boxShadow": "md",
+            "reveal": "fade-up",
+            "revealDelay": 3
+          },
+          "blocks": [
+            {
+              "blockType": "form",
+              "showTitle": false
+            }
+          ],
+          "widthDesktop": {
+            "value": 5,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        }
+      ]
+    }
+  ]
+}

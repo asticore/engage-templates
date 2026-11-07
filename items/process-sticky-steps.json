@@ -1,0 +1,508 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#0f172a",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 56,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Intro and steps",
+          "width": 12,
+          "layout": {
+            "gap": 48
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Our process",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#4f46e5",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Four stages, one clear path",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.15,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "sticky-steps",
+                  "stickyStepsSide": "left",
+                  "stickyStepsTop": 96,
+                  "stickyStepsGap": 64,
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "column"
+                  }
+                }
+              },
+              "columns": [
+                {
+                  "label": "01 Discover",
+                  "width": 12,
+                  "layout": {
+                    "gap": 20
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1100&q=80&auto=format&fit=crop",
+                          "alt": "Discover stage"
+                        },
+                        "alt": "Discover stage",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 12,
+                        "boxShadow": "lg"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Start with a conversation",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "inter",
+                        "fontSize": 28,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        }
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "We learn what matters to you, your goals and your timeline before anything is sketched.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "02 Design",
+                  "width": 12,
+                  "layout": {
+                    "gap": 20
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1100&q=80&auto=format&fit=crop",
+                          "alt": "Design stage"
+                        },
+                        "alt": "Design stage",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 12,
+                        "boxShadow": "lg"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Shape the idea together",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "inter",
+                        "fontSize": 28,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        }
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Share early drafts, give honest feedback and watch the concept sharpen week by week.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "03 Build",
+                  "width": 12,
+                  "layout": {
+                    "gap": 20
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1100&q=80&auto=format&fit=crop",
+                          "alt": "Build stage"
+                        },
+                        "alt": "Build stage",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 12,
+                        "boxShadow": "lg"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Make it real",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "inter",
+                        "fontSize": 28,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        }
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Our team builds in small, visible steps so you can see progress and steer as we go.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "04 Launch",
+                  "width": 12,
+                  "layout": {
+                    "gap": 20
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1100&q=80&auto=format&fit=crop",
+                          "alt": "Launch stage"
+                        },
+                        "alt": "Launch stage",
+                        "ratio": "16:9",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 12,
+                        "boxShadow": "lg"
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Go live and keep improving",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "inter",
+                        "fontSize": 28,
+                        "fontWeight": 700,
+                        "lineHeight": 1.25,
+                        "mobile": {
+                          "fontSize": 22
+                        }
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "left",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "We release carefully, measure what happens and keep refining after day one.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#64748b",
+                        "fontSize": 17,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "process-sticky-steps",
+    "title": "Sticky step titles with scrolling panels",
+    "category": "process",
+    "description": "Four steps whose titles stay pinned while image-and-text panels scroll past; collapses to a simple stacked list on phones.",
+    "tags": [
+      "process",
+      "steps",
+      "sticky",
+      "photo",
+      "scroll"
+    ],
+    "industry": [
+      "agency",
+      "devtools",
+      "general"
+    ],
+    "theme": "light",
+    "style": "shine-light",
+    "frameworks": [
+      "shine"
+    ],
+    "images": [
+      {
+        "id": "office",
+        "url": "https://images.unsplash.com/photo-1497366216548-37526070297c",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "team",
+        "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "team-laptop",
+        "url": "https://images.unsplash.com/photo-1551434678-e076c223a692",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "workspace",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "slug": "header-dark-transparent",
+    "kind": "section",
+    "title": "Dark header for dark heroes",
+    "category": "header",
+    "description": "Dark bar with logo left, menu centered and a glowing outline button right. Blends into a dark hero; hamburger and logo only on mobile.",
+    "tags": [
+      "header",
+      "dark",
+      "navbar",
+      "logo",
+      "blend"
+    ],
+    "industry": [
+      "saas",
+      "ai",
+      "devtools"
+    ],
+    "style": "shine-dark",
+    "frameworks": [
+      "shine"
+    ],
+    "version": "1.0.0"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "{{color.bg}}",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 20,
+        "paddingBottom": 20,
+        "mobile": {
+          "paddingTop": 12,
+          "paddingBottom": 12
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "row"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center",
+          "justify": "between",
+          "gap": {
+            "desktop": 24,
+            "mobile": 12
+          },
+          "wrap": false
+        },
+        "borderWidth": 1,
+        "borderColor": "{{color.border}}",
+        "borderStyle": "solid"
+      },
+      "columns": [
+        {
+          "label": "Logo",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "layout": {
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-logo",
+              "props": {
+                "width": 132
+              }
+            }
+          ]
+        },
+        {
+          "label": "Menu",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "fill"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "layout": {
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "nav-menu",
+              "props": {
+                "layout": "horizontal",
+                "label": "Main menu",
+                "mobileBreakpoint": "768",
+                "mobileStyle": "offcanvas",
+                "submenuStyle": "dropdown"
+              },
+              "design": {
+                "fontWeight": 500,
+                "fontSize": 15,
+                "textAlign": "center",
+                "textColor": "{{color.muted}}"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Action",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "layout": {
+            "vAlign": "middle"
+          },
+          "design": {
+            "hideOnMobile": true
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Start building",
+                "url": "/signup",
+                "variant": "secondary",
+                "size": "md",
+                "align": "right"
+              },
+              "design": {
+                "borderFx": "glow",
+                "borderFxColor": "{{color.primary}}",
+                "borderRadius": "{{radius}}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

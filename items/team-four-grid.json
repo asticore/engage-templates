@@ -1,0 +1,721 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "#1e1033",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "#ffffff",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 16
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "The team",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#9333ea",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Small team, big heart",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "montserrat",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.1,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "The people you will actually talk to.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                "align": "center"
+              },
+              "design": {
+                "textColor": "#6b5b7b",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Grid",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 4,
+                  "gridColumnsTablet": 2,
+                  "gridColumnsMobile": 1,
+                  "gridGap": 24,
+                  "gridGapMobile": 32
+                }
+              },
+              "columns": [
+                {
+                  "label": "Lena Ortiz",
+                  "width": 3,
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 0,
+                    "pointerFx": "none"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=700&q=80&auto=format&fit=crop",
+                          "alt": "Lena Ortiz"
+                        },
+                        "alt": "Lena Ortiz",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 20
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Lena Ortiz",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "montserrat",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Founder and creative director",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#9333ea",
+                        "fontSize": 14,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Leads every project from first sketch to launch day.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#6b5b7b",
+                        "fontSize": 15,
+                        "lineHeight": 1.55
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Marcus Bell",
+                  "width": 3,
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 2,
+                    "pointerFx": "none"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=700&q=80&auto=format&fit=crop",
+                          "alt": "Marcus Bell"
+                        },
+                        "alt": "Marcus Bell",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 20
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Marcus Bell",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "montserrat",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Head of engineering",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#9333ea",
+                        "fontSize": 14,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Turns bold ideas into fast, dependable sites.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#6b5b7b",
+                        "fontSize": 15,
+                        "lineHeight": 1.55
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Sofia Lindqvist",
+                  "width": 3,
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 4,
+                    "pointerFx": "none"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700&q=80&auto=format&fit=crop",
+                          "alt": "Sofia Lindqvist"
+                        },
+                        "alt": "Sofia Lindqvist",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 20
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Sofia Lindqvist",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "montserrat",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Brand strategist",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#9333ea",
+                        "fontSize": 14,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Finds the story that makes people care.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#6b5b7b",
+                        "fontSize": 15,
+                        "lineHeight": 1.55
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Ravi Menon",
+                  "width": 3,
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "reveal": "fade-up",
+                    "revealDelay": 6,
+                    "pointerFx": "none"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=700&q=80&auto=format&fit=crop",
+                          "alt": "Ravi Menon"
+                        },
+                        "alt": "Ravi Menon",
+                        "ratio": "1:1",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center"
+                      },
+                      "design": {
+                        "borderRadius": 20
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Ravi Menon",
+                        "tag": "h3",
+                        "align": "left",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "montserrat",
+                        "fontSize": 20,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Client partner",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#9333ea",
+                        "fontSize": 14,
+                        "fontWeight": 700
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "Keeps timelines honest and clients happy.",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "#6b5b7b",
+                        "fontSize": 15,
+                        "lineHeight": 1.55
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "team-four-grid",
+    "title": "Four-person team grid",
+    "category": "team",
+    "description": "Four team cards in a responsive grid: square portrait, name, role and a one-line bio. Four across on desktop, two on tablet, one on phones.",
+    "tags": [
+      "team",
+      "grid",
+      "photo",
+      "portraits"
+    ],
+    "industry": [
+      "agency",
+      "general",
+      "media"
+    ],
+    "theme": "light",
+    "style": "candy",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [
+      {
+        "id": "portrait-m1",
+        "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-m3",
+        "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-w1",
+        "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "portrait-w3",
+        "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

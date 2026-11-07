@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "slug": "faq-accordion-centered",
+    "kind": "section",
+    "category": "faq",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0",
+    "title": "Centered FAQ accordion",
+    "description": "Centered heading above a five-panel accordion of questions and answers; panels open one at a time and work well on phones.",
+    "tags": [
+      "faq",
+      "accordion",
+      "centered",
+      "questions"
+    ],
+    "industry": [
+      "general",
+      "saas",
+      "education"
+    ],
+    "style": "shine-light"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "{{color.bg}}",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 32,
+            "mobile": 24
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 820
+        }
+      },
+      "columns": [
+        {
+          "label": "FAQ",
+          "width": 12,
+          "layout": {
+            "gap": 16
+          },
+          "design": {
+            "textAlign": "center"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "FAQ",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "{{color.primary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Questions, answered",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.1,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": "Can't find what you need? Our team is a message away.",
+                "align": "center"
+              },
+              "design": {
+                "textColor": "{{color.muted}}",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "marginTop": 24,
+                "reveal": "fade-up",
+                "revealDelay": 3,
+                "layout": {
+                  "display": "accordion",
+                  "tabsColor": "{{color.primary}}"
+                }
+              },
+              "columns": [
+                {
+                  "label": "How long does setup take?",
+                  "width": 12,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": "Most customers are live within a day. We import your content, check the details and walk you through the first week.",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "{{color.muted}}",
+                        "fontSize": 16,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Can I change plans later?",
+                  "width": 12,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": "Yes. Upgrade or downgrade whenever you like and we will prorate the difference on your next invoice.",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "{{color.muted}}",
+                        "fontSize": 16,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Do you offer refunds?",
+                  "width": 12,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": "If it is not right for you, tell us within 30 days and we will refund you in full, no forms and no fuss.",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "{{color.muted}}",
+                        "fontSize": 16,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Is my data safe?",
+                  "width": 12,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": "Everything is encrypted in transit and at rest, backed up every night and stored in the region you choose.",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "{{color.muted}}",
+                        "fontSize": 16,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Who do I contact for help?",
+                  "width": 12,
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "content": "Our support team answers by chat and email, usually within a few hours on weekdays.",
+                        "align": "left"
+                      },
+                      "design": {
+                        "textColor": "{{color.muted}}",
+                        "fontSize": 16,
+                        "lineHeight": 1.65
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "slug": "contact-split-details-form",
+    "kind": "section",
+    "category": "contact",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0",
+    "title": "Contact details beside a form",
+    "description": "Phone, email and address with opening hours on the left; the site contact form on the right in a card. Choose your form after inserting; stacks on mobile.",
+    "tags": [
+      "contact",
+      "split",
+      "form",
+      "hours",
+      "icons"
+    ],
+    "industry": [
+      "general",
+      "legal",
+      "health"
+    ],
+    "style": "ocean"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "fontFamily": "{{font.body}}",
+        "bgType": "color",
+        "bgColor": "{{color.bg}}",
+        "textColor": "{{color.text}}",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "alignItems": "start",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Details",
+          "layout": {
+            "gap": 20,
+            "vAlign": "top"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Contact",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "{{color.primary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Let us know how we can help",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": "Call, write or drop in. We reply to every message within one working day."
+              },
+              "design": {
+                "textColor": "{{color.muted}}",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "list",
+              "props": {
+                "items": [
+                  {
+                    "text": "+1 (555) 014-2290",
+                    "href": "tel:+15550142290"
+                  },
+                  {
+                    "text": "hello@yourbusiness.com",
+                    "href": "mailto:hello@yourbusiness.com"
+                  },
+                  {
+                    "text": "48 Harbour Street, Portside"
+                  }
+                ],
+                "marker": "icon",
+                "icon": "phone",
+                "iconColour": "{{color.primary}}",
+                "size": 20,
+                "gap": 14,
+                "align": "left"
+              },
+              "design": {
+                "fontSize": 17,
+                "reveal": "fade-up",
+                "revealDelay": 3
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "business-hours",
+              "props": {
+                "title": "Opening hours",
+                "rows": [
+                  {
+                    "day": "mon",
+                    "open": "08:30",
+                    "close": "17:30",
+                    "closed": false
+                  },
+                  {
+                    "day": "tue",
+                    "open": "08:30",
+                    "close": "17:30",
+                    "closed": false
+                  },
+                  {
+                    "day": "wed",
+                    "open": "08:30",
+                    "close": "17:30",
+                    "closed": false
+                  },
+                  {
+                    "day": "thu",
+                    "open": "08:30",
+                    "close": "17:30",
+                    "closed": false
+                  },
+                  {
+                    "day": "fri",
+                    "open": "08:30",
+                    "close": "16:00",
+                    "closed": false
+                  },
+                  {
+                    "day": "sat",
+                    "open": "",
+                    "close": "",
+                    "closed": true
+                  },
+                  {
+                    "day": "sun",
+                    "open": "",
+                    "close": "",
+                    "closed": true
+                  }
+                ],
+                "timezone": "",
+                "showStatus": true
+              },
+              "design": {
+                "reveal": "fade-up",
+                "revealDelay": 4
+              }
+            }
+          ],
+          "widthDesktop": {
+            "value": 5,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        },
+        {
+          "label": "Form (choose a form)",
+          "layout": {
+            "gap": 12,
+            "vAlign": "top"
+          },
+          "design": {
+            "paddingTop": 32,
+            "paddingBottom": 32,
+            "paddingLeft": 32,
+            "paddingRight": 32,
+            "mobile": {
+              "paddingTop": 20,
+              "paddingBottom": 20,
+              "paddingLeft": 16,
+              "paddingRight": 16
+            },
+            "bgType": "color",
+            "bgColor": "{{color.surface}}",
+            "borderRadius": "{{radius}}",
+            "boxShadow": "md",
+            "reveal": "fade-up",
+            "revealDelay": 2
+          },
+          "blocks": [
+            {
+              "blockType": "form",
+              "showTitle": false
+            }
+          ],
+          "widthDesktop": {
+            "value": 7,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        }
+      ]
+    }
+  ]
+}

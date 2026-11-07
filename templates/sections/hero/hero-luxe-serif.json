@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "slug": "hero-luxe-serif",
+    "kind": "section",
+    "title": "Luxe serif hero with wide photo below",
+    "category": "hero",
+    "description": "Centered serif headline and two buttons on a dark gold-accent canvas, with a wide rounded photo beneath. Photo and text scale cleanly on mobile.",
+    "tags": [
+      "hero",
+      "luxe",
+      "serif",
+      "centered",
+      "photo",
+      "elegant"
+    ],
+    "industry": [
+      "travel",
+      "real-estate",
+      "restaurant"
+    ],
+    "style": "luxe",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "{{color.bg}}",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 112,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 64,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1100,
+          "alignItems": "center",
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          }
+        },
+        "textAlign": "center"
+      },
+      "columns": [
+        {
+          "label": "Copy",
+          "width": 12,
+          "layout": {
+            "gap": 24,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Harbourside residences",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.body}}",
+                "textColor": "{{color.primary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 4,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "A quieter way to live by the sea",
+                "tag": "h1",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 72,
+                "fontWeight": 500,
+                "lineHeight": 1.02,
+                "letterSpacing": -1,
+                "mobile": {
+                  "fontSize": 42
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": "Twelve private suites, a rooftop garden and a concierge who knows your name before you arrive."
+              },
+              "design": {
+                "textColor": "{{color.muted}}",
+                "fontSize": 19,
+                "lineHeight": 1.7,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "justify": "center",
+                  "wrap": true
+                },
+                "reveal": "fade-up",
+                "revealDelay": 3
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Request a viewing",
+                        "url": "/viewings",
+                        "variant": "primary",
+                        "size": "lg",
+                        "align": "center"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "View floor plans",
+                        "url": "#plans",
+                        "variant": "secondary",
+                        "size": "lg",
+                        "align": "center"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Photo",
+          "width": 12,
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": "img:hotel@2000|Sunlit hotel lobby with marble and warm lighting",
+                "alt": "Sunlit hotel lobby with marble and warm lighting",
+                "ratio": "21:9",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "borderRadius": "{{radius}}",
+                "boxShadow": "lg",
+                "reveal": "zoom"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "meta": {
+    "slug": "team-leadership-split",
+    "kind": "section",
+    "category": "team",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0",
+    "title": "Leadership split",
+    "description": "Heading and intro on the left; two leader cards stacked on the right, each with portrait, name, role and bio. Stacks on mobile.",
+    "tags": [
+      "team",
+      "leadership",
+      "split",
+      "photo",
+      "bio"
+    ],
+    "industry": [
+      "legal",
+      "fintech",
+      "general"
+    ],
+    "style": "mono"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "bgColor": "{{color.bg}}",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 64,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center"
+        }
+      },
+      "columns": [
+        {
+          "label": "Intro",
+          "layout": {
+            "gap": 20,
+            "vAlign": "middle"
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Leadership",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "{{color.primary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Counsel you can rely on",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.1,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "content": "Our partners have spent decades guiding families and businesses through the moments that matter. They still take the first call themselves.",
+                "align": "left"
+              },
+              "design": {
+                "textColor": "{{color.muted}}",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Meet the full firm",
+                "url": "/team",
+                "variant": "secondary",
+                "size": "lg",
+                "align": "left"
+              }
+            }
+          ],
+          "widthDesktop": {
+            "value": 5,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        },
+        {
+          "label": "Leaders",
+          "layout": {
+            "gap": 20
+          },
+          "design": {},
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "bgType": "color",
+                "bgColor": "{{color.surface}}",
+                "borderWidth": 1,
+                "borderStyle": "solid",
+                "borderColor": "{{color.border}}",
+                "borderRadius": "{{radius}}",
+                "paddingTop": 20,
+                "paddingBottom": 20,
+                "paddingLeft": 20,
+                "paddingRight": 20,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              },
+              "columns": [
+                {
+                  "label": "Alistair Crane",
+                  "width": 12,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 24
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 160,
+                            "unit": "px"
+                          },
+                          "widthMobile": {
+                            "value": 160,
+                            "unit": "px"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": "img:portrait-m4@500|Alistair Crane",
+                                "alt": "Alistair Crane",
+                                "ratio": "3:4",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "borderRadius": "{{radius}}"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "layout": {
+                            "gap": 8,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Alistair Crane",
+                                "tag": "h3",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontFamily": "{{font.heading}}",
+                                "fontSize": 24,
+                                "fontWeight": 700
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": "Managing partner",
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "{{color.primary}}",
+                                "fontSize": 13,
+                                "fontWeight": 700,
+                                "textTransform": "uppercase",
+                                "letterSpacing": 1.5
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": "Thirty years in commercial and property law. Alistair leads the firm with a plain-spoken, no-surprises approach.",
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "{{color.muted}}",
+                                "fontSize": 15,
+                                "lineHeight": 1.6
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "bgType": "color",
+                "bgColor": "{{color.surface}}",
+                "borderWidth": 1,
+                "borderStyle": "solid",
+                "borderColor": "{{color.border}}",
+                "borderRadius": "{{radius}}",
+                "paddingTop": 20,
+                "paddingBottom": 20,
+                "paddingLeft": 20,
+                "paddingRight": 20,
+                "reveal": "fade-up",
+                "revealDelay": 4
+              },
+              "columns": [
+                {
+                  "label": "Dr. Naomi Hale",
+                  "width": 12,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "section",
+                      "design": {
+                        "layout": {
+                          "display": "columns",
+                          "direction": {
+                            "desktop": "row",
+                            "mobile": "row"
+                          },
+                          "wrap": false,
+                          "gap": {
+                            "desktop": 24
+                          },
+                          "alignItems": "center"
+                        }
+                      },
+                      "columns": [
+                        {
+                          "widthDesktop": {
+                            "value": 160,
+                            "unit": "px"
+                          },
+                          "widthMobile": {
+                            "value": 160,
+                            "unit": "px"
+                          },
+                          "layout": {
+                            "gap": 0
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "image",
+                              "props": {
+                                "image": "img:portrait-w5@500|Dr. Naomi Hale",
+                                "alt": "Dr. Naomi Hale",
+                                "ratio": "3:4",
+                                "fit": "cover",
+                                "width": 100,
+                                "align": "center"
+                              },
+                              "design": {
+                                "borderRadius": "{{radius}}"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "widthDesktop": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "widthMobile": {
+                            "value": 0,
+                            "unit": "fill"
+                          },
+                          "layout": {
+                            "gap": 8,
+                            "vAlign": "middle"
+                          },
+                          "blocks": [
+                            {
+                              "blockType": "element",
+                              "elementType": "heading",
+                              "props": {
+                                "text": "Dr. Naomi Hale",
+                                "tag": "h3",
+                                "align": "left",
+                                "effect": "none"
+                              },
+                              "design": {
+                                "fontFamily": "{{font.heading}}",
+                                "fontSize": 24,
+                                "fontWeight": 700
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": "Senior partner, family law",
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "{{color.primary}}",
+                                "fontSize": 13,
+                                "fontWeight": 700,
+                                "textTransform": "uppercase",
+                                "letterSpacing": 1.5
+                              }
+                            },
+                            {
+                              "blockType": "element",
+                              "elementType": "text-editor",
+                              "props": {
+                                "content": "Naomi pairs rigorous preparation with real empathy, helping clients reach calm, durable agreements.",
+                                "align": "left"
+                              },
+                              "design": {
+                                "textColor": "{{color.muted}}",
+                                "fontSize": 15,
+                                "lineHeight": 1.6
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "widthDesktop": {
+            "value": 7,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        }
+      ]
+    }
+  ]
+}

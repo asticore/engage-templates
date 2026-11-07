@@ -1,0 +1,325 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#0a0a0a",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 72,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center"
+        }
+      },
+      "columns": [
+        {
+          "label": "Photo",
+          "width": 6,
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1400&q=80&auto=format&fit=crop",
+                  "alt": "Advisers meeting with a client"
+                },
+                "alt": "Advisers meeting with a client",
+                "ratio": "3:4",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "borderRadius": 0,
+                "boxShadow": "lg",
+                "reveal": "slide-right"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Text",
+          "width": 6,
+          "layout": {
+            "gap": 20,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "About the firm",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#111111",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Straight answers from people who care",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.15,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "We keep things plain: clear advice, fair fees and no jargon. Whether you are starting out or starting over, you will always know where you stand and what happens next.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#737373",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "gap": {
+                    "desktop": 24,
+                    "mobile": 12
+                  },
+                  "wrap": false,
+                  "alignItems": "start"
+                },
+                "paddingTop": 24,
+                "reveal": "fade-up",
+                "revealDelay": 4
+              },
+              "columns": [
+                {
+                  "label": "Years in practice",
+                  "width": 4,
+                  "widthDesktop": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 12,
+                        "decimals": 0,
+                        "suffix": "+",
+                        "title": "Years in practice",
+                        "separator": false,
+                        "animate": true,
+                        "align": "left"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 40,
+                        "fontWeight": 800,
+                        "textColor": "#111111",
+                        "mobile": {
+                          "fontSize": 32
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Clients helped",
+                  "width": 4,
+                  "widthDesktop": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 4800,
+                        "decimals": 0,
+                        "suffix": "+",
+                        "title": "Clients helped",
+                        "separator": false,
+                        "animate": true,
+                        "align": "left"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 40,
+                        "fontWeight": 800,
+                        "textColor": "#111111",
+                        "mobile": {
+                          "fontSize": 32
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Would recommend",
+                  "width": 4,
+                  "widthDesktop": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 4,
+                    "unit": "fraction"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 98,
+                        "decimals": 0,
+                        "suffix": "%",
+                        "title": "Would recommend",
+                        "separator": false,
+                        "animate": true,
+                        "align": "left"
+                      },
+                      "design": {
+                        "fontFamily": "jost",
+                        "fontSize": 40,
+                        "fontWeight": 800,
+                        "textColor": "#111111",
+                        "mobile": {
+                          "fontSize": 32
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "content-image-text-stats",
+    "title": "Large photo beside text with three counters",
+    "category": "content",
+    "description": "Big photo on the left; headline, paragraph and three animated stats on the right. Stacks with the photo on top on mobile.",
+    "tags": [
+      "content",
+      "split",
+      "photo",
+      "stats",
+      "counters",
+      "animated"
+    ],
+    "industry": [
+      "legal",
+      "health",
+      "general"
+    ],
+    "theme": "light",
+    "style": "mono",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [
+      {
+        "id": "meeting2",
+        "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

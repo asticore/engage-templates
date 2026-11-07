@@ -1,0 +1,197 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 80,
+        "paddingBottom": 80,
+        "mobile": {
+          "paddingTop": 48,
+          "paddingBottom": 48
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#eef2ff",
+        "textColor": "#0f172a",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 64,
+            "mobile": 28
+          },
+          "alignItems": "center",
+          "contentWidth": "boxed",
+          "boxedWidth": 1100
+        }
+      },
+      "columns": [
+        {
+          "label": "Copy",
+          "layout": {
+            "gap": 16,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "The Friday letter",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#4f46e5",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "One useful idea in your inbox every week",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "left",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Short, practical notes from our team. No spam, and you can unsubscribe in one click.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#64748b",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            }
+          ],
+          "widthDesktop": {
+            "value": 7,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        },
+        {
+          "label": "Sign-up form (choose a form)",
+          "layout": {
+            "gap": 12,
+            "vAlign": "middle"
+          },
+          "design": {
+            "paddingTop": 24,
+            "paddingBottom": 24,
+            "paddingLeft": 24,
+            "paddingRight": 24,
+            "bgType": "color",
+            "bgColor": "#ffffff",
+            "borderRadius": 12,
+            "boxShadow": "md",
+            "reveal": "fade-up",
+            "revealDelay": 3
+          },
+          "blocks": [
+            {
+              "blockType": "form",
+              "showTitle": false
+            }
+          ],
+          "widthDesktop": {
+            "value": 5,
+            "unit": "fraction"
+          },
+          "widthMobile": {
+            "value": 12,
+            "unit": "fraction"
+          }
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "newsletter-inline-band",
+    "title": "Inline newsletter band with sign-up form",
+    "category": "newsletter",
+    "description": "Heading and short pitch on the left, the site email sign-up form on the right, on a soft tinted band. Pick your form in the right column after inserting; stacks on mobile.",
+    "tags": [
+      "newsletter",
+      "band",
+      "split",
+      "form",
+      "email"
+    ],
+    "industry": [
+      "general",
+      "media",
+      "ecommerce"
+    ],
+    "theme": "light",
+    "style": "shine-light",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

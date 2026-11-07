@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "slug": "blog-latest-posts",
+    "kind": "section",
+    "category": "blog",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0",
+    "title": "Latest posts from the blog (dynamic)",
+    "description": "Heading plus the site's three newest published posts in a grid with image, date and excerpt, pulled live from the blog. Shows nothing until the blog has posts.",
+    "tags": [
+      "blog",
+      "dynamic",
+      "posts",
+      "grid",
+      "dark"
+    ],
+    "industry": [
+      "media",
+      "saas",
+      "general"
+    ],
+    "style": "shine-dark"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "fontFamily": "{{font.body}}",
+        "bgType": "color",
+        "bgColor": "{{color.bg}}",
+        "textColor": "{{color.text}}",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "alignItems": "stretch",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 12
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Latest",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "{{color.primary}}",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "News and ideas from the team",
+                "tag": "h2",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Browse all posts",
+                "url": "/blog",
+                "variant": "secondary",
+                "size": "md",
+                "align": "left"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Posts",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "post-list",
+              "props": {
+                "count": 3,
+                "category": "",
+                "layout": "grid",
+                "headingTag": "h3",
+                "showImage": true,
+                "showExcerpt": true,
+                "showDate": true
+              },
+              "design": {
+                "reveal": "fade-up"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

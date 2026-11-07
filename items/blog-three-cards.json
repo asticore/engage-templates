@@ -1,0 +1,296 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#faf5ff",
+        "textColor": "#1e1033",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 28
+          },
+          "alignItems": "stretch",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 12
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "From the journal",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#9333ea",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Fresh reading for curious minds",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "montserrat",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Cards",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 3,
+                  "gridColumnsTablet": 2,
+                  "gridColumnsMobile": 1,
+                  "gridGap": 28,
+                  "gridGapMobile": 20,
+                  "contentWidth": "boxed",
+                  "boxedWidth": 1200,
+                  "gridAlign": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Five habits of calm, productive teams",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "card",
+                      "props": {
+                        "media": "image",
+                        "imageRatio": "4:3",
+                        "imageFit": "cover",
+                        "titleTag": "h3",
+                        "layout": "top",
+                        "align": "left",
+                        "bgColour": "#ffffff",
+                        "borderRadius": 20,
+                        "shadow": "sm",
+                        "hoverEffect": "lift",
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Five habits of calm, productive teams"
+                        },
+                        "title": "Five habits of calm, productive teams",
+                        "text": "Small routines that cut meeting time and make room for deep work.",
+                        "link": {
+                          "url": "/blog/calm-teams"
+                        },
+                        "linkLabel": "Read article"
+                      },
+                      "design": {
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Reading your numbers without the noise",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "card",
+                      "props": {
+                        "media": "image",
+                        "imageRatio": "4:3",
+                        "imageFit": "cover",
+                        "titleTag": "h3",
+                        "layout": "top",
+                        "align": "left",
+                        "bgColour": "#ffffff",
+                        "borderRadius": 20,
+                        "shadow": "sm",
+                        "hoverEffect": "lift",
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Reading your numbers without the noise"
+                        },
+                        "title": "Reading your numbers without the noise",
+                        "text": "Which three metrics are worth checking each week, and which to ignore.",
+                        "link": {
+                          "url": "/blog/reading-numbers"
+                        },
+                        "linkLabel": "Read article"
+                      },
+                      "design": {
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "How to run a decision meeting",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "card",
+                      "props": {
+                        "media": "image",
+                        "imageRatio": "4:3",
+                        "imageFit": "cover",
+                        "titleTag": "h3",
+                        "layout": "top",
+                        "align": "left",
+                        "bgColour": "#ffffff",
+                        "borderRadius": 20,
+                        "shadow": "sm",
+                        "hoverEffect": "lift",
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=900&q=80&auto=format&fit=crop",
+                          "alt": "How to run a decision meeting"
+                        },
+                        "title": "How to run a decision meeting",
+                        "text": "A simple agenda that gets to a clear yes or no in thirty minutes.",
+                        "link": {
+                          "url": "/blog/decision-meetings"
+                        },
+                        "linkLabel": "Read article"
+                      },
+                      "design": {
+                        "reveal": "fade-up",
+                        "revealDelay": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Button",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "View all articles",
+                "url": "/blog",
+                "variant": "secondary",
+                "size": "lg",
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "blog-three-cards",
+    "title": "Three article cards with view-all button",
+    "category": "blog",
+    "description": "Heading with three image cards (photo, title, teaser, read link) and a View all button below. Cards lift on hover; they stack on mobile.",
+    "tags": [
+      "blog",
+      "cards",
+      "articles",
+      "grid",
+      "photo"
+    ],
+    "industry": [
+      "media",
+      "agency",
+      "general"
+    ],
+    "theme": "light",
+    "style": "candy",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [
+      {
+        "id": "analytics",
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "meeting",
+        "url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "workspace",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

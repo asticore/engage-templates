@@ -1,0 +1,262 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#0e0d0b",
+        "textColor": "#f5efe3",
+        "fontFamily": "jost",
+        "paddingTop": 112,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 64,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1100,
+          "alignItems": "center",
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          }
+        },
+        "textAlign": "center"
+      },
+      "columns": [
+        {
+          "label": "Copy",
+          "width": 12,
+          "layout": {
+            "gap": 24,
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Harbourside residences",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "textColor": "#c8a45d",
+                "textTransform": "uppercase",
+                "letterSpacing": 4,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "A quieter way to live by the sea",
+                "tag": "h1",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "cormorant",
+                "fontSize": 72,
+                "fontWeight": 500,
+                "lineHeight": 1.02,
+                "letterSpacing": -1,
+                "mobile": {
+                  "fontSize": 42
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Twelve private suites, a rooftop garden and a concierge who knows your name before you arrive.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#a8a29e",
+                "fontSize": 19,
+                "lineHeight": 1.7,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "gap": {
+                    "desktop": 12
+                  },
+                  "justify": "center",
+                  "wrap": true
+                },
+                "reveal": "fade-up",
+                "revealDelay": 3
+              },
+              "columns": [
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "Request a viewing",
+                        "url": "/viewings",
+                        "variant": "primary",
+                        "size": "lg",
+                        "align": "center"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widthDesktop": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "widthMobile": {
+                    "value": 0,
+                    "unit": "auto"
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "button",
+                      "props": {
+                        "text": "View floor plans",
+                        "url": "#plans",
+                        "variant": "secondary",
+                        "size": "lg",
+                        "align": "center"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Photo",
+          "width": 12,
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "image",
+              "props": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=2000&q=80&auto=format&fit=crop",
+                  "alt": "Sunlit hotel lobby with marble and warm lighting"
+                },
+                "alt": "Sunlit hotel lobby with marble and warm lighting",
+                "ratio": "21:9",
+                "fit": "cover",
+                "width": 100,
+                "align": "center"
+              },
+              "design": {
+                "borderRadius": 2,
+                "boxShadow": "lg",
+                "reveal": "zoom"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "hero-luxe-serif",
+    "title": "Luxe serif hero with wide photo below",
+    "category": "hero",
+    "description": "Centered serif headline and two buttons on a dark gold-accent canvas, with a wide rounded photo beneath. Photo and text scale cleanly on mobile.",
+    "tags": [
+      "hero",
+      "luxe",
+      "serif",
+      "centered",
+      "photo",
+      "elegant"
+    ],
+    "industry": [
+      "travel",
+      "real-estate",
+      "restaurant"
+    ],
+    "theme": "dark",
+    "style": "luxe",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [
+      {
+        "id": "hotel",
+        "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

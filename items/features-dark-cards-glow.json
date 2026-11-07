@@ -1,0 +1,283 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#0b1020",
+        "textColor": "#f8fafc",
+        "fontFamily": "inter",
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Intro and cards",
+          "width": 12,
+          "layout": {
+            "gap": 16
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Built different",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#818cf8",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade-up",
+                "revealDelay": 0
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Quietly powerful, beautifully dark",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.15,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up",
+                "revealDelay": 1
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Three principles behind every pixel of the product.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#94a3b8",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            },
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 3,
+                  "gridColumnsTablet": 1,
+                  "gridColumnsMobile": 1,
+                  "gridGap": 24,
+                  "gridGapMobile": 16,
+                  "gridAlign": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Crafted detail",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "card",
+                      "props": {
+                        "media": "icon",
+                        "icon": "sparkle",
+                        "iconSize": 40,
+                        "iconColour": "#818cf8",
+                        "title": "Crafted detail",
+                        "titleTag": "h3",
+                        "text": "Every surface is tuned for contrast and calm, so the content does the talking.",
+                        "layout": "top",
+                        "align": "left",
+                        "bgColour": "#111827",
+                        "borderRadius": 12,
+                        "shadow": "none",
+                        "hoverEffect": "lift"
+                      },
+                      "design": {
+                        "reveal": "fade-up",
+                        "revealDelay": 0,
+                        "borderFx": "glow",
+                        "borderFxColor": "#818cf8",
+                        "pointerFx": "spotlight",
+                        "spotlightColor": "#818cf8"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Instant response",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "card",
+                      "props": {
+                        "media": "icon",
+                        "icon": "bolt",
+                        "iconSize": 40,
+                        "iconColour": "#818cf8",
+                        "title": "Instant response",
+                        "titleTag": "h3",
+                        "text": "Interactions respond the moment you touch them, with motion that never gets in the way.",
+                        "layout": "top",
+                        "align": "left",
+                        "bgColour": "#111827",
+                        "borderRadius": 12,
+                        "shadow": "none",
+                        "hoverEffect": "lift"
+                      },
+                      "design": {
+                        "reveal": "fade-up",
+                        "revealDelay": 2,
+                        "borderFx": "glow",
+                        "borderFxColor": "#818cf8",
+                        "pointerFx": "spotlight",
+                        "spotlightColor": "#818cf8"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Private by design",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "card",
+                      "props": {
+                        "media": "icon",
+                        "icon": "shield",
+                        "iconSize": 40,
+                        "iconColour": "#818cf8",
+                        "title": "Private by design",
+                        "titleTag": "h3",
+                        "text": "Your data stays yours, encrypted in transit and at rest, with no surprises.",
+                        "layout": "top",
+                        "align": "left",
+                        "bgColour": "#111827",
+                        "borderRadius": 12,
+                        "shadow": "none",
+                        "hoverEffect": "lift"
+                      },
+                      "design": {
+                        "reveal": "fade-up",
+                        "revealDelay": 4,
+                        "borderFx": "glow",
+                        "borderFxColor": "#818cf8",
+                        "pointerFx": "spotlight",
+                        "spotlightColor": "#818cf8"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "features-dark-cards-glow",
+    "title": "Dark trio of glowing spotlight cards",
+    "category": "features",
+    "description": "Dark band with a centered heading and three cards that glow at the edge and follow the pointer; cards stack on phones.",
+    "tags": [
+      "features",
+      "dark",
+      "cards",
+      "glow",
+      "spotlight",
+      "animated"
+    ],
+    "industry": [
+      "saas",
+      "ai",
+      "devtools"
+    ],
+    "theme": "dark",
+    "style": "shine-dark",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 96,
+        "paddingBottom": 96,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "fontFamily": "inter",
+        "bgType": "color",
+        "bgColor": "#ffffff",
+        "textColor": "#0a0a0a",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          },
+          "alignItems": "stretch",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "layout": {
+            "gap": 12
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "Gallery",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "textColor": "#0a0a0a",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "A look around",
+                "tag": "h2",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "jost",
+                "fontSize": 42,
+                "fontWeight": 700,
+                "lineHeight": 1.12,
+                "letterSpacing": -0.5,
+                "mobile": {
+                  "fontSize": 30
+                },
+                "reveal": "fade-up"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "version": 1,
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "version": 1,
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "children": [
+                          {
+                            "type": "text",
+                            "version": 1,
+                            "text": "Moments from the studio, the shop floor and the corners we love.",
+                            "format": 0,
+                            "style": "",
+                            "mode": "normal",
+                            "detail": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "design": {
+                "textColor": "#737373",
+                "fontSize": 17,
+                "lineHeight": 1.65,
+                "reveal": "fade-up",
+                "revealDelay": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Photos",
+          "width": 12,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 3,
+                  "gridColumnsTablet": 2,
+                  "gridColumnsMobile": 1,
+                  "gridGap": 16,
+                  "gridGapMobile": 20,
+                  "contentWidth": "boxed",
+                  "boxedWidth": 1200
+                }
+              },
+              "columns": [
+                {
+                  "label": "Boutique shopfront",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Boutique shopfront"
+                        },
+                        "alt": "Boutique shopfront",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Fresh coffee on the counter",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Fresh coffee on the counter"
+                        },
+                        "alt": "Fresh coffee on the counter",
+                        "ratio": "3:4",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Light-filled interior",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Light-filled interior"
+                        },
+                        "alt": "Light-filled interior",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Green corner by the window",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Green corner by the window"
+                        },
+                        "alt": "Green corner by the window",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "A tidy workspace",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=900&q=80&auto=format&fit=crop",
+                          "alt": "A tidy workspace"
+                        },
+                        "alt": "A tidy workspace",
+                        "ratio": "3:4",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Architectural detail",
+                  "width": 4,
+                  "layout": {
+                    "gap": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "image",
+                      "props": {
+                        "image": {
+                          "url": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=900&q=80&auto=format&fit=crop",
+                          "alt": "Architectural detail"
+                        },
+                        "alt": "Architectural detail",
+                        "ratio": "4:3",
+                        "fit": "cover",
+                        "width": 100,
+                        "align": "center",
+                        "lightbox": true
+                      },
+                      "design": {
+                        "borderRadius": 0,
+                        "hover": "zoom",
+                        "reveal": "fade-up",
+                        "revealDelay": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "gallery-grid",
+    "title": "Six-photo grid with hover zoom",
+    "category": "gallery",
+    "description": "Heading above a three-by-two photo grid. Photos zoom gently on hover and open larger on click; two columns on tablet, one on mobile.",
+    "tags": [
+      "gallery",
+      "grid",
+      "photos",
+      "hover",
+      "lightbox"
+    ],
+    "industry": [
+      "general",
+      "agency",
+      "personal"
+    ],
+    "theme": "light",
+    "style": "mono",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [
+      {
+        "id": "architecture",
+        "url": "https://images.unsplash.com/photo-1487958449943-2429e8be8625",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "coffee",
+        "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "desk",
+        "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "interior",
+        "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "plant",
+        "url": "https://images.unsplash.com/photo-1485955900006-10f4d324d411",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      },
+      {
+        "id": "store",
+        "url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8",
+        "source": "unsplash",
+        "license": "Unsplash License"
+      }
+    ],
+    "version": "1.0.0"
+  }
+}

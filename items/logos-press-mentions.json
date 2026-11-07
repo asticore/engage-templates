@@ -1,0 +1,410 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#f3f1e7",
+        "textColor": "#1a2e1f",
+        "fontFamily": "inter",
+        "paddingTop": 80,
+        "paddingBottom": 80,
+        "mobile": {
+          "paddingTop": 48,
+          "paddingBottom": 48
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1100,
+          "alignItems": "stretch",
+          "gap": {
+            "desktop": 40,
+            "mobile": 28
+          }
+        }
+      },
+      "columns": [
+        {
+          "label": "Heading",
+          "width": 12,
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "As seen in",
+                "tag": "h6",
+                "align": "center",
+                "effect": "none"
+              },
+              "design": {
+                "fontFamily": "inter",
+                "textColor": "#166534",
+                "textTransform": "uppercase",
+                "letterSpacing": 2,
+                "fontWeight": 700,
+                "fontSize": 13,
+                "reveal": "fade"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Mentions",
+          "width": 12,
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "grid",
+                  "gridColumns": 4,
+                  "gridColumnsTablet": 2,
+                  "gridColumnsMobile": 1,
+                  "gridGap": 32,
+                  "gridGapMobile": 28,
+                  "gridAlign": "start"
+                }
+              },
+              "columns": [
+                {
+                  "label": "The Daily Ledger",
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "paddingTop": 8,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "The Daily Ledger",
+                        "tag": "h4",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "playfair",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "textColor": "#1a2e1f",
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "center",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"A rare product that feels as good as it looks.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#57534e",
+                        "fontSize": 15,
+                        "lineHeight": 1.6,
+                        "fontStyle": "italic",
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Form Weekly",
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "paddingTop": 8,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Form Weekly",
+                        "tag": "h4",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "playfair",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "textColor": "#1a2e1f",
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "center",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"Quietly reshaping how small teams work.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#57534e",
+                        "fontSize": 15,
+                        "lineHeight": 1.6,
+                        "fontStyle": "italic",
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Metro Review",
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "paddingTop": 8,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Metro Review",
+                        "tag": "h4",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "playfair",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "textColor": "#1a2e1f",
+                        "reveal": "fade-up",
+                        "revealDelay": 4
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "center",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"Our pick of the year for simple, honest tools.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#57534e",
+                        "fontSize": 15,
+                        "lineHeight": 1.6,
+                        "fontStyle": "italic",
+                        "reveal": "fade-up",
+                        "revealDelay": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Hearth Journal",
+                  "layout": {
+                    "gap": 10
+                  },
+                  "design": {
+                    "paddingTop": 8,
+                    "borderWidth": 0
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "heading",
+                      "props": {
+                        "text": "Hearth Journal",
+                        "tag": "h4",
+                        "align": "center",
+                        "effect": "none"
+                      },
+                      "design": {
+                        "fontFamily": "playfair",
+                        "fontSize": 24,
+                        "fontWeight": 700,
+                        "textColor": "#1a2e1f",
+                        "reveal": "fade-up",
+                        "revealDelay": 6
+                      }
+                    },
+                    {
+                      "blockType": "element",
+                      "elementType": "text-editor",
+                      "props": {
+                        "align": "center",
+                        "content": {
+                          "root": {
+                            "type": "root",
+                            "version": 1,
+                            "direction": "ltr",
+                            "format": "",
+                            "indent": 0,
+                            "children": [
+                              {
+                                "type": "paragraph",
+                                "version": 1,
+                                "direction": "ltr",
+                                "format": "",
+                                "indent": 0,
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "version": 1,
+                                    "text": "\"Thoughtful design, and a team that listens.\"",
+                                    "format": 0,
+                                    "style": "",
+                                    "mode": "normal",
+                                    "detail": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "design": {
+                        "textColor": "#57534e",
+                        "fontSize": 15,
+                        "lineHeight": 1.6,
+                        "fontStyle": "italic",
+                        "reveal": "fade-up",
+                        "revealDelay": 6
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "logos-press-mentions",
+    "title": "As seen in row with quote snippets",
+    "category": "logos",
+    "description": "An As seen in label over four fictional publication names, each with a one-line quote. Four across on desktop, two on tablet, one column on mobile.",
+    "tags": [
+      "logos",
+      "press",
+      "quotes",
+      "grid",
+      "as seen in"
+    ],
+    "industry": [
+      "general",
+      "ecommerce",
+      "restaurant",
+      "media"
+    ],
+    "theme": "light",
+    "style": "forest",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

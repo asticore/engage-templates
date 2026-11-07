@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "slug": "header-logo-links-cta",
+    "kind": "section",
+    "title": "Header with logo, centered menu and button",
+    "category": "header",
+    "description": "Logo on the left, navigation in the middle and a primary button on the right. On mobile only the logo and a hamburger menu remain.",
+    "tags": [
+      "header",
+      "navbar",
+      "logo",
+      "cta",
+      "sticky"
+    ],
+    "industry": [
+      "general",
+      "saas",
+      "agency"
+    ],
+    "style": "ocean",
+    "frameworks": [
+      "shine"
+    ],
+    "version": "1.0.0"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "{{color.bg}}",
+        "textColor": "{{color.text}}",
+        "fontFamily": "{{font.body}}",
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "mobile": {
+          "paddingTop": 12,
+          "paddingBottom": 12
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "row"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "alignItems": "center",
+          "justify": "between",
+          "gap": {
+            "desktop": 24,
+            "mobile": 12
+          },
+          "wrap": false
+        },
+        "borderWidth": 1,
+        "borderColor": "{{color.border}}",
+        "borderStyle": "solid",
+        "boxShadow": "sm"
+      },
+      "columns": [
+        {
+          "label": "Logo",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "layout": {
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-logo",
+              "props": {
+                "width": 140
+              }
+            }
+          ]
+        },
+        {
+          "label": "Menu",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "fill"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "layout": {
+            "vAlign": "middle"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "nav-menu",
+              "props": {
+                "layout": "horizontal",
+                "label": "Main menu",
+                "mobileBreakpoint": "768",
+                "mobileStyle": "offcanvas",
+                "submenuStyle": "dropdown",
+                "sticky": true
+              },
+              "design": {
+                "fontWeight": 500,
+                "fontSize": 15,
+                "textAlign": "center"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Action",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "layout": {
+            "vAlign": "middle"
+          },
+          "design": {
+            "hideOnMobile": true
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Get a quote",
+                "url": "/contact",
+                "variant": "primary",
+                "size": "md",
+                "align": "right"
+              },
+              "design": {
+                "pointerFx": "magnetic"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

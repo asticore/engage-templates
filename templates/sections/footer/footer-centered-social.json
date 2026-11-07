@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "slug": "footer-centered-social",
+    "kind": "section",
+    "category": "footer",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0",
+    "title": "Centered footer with social icons",
+    "description": "Centered logo, one-line tagline, round social icons and a small copyright line on a soft tinted background. Works unchanged on mobile.",
+    "tags": [
+      "footer",
+      "centered",
+      "social",
+      "logo"
+    ],
+    "industry": [
+      "general",
+      "personal",
+      "events"
+    ],
+    "style": "candy"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 64,
+        "paddingBottom": 40,
+        "mobile": {
+          "paddingTop": 48,
+          "paddingBottom": 32
+        },
+        "fontFamily": "{{font.body}}",
+        "bgType": "color",
+        "bgColor": "{{color.surface}}",
+        "textColor": "{{color.text}}",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 48,
+            "mobile": 32
+          },
+          "alignItems": "center",
+          "contentWidth": "boxed",
+          "boxedWidth": 900
+        }
+      },
+      "columns": [
+        {
+          "label": "Footer",
+          "width": 12,
+          "layout": {
+            "gap": 20
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-logo",
+              "props": {
+                "width": 140,
+                "alt": ""
+              },
+              "design": {
+                "selfAlign": "center"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": "Made with care, shared with joy."
+              },
+              "design": {
+                "textColor": "{{color.muted}}",
+                "fontSize": 17
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "social-icons",
+              "props": {
+                "items": [
+                  {
+                    "network": "instagram",
+                    "address": "https://instagram.com/"
+                  },
+                  {
+                    "network": "facebook",
+                    "address": "https://facebook.com/"
+                  },
+                  {
+                    "network": "linkedin",
+                    "address": "https://linkedin.com/"
+                  },
+                  {
+                    "network": "youtube",
+                    "address": "https://youtube.com/"
+                  }
+                ],
+                "shape": "circle",
+                "size": 20,
+                "align": "center",
+                "mode": "follow"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "divider",
+              "props": {
+                "showLine": true,
+                "gap": 8,
+                "style": "solid",
+                "weight": 1,
+                "width": 100,
+                "align": "center"
+              }
+            },
+            {
+              "blockType": "element",
+              "elementType": "text-editor",
+              "props": {
+                "align": "center",
+                "content": "© 2026 Your Business. All rights reserved."
+              },
+              "design": {
+                "fontSize": 13,
+                "textColor": "{{color.muted}}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

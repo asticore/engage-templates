@@ -1,0 +1,312 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#f0f9ff",
+        "textColor": "#0c1a2b",
+        "fontFamily": "inter",
+        "paddingTop": 80,
+        "paddingBottom": 80,
+        "mobile": {
+          "paddingTop": 56,
+          "paddingBottom": 56
+        },
+        "dividerTop": "wave",
+        "dividerTopColor": "#ffffff",
+        "dividerTopHeight": 40,
+        "dividerBottom": "wave",
+        "dividerBottomColor": "#ffffff",
+        "dividerBottomHeight": 40,
+        "dividerBottomFlip": true,
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "column",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 32,
+            "mobile": 24
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200
+        }
+      },
+      "columns": [
+        {
+          "label": "Counters",
+          "width": 12,
+          "blocks": [
+            {
+              "blockType": "section",
+              "design": {
+                "layout": {
+                  "display": "columns",
+                  "direction": {
+                    "desktop": "row",
+                    "mobile": "row"
+                  },
+                  "wrap": true,
+                  "gap": {
+                    "desktop": 0,
+                    "mobile": 24
+                  },
+                  "alignItems": "stretch"
+                }
+              },
+              "columns": [
+                {
+                  "label": "Orders delivered",
+                  "width": 3,
+                  "widthDesktop": {
+                    "value": 3,
+                    "unit": "fraction"
+                  },
+                  "widthTablet": {
+                    "value": 6,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 6,
+                    "unit": "fraction"
+                  },
+                  "design": {},
+                  "layout": {
+                    "gap": 4,
+                    "padding": {
+                      "top": 8,
+                      "bottom": 8,
+                      "left": 16,
+                      "right": 16
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 2400,
+                        "decimals": 0,
+                        "suffix": "+",
+                        "title": "Orders delivered",
+                        "separator": false,
+                        "animate": true,
+                        "align": "center"
+                      },
+                      "design": {
+                        "fontFamily": "montserrat",
+                        "fontSize": 48,
+                        "fontWeight": 800,
+                        "textColor": "#0369a1",
+                        "mobile": {
+                          "fontSize": 38
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "On-time rate",
+                  "width": 3,
+                  "widthDesktop": {
+                    "value": 3,
+                    "unit": "fraction"
+                  },
+                  "widthTablet": {
+                    "value": 6,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 6,
+                    "unit": "fraction"
+                  },
+                  "design": {
+                    "borderWidth": 0
+                  },
+                  "layout": {
+                    "gap": 4,
+                    "padding": {
+                      "top": 8,
+                      "bottom": 8,
+                      "left": 16,
+                      "right": 16
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 96,
+                        "decimals": 0,
+                        "suffix": "%",
+                        "title": "On-time rate",
+                        "separator": false,
+                        "animate": true,
+                        "align": "center"
+                      },
+                      "design": {
+                        "fontFamily": "montserrat",
+                        "fontSize": 48,
+                        "fontWeight": 800,
+                        "textColor": "#0369a1",
+                        "mobile": {
+                          "fontSize": 38
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Local suppliers",
+                  "width": 3,
+                  "widthDesktop": {
+                    "value": 3,
+                    "unit": "fraction"
+                  },
+                  "widthTablet": {
+                    "value": 6,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 6,
+                    "unit": "fraction"
+                  },
+                  "design": {
+                    "borderWidth": 0
+                  },
+                  "layout": {
+                    "gap": 4,
+                    "padding": {
+                      "top": 8,
+                      "bottom": 8,
+                      "left": 16,
+                      "right": 16
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 38,
+                        "decimals": 0,
+                        "suffix": "",
+                        "title": "Local suppliers",
+                        "separator": false,
+                        "animate": true,
+                        "align": "center"
+                      },
+                      "design": {
+                        "fontFamily": "montserrat",
+                        "fontSize": 48,
+                        "fontWeight": 800,
+                        "textColor": "#0369a1",
+                        "mobile": {
+                          "fontSize": 38
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "label": "Average rating",
+                  "width": 3,
+                  "widthDesktop": {
+                    "value": 3,
+                    "unit": "fraction"
+                  },
+                  "widthTablet": {
+                    "value": 6,
+                    "unit": "fraction"
+                  },
+                  "widthMobile": {
+                    "value": 6,
+                    "unit": "fraction"
+                  },
+                  "design": {
+                    "borderWidth": 0
+                  },
+                  "layout": {
+                    "gap": 4,
+                    "padding": {
+                      "top": 8,
+                      "bottom": 8,
+                      "left": 16,
+                      "right": 16
+                    }
+                  },
+                  "blocks": [
+                    {
+                      "blockType": "element",
+                      "elementType": "counter",
+                      "props": {
+                        "number": 4.9,
+                        "decimals": 1,
+                        "suffix": "/5",
+                        "title": "Average rating",
+                        "separator": false,
+                        "animate": true,
+                        "align": "center"
+                      },
+                      "design": {
+                        "fontFamily": "montserrat",
+                        "fontSize": 48,
+                        "fontWeight": 800,
+                        "textColor": "#0369a1",
+                        "mobile": {
+                          "fontSize": 38
+                        },
+                        "reveal": "fade-up",
+                        "revealDelay": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "stats-four-counters",
+    "title": "Four animated counters on a surface band",
+    "category": "stats",
+    "description": "Four count-up numbers in a row on a soft surface band with wave dividers; 2 by 2 on phones.",
+    "tags": [
+      "stats",
+      "counters",
+      "animated",
+      "band",
+      "four columns"
+    ],
+    "industry": [
+      "ecommerce",
+      "restaurant",
+      "general"
+    ],
+    "theme": "light",
+    "style": "ocean",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}

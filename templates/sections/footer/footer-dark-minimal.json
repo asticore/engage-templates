@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "slug": "footer-dark-minimal",
+    "kind": "section",
+    "category": "footer",
+    "frameworks": [
+      "shine",
+      "effix"
+    ],
+    "version": "1.0.0",
+    "title": "Dark single-row footer",
+    "description": "One slim dark row: site title on the left, small links in the middle, social icons on the right. Stacks and centres on mobile.",
+    "tags": [
+      "footer",
+      "minimal",
+      "dark",
+      "row",
+      "social"
+    ],
+    "industry": [
+      "saas",
+      "devtools",
+      "general"
+    ],
+    "style": "shine-dark"
+  },
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "paddingTop": 40,
+        "paddingBottom": 40,
+        "mobile": {
+          "paddingTop": 32,
+          "paddingBottom": 32,
+          "textAlign": "center"
+        },
+        "fontFamily": "{{font.body}}",
+        "bgType": "color",
+        "bgColor": "{{color.bg}}",
+        "textColor": "{{color.muted}}",
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "gap": {
+            "desktop": 24,
+            "mobile": 20
+          },
+          "alignItems": "center",
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "justify": "between"
+        }
+      },
+      "columns": [
+        {
+          "label": "Site title",
+          "width": 4,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "site-title",
+              "props": {
+                "tag": "p",
+                "showTagline": false
+              },
+              "design": {
+                "fontFamily": "{{font.heading}}",
+                "fontSize": 20,
+                "fontWeight": 700,
+                "textColor": "{{color.text}}"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Links",
+          "width": 4,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "list",
+              "props": {
+                "items": [
+                  {
+                    "text": "Privacy",
+                    "href": "/privacy"
+                  },
+                  {
+                    "text": "Terms",
+                    "href": "/terms"
+                  },
+                  {
+                    "text": "Contact",
+                    "href": "/contact"
+                  }
+                ],
+                "marker": "none",
+                "gap": 8,
+                "align": "center"
+              },
+              "design": {
+                "fontSize": 14,
+                "textColor": "{{color.muted}}"
+              }
+            }
+          ]
+        },
+        {
+          "label": "Social",
+          "width": 4,
+          "layout": {
+            "gap": 0
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "social-icons",
+              "props": {
+                "items": [
+                  {
+                    "network": "instagram",
+                    "address": "https://instagram.com/"
+                  },
+                  {
+                    "network": "facebook",
+                    "address": "https://facebook.com/"
+                  },
+                  {
+                    "network": "linkedin",
+                    "address": "https://linkedin.com/"
+                  }
+                ],
+                "shape": "plain",
+                "size": 18,
+                "align": "right",
+                "mode": "follow"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

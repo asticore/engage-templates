@@ -1,0 +1,758 @@
+{
+  "format": "engage-library",
+  "schemaVersion": 1,
+  "name": "Engage Templates (Shine + Effix)",
+  "items": [
+    {
+      "slug": "announcement-bar-offer",
+      "kind": "section",
+      "title": "Centered offer strip with link",
+      "category": "Announcement",
+      "tags": [
+        "announcement",
+        "strip",
+        "centered",
+        "offer"
+      ],
+      "preview": "previews/announcement-bar-offer.png",
+      "file": "items/announcement-bar-offer.json"
+    },
+    {
+      "slug": "announcement-bar-dark-link",
+      "kind": "section",
+      "title": "Dark strip with text left and link right",
+      "category": "Announcement",
+      "tags": [
+        "announcement",
+        "dark",
+        "strip",
+        "link"
+      ],
+      "preview": "previews/announcement-bar-dark-link.png",
+      "file": "items/announcement-bar-dark-link.json"
+    },
+    {
+      "slug": "header-centered-logo",
+      "kind": "section",
+      "title": "Centered logo above menu row",
+      "category": "Header",
+      "tags": [
+        "header",
+        "centered",
+        "elegant",
+        "logo",
+        "serif"
+      ],
+      "preview": "previews/header-centered-logo.png",
+      "file": "items/header-centered-logo.json"
+    },
+    {
+      "slug": "header-dark-transparent",
+      "kind": "section",
+      "title": "Dark header for dark heroes",
+      "category": "Header",
+      "tags": [
+        "header",
+        "dark",
+        "navbar",
+        "logo",
+        "blend"
+      ],
+      "preview": "previews/header-dark-transparent.png",
+      "file": "items/header-dark-transparent.json"
+    },
+    {
+      "slug": "header-logo-links-cta",
+      "kind": "section",
+      "title": "Header with logo, centered menu and button",
+      "category": "Header",
+      "tags": [
+        "header",
+        "navbar",
+        "logo",
+        "cta",
+        "sticky"
+      ],
+      "preview": "previews/header-logo-links-cta.png",
+      "file": "items/header-logo-links-cta.json"
+    },
+    {
+      "slug": "hero-app-showcase",
+      "kind": "section",
+      "title": "App hero with copy, checklist and phone photo",
+      "category": "Hero",
+      "tags": [
+        "hero",
+        "app",
+        "split",
+        "photo",
+        "checklist",
+        "two buttons"
+      ],
+      "preview": "previews/hero-app-showcase.png",
+      "file": "items/hero-app-showcase.json"
+    },
+    {
+      "slug": "hero-centered-gradient",
+      "kind": "section",
+      "title": "Centered hero on aurora gradient with wave",
+      "category": "Hero",
+      "tags": [
+        "hero",
+        "centered",
+        "gradient",
+        "aurora",
+        "wave",
+        "two buttons"
+      ],
+      "preview": "previews/hero-centered-gradient.png",
+      "file": "items/hero-centered-gradient.json"
+    },
+    {
+      "slug": "hero-dark-particles",
+      "kind": "section",
+      "title": "Dark hero with particles and stats row",
+      "category": "Hero",
+      "tags": [
+        "hero",
+        "dark",
+        "particles",
+        "centered",
+        "stats",
+        "animated"
+      ],
+      "preview": "previews/hero-dark-particles.png",
+      "file": "items/hero-dark-particles.json"
+    },
+    {
+      "slug": "hero-fullscreen-image-overlay",
+      "kind": "section",
+      "title": "Fullscreen photo hero with overlay and left copy",
+      "category": "Hero",
+      "tags": [
+        "hero",
+        "fullscreen",
+        "photo",
+        "overlay",
+        "ken burns",
+        "left"
+      ],
+      "preview": "previews/hero-fullscreen-image-overlay.png",
+      "file": "items/hero-fullscreen-image-overlay.json"
+    },
+    {
+      "slug": "hero-luxe-serif",
+      "kind": "section",
+      "title": "Luxe serif hero with wide photo below",
+      "category": "Hero",
+      "tags": [
+        "hero",
+        "luxe",
+        "serif",
+        "centered",
+        "photo",
+        "elegant"
+      ],
+      "preview": "previews/hero-luxe-serif.png",
+      "file": "items/hero-luxe-serif.json"
+    },
+    {
+      "slug": "hero-split-photo",
+      "kind": "section",
+      "title": "Split hero with photo",
+      "category": "Hero",
+      "tags": [
+        "hero",
+        "split",
+        "photo",
+        "two buttons"
+      ],
+      "preview": "previews/hero-split-photo.png",
+      "file": "items/hero-split-photo.json"
+    },
+    {
+      "slug": "logos-press-mentions",
+      "kind": "section",
+      "title": "As seen in row with quote snippets",
+      "category": "Logos",
+      "tags": [
+        "logos",
+        "press",
+        "quotes",
+        "grid",
+        "as seen in"
+      ],
+      "preview": "previews/logos-press-mentions.png",
+      "file": "items/logos-press-mentions.json"
+    },
+    {
+      "slug": "logos-wordmark-strip",
+      "kind": "section",
+      "title": "Trusted by heading with six wordmark grid",
+      "category": "Logos",
+      "tags": [
+        "logos",
+        "grid",
+        "trust",
+        "wordmarks",
+        "minimal"
+      ],
+      "preview": "previews/logos-wordmark-strip.png",
+      "file": "items/logos-wordmark-strip.json"
+    },
+    {
+      "slug": "features-bento-cards",
+      "kind": "section",
+      "title": "Bento grid of mixed-width feature cards",
+      "category": "Features",
+      "tags": [
+        "features",
+        "bento",
+        "cards",
+        "grid",
+        "colorful"
+      ],
+      "preview": "previews/features-bento-cards.png",
+      "file": "items/features-bento-cards.json"
+    },
+    {
+      "slug": "features-icon-grid",
+      "kind": "section",
+      "title": "Centered heading with six-card icon grid",
+      "category": "Features",
+      "tags": [
+        "features",
+        "grid",
+        "icons",
+        "centered",
+        "animated"
+      ],
+      "preview": "previews/features-icon-grid.png",
+      "file": "items/features-icon-grid.json"
+    },
+    {
+      "slug": "features-dark-cards-glow",
+      "kind": "section",
+      "title": "Dark trio of glowing spotlight cards",
+      "category": "Features",
+      "tags": [
+        "features",
+        "dark",
+        "cards",
+        "glow",
+        "spotlight",
+        "animated"
+      ],
+      "preview": "previews/features-dark-cards-glow.png",
+      "file": "items/features-dark-cards-glow.json"
+    },
+    {
+      "slug": "features-tabs",
+      "kind": "section",
+      "title": "Tabbed feature panels with image and text",
+      "category": "Features",
+      "tags": [
+        "features",
+        "tabs",
+        "photo",
+        "interactive",
+        "centered"
+      ],
+      "preview": "previews/features-tabs.png",
+      "file": "items/features-tabs.json"
+    },
+    {
+      "slug": "features-alternating-rows",
+      "kind": "section",
+      "title": "Three alternating image and text rows",
+      "category": "Features",
+      "tags": [
+        "features",
+        "alternating",
+        "photo",
+        "checklist",
+        "split"
+      ],
+      "preview": "previews/features-alternating-rows.png",
+      "file": "items/features-alternating-rows.json"
+    },
+    {
+      "slug": "content-image-text-stats",
+      "kind": "section",
+      "title": "Large photo beside text with three counters",
+      "category": "Content",
+      "tags": [
+        "content",
+        "split",
+        "photo",
+        "stats",
+        "counters",
+        "animated"
+      ],
+      "preview": "previews/content-image-text-stats.png",
+      "file": "items/content-image-text-stats.json"
+    },
+    {
+      "slug": "content-split-story",
+      "kind": "section",
+      "title": "Our story split with photo and quote",
+      "category": "Content",
+      "tags": [
+        "story",
+        "about",
+        "split",
+        "photo",
+        "quote"
+      ],
+      "preview": "previews/content-split-story.png",
+      "file": "items/content-split-story.json"
+    },
+    {
+      "slug": "stats-dark-band",
+      "kind": "section",
+      "title": "Dark band with heading and three stats",
+      "category": "Stats",
+      "tags": [
+        "stats",
+        "dark",
+        "band",
+        "counters",
+        "split",
+        "animated"
+      ],
+      "preview": "previews/stats-dark-band.png",
+      "file": "items/stats-dark-band.json"
+    },
+    {
+      "slug": "stats-four-counters",
+      "kind": "section",
+      "title": "Four animated counters on a surface band",
+      "category": "Stats",
+      "tags": [
+        "stats",
+        "counters",
+        "animated",
+        "band",
+        "four columns"
+      ],
+      "preview": "previews/stats-four-counters.png",
+      "file": "items/stats-four-counters.json"
+    },
+    {
+      "slug": "process-numbered-steps",
+      "kind": "section",
+      "title": "Four numbered steps in a grid",
+      "category": "Process",
+      "tags": [
+        "process",
+        "steps",
+        "numbered",
+        "grid",
+        "centered"
+      ],
+      "preview": "previews/process-numbered-steps.png",
+      "file": "items/process-numbered-steps.json"
+    },
+    {
+      "slug": "process-sticky-steps",
+      "kind": "section",
+      "title": "Sticky step titles with scrolling panels",
+      "category": "Process",
+      "tags": [
+        "process",
+        "steps",
+        "sticky",
+        "photo",
+        "scroll"
+      ],
+      "preview": "previews/process-sticky-steps.png",
+      "file": "items/process-sticky-steps.json"
+    },
+    {
+      "slug": "testimonials-carousel-quote",
+      "kind": "section",
+      "title": "Quote carousel",
+      "category": "Testimonials",
+      "tags": [
+        "testimonials",
+        "carousel",
+        "quote",
+        "centered",
+        "animated"
+      ],
+      "preview": "previews/testimonials-carousel-quote.png",
+      "file": "items/testimonials-carousel-quote.json"
+    },
+    {
+      "slug": "testimonials-photo-split",
+      "kind": "section",
+      "title": "Testimonial with large portrait",
+      "category": "Testimonials",
+      "tags": [
+        "testimonials",
+        "split",
+        "photo",
+        "rating"
+      ],
+      "preview": "previews/testimonials-photo-split.png",
+      "file": "items/testimonials-photo-split.json"
+    },
+    {
+      "slug": "testimonials-three-cards",
+      "kind": "section",
+      "title": "Three testimonial cards",
+      "category": "Testimonials",
+      "tags": [
+        "testimonials",
+        "cards",
+        "grid",
+        "photo",
+        "stars"
+      ],
+      "preview": "previews/testimonials-three-cards.png",
+      "file": "items/testimonials-three-cards.json"
+    },
+    {
+      "slug": "pricing-three-tier",
+      "kind": "section",
+      "title": "Three-tier pricing cards",
+      "category": "Pricing",
+      "tags": [
+        "pricing",
+        "three plans",
+        "cards",
+        "highlight",
+        "badge"
+      ],
+      "preview": "previews/pricing-three-tier.png",
+      "file": "items/pricing-three-tier.json"
+    },
+    {
+      "slug": "pricing-two-plan-dark",
+      "kind": "section",
+      "title": "Two plans on dark",
+      "category": "Pricing",
+      "tags": [
+        "pricing",
+        "two plans",
+        "dark",
+        "glow",
+        "checklist"
+      ],
+      "preview": "previews/pricing-two-plan-dark.png",
+      "file": "items/pricing-two-plan-dark.json"
+    },
+    {
+      "slug": "pricing-menu-list",
+      "kind": "section",
+      "title": "Two-column price list",
+      "category": "Pricing",
+      "tags": [
+        "pricing",
+        "price list",
+        "menu",
+        "two columns",
+        "dark",
+        "salon"
+      ],
+      "preview": "previews/pricing-menu-list.png",
+      "file": "items/pricing-menu-list.json"
+    },
+    {
+      "slug": "team-four-grid",
+      "kind": "section",
+      "title": "Four-person team grid",
+      "category": "Team",
+      "tags": [
+        "team",
+        "grid",
+        "photo",
+        "portraits"
+      ],
+      "preview": "previews/team-four-grid.png",
+      "file": "items/team-four-grid.json"
+    },
+    {
+      "slug": "team-leadership-split",
+      "kind": "section",
+      "title": "Leadership split",
+      "category": "Team",
+      "tags": [
+        "team",
+        "leadership",
+        "split",
+        "photo",
+        "bio"
+      ],
+      "preview": "previews/team-leadership-split.png",
+      "file": "items/team-leadership-split.json"
+    },
+    {
+      "slug": "faq-accordion-centered",
+      "kind": "section",
+      "title": "Centered FAQ accordion",
+      "category": "FAQ",
+      "tags": [
+        "faq",
+        "accordion",
+        "centered",
+        "questions"
+      ],
+      "preview": "previews/faq-accordion-centered.png",
+      "file": "items/faq-accordion-centered.json"
+    },
+    {
+      "slug": "faq-two-column",
+      "kind": "section",
+      "title": "FAQ two columns with contact",
+      "category": "FAQ",
+      "tags": [
+        "faq",
+        "two column",
+        "split",
+        "contact"
+      ],
+      "preview": "previews/faq-two-column.png",
+      "file": "items/faq-two-column.json"
+    },
+    {
+      "slug": "cta-split-image",
+      "kind": "section",
+      "title": "CTA card with photo",
+      "category": "Call to action",
+      "tags": [
+        "cta",
+        "split",
+        "photo",
+        "card"
+      ],
+      "preview": "previews/cta-split-image.png",
+      "file": "items/cta-split-image.json"
+    },
+    {
+      "slug": "cta-dark-centered",
+      "kind": "section",
+      "title": "Dark centered call-to-action",
+      "category": "Call to action",
+      "tags": [
+        "cta",
+        "dark",
+        "centered",
+        "divider",
+        "magnetic"
+      ],
+      "preview": "previews/cta-dark-centered.png",
+      "file": "items/cta-dark-centered.json"
+    },
+    {
+      "slug": "cta-gradient-band",
+      "kind": "section",
+      "title": "Gradient call-to-action band",
+      "category": "Call to action",
+      "tags": [
+        "cta",
+        "gradient",
+        "centered",
+        "particles",
+        "two buttons"
+      ],
+      "preview": "previews/cta-gradient-band.png",
+      "file": "items/cta-gradient-band.json"
+    },
+    {
+      "slug": "newsletter-inline-band",
+      "kind": "section",
+      "title": "Inline newsletter band with sign-up form",
+      "category": "Newsletter",
+      "tags": [
+        "newsletter",
+        "band",
+        "split",
+        "form",
+        "email"
+      ],
+      "preview": "previews/newsletter-inline-band.png",
+      "file": "items/newsletter-inline-band.json"
+    },
+    {
+      "slug": "newsletter-card-image",
+      "kind": "section",
+      "title": "Newsletter card over a photo background",
+      "category": "Newsletter",
+      "tags": [
+        "newsletter",
+        "card",
+        "photo",
+        "overlay",
+        "form",
+        "dark"
+      ],
+      "preview": "previews/newsletter-card-image.png",
+      "file": "items/newsletter-card-image.json"
+    },
+    {
+      "slug": "contact-split-details-form",
+      "kind": "section",
+      "title": "Contact details beside a form",
+      "category": "Contact",
+      "tags": [
+        "contact",
+        "split",
+        "form",
+        "hours",
+        "icons"
+      ],
+      "preview": "previews/contact-split-details-form.png",
+      "file": "items/contact-split-details-form.json"
+    },
+    {
+      "slug": "contact-map-hours",
+      "kind": "section",
+      "title": "Map with address and opening hours",
+      "category": "Contact",
+      "tags": [
+        "contact",
+        "map",
+        "hours",
+        "address",
+        "split"
+      ],
+      "preview": "previews/contact-map-hours.png",
+      "file": "items/contact-map-hours.json"
+    },
+    {
+      "slug": "gallery-carousel",
+      "kind": "section",
+      "title": "Photo carousel with captions",
+      "category": "Gallery",
+      "tags": [
+        "gallery",
+        "carousel",
+        "captions",
+        "photos",
+        "animated"
+      ],
+      "preview": "previews/gallery-carousel.png",
+      "file": "items/gallery-carousel.json"
+    },
+    {
+      "slug": "gallery-grid",
+      "kind": "section",
+      "title": "Six-photo grid with hover zoom",
+      "category": "Gallery",
+      "tags": [
+        "gallery",
+        "grid",
+        "photos",
+        "hover",
+        "lightbox"
+      ],
+      "preview": "previews/gallery-grid.png",
+      "file": "items/gallery-grid.json"
+    },
+    {
+      "slug": "blog-latest-posts",
+      "kind": "section",
+      "title": "Latest posts from the blog (dynamic)",
+      "category": "Blog",
+      "tags": [
+        "blog",
+        "dynamic",
+        "posts",
+        "grid",
+        "dark"
+      ],
+      "preview": "previews/blog-latest-posts.png",
+      "file": "items/blog-latest-posts.json"
+    },
+    {
+      "slug": "blog-three-cards",
+      "kind": "section",
+      "title": "Three article cards with view-all button",
+      "category": "Blog",
+      "tags": [
+        "blog",
+        "cards",
+        "articles",
+        "grid",
+        "photo"
+      ],
+      "preview": "previews/blog-three-cards.png",
+      "file": "items/blog-three-cards.json"
+    },
+    {
+      "slug": "commerce-product-cards",
+      "kind": "section",
+      "title": "Four product cards with price and buttons",
+      "category": "Commerce",
+      "tags": [
+        "commerce",
+        "products",
+        "cards",
+        "grid",
+        "price"
+      ],
+      "preview": "previews/commerce-product-cards.png",
+      "file": "items/commerce-product-cards.json"
+    },
+    {
+      "slug": "commerce-collection-banner",
+      "kind": "section",
+      "title": "Wide collection banner with shop button",
+      "category": "Commerce",
+      "tags": [
+        "commerce",
+        "banner",
+        "collection",
+        "photo",
+        "overlay",
+        "dark"
+      ],
+      "preview": "previews/commerce-collection-banner.png",
+      "file": "items/commerce-collection-banner.json"
+    },
+    {
+      "slug": "footer-centered-social",
+      "kind": "section",
+      "title": "Centered footer with social icons",
+      "category": "Footer",
+      "tags": [
+        "footer",
+        "centered",
+        "social",
+        "logo"
+      ],
+      "preview": "previews/footer-centered-social.png",
+      "file": "items/footer-centered-social.json"
+    },
+    {
+      "slug": "footer-dark-minimal",
+      "kind": "section",
+      "title": "Dark single-row footer",
+      "category": "Footer",
+      "tags": [
+        "footer",
+        "minimal",
+        "dark",
+        "row",
+        "social"
+      ],
+      "preview": "previews/footer-dark-minimal.png",
+      "file": "items/footer-dark-minimal.json"
+    },
+    {
+      "slug": "footer-four-column",
+      "kind": "section",
+      "title": "Four-column footer with social bar",
+      "category": "Footer",
+      "tags": [
+        "footer",
+        "columns",
+        "links",
+        "social"
+      ],
+      "preview": "previews/footer-four-column.png",
+      "file": "items/footer-four-column.json"
+    }
+  ]
+}

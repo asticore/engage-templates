@@ -1,0 +1,123 @@
+{
+  "format": "engage-template",
+  "schemaVersion": 1,
+  "kind": "section",
+  "tree": [
+    {
+      "blockType": "section",
+      "design": {
+        "bgType": "color",
+        "bgColor": "#111827",
+        "textColor": "#f8fafc",
+        "fontFamily": "inter",
+        "paddingTop": 10,
+        "paddingBottom": 10,
+        "mobile": {
+          "paddingTop": 10,
+          "paddingBottom": 10
+        },
+        "layout": {
+          "display": "columns",
+          "direction": {
+            "desktop": "row",
+            "mobile": "column"
+          },
+          "contentWidth": "boxed",
+          "boxedWidth": 1200,
+          "justify": "between",
+          "alignItems": "center",
+          "gap": {
+            "desktop": 16,
+            "mobile": 2
+          }
+        },
+        "borderWidth": 0
+      },
+      "columns": [
+        {
+          "label": "Message",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "fill"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "heading",
+              "props": {
+                "text": "New: team workspaces and shared analytics are live for every plan.",
+                "tag": "h6",
+                "align": "left",
+                "effect": "none"
+              },
+              "design": {
+                "fontSize": 14,
+                "textColor": "#f8fafc",
+                "mobile": {
+                  "fontSize": 13
+                }
+              }
+            }
+          ]
+        },
+        {
+          "label": "Link",
+          "widthDesktop": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "widthMobile": {
+            "value": 0,
+            "unit": "auto"
+          },
+          "blocks": [
+            {
+              "blockType": "element",
+              "elementType": "button",
+              "props": {
+                "text": "Read more",
+                "url": "/blog/team-workspaces",
+                "variant": "plain",
+                "size": "sm",
+                "align": "right"
+              },
+              "design": {
+                "textColor": "#818cf8",
+                "fontWeight": 700,
+                "mobile": {
+                  "textAlign": "left"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "requires": {},
+  "meta": {
+    "slug": "announcement-bar-dark-link",
+    "title": "Dark strip with text left and link right",
+    "category": "announcement",
+    "description": "Dark slim bar with an update on the left and a Read more link on the right. Stacks into two tight lines on mobile.",
+    "tags": [
+      "announcement",
+      "dark",
+      "strip",
+      "link"
+    ],
+    "industry": [
+      "saas",
+      "devtools",
+      "general"
+    ],
+    "theme": "dark",
+    "style": "shine-dark",
+    "frameworks": [
+      "shine"
+    ],
+    "images": [],
+    "version": "1.0.0"
+  }
+}
